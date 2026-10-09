@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unidades de Salud · El Salvador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <aside class="brand">
+    <div class="brand-head">
+      <div class="logo">US</div>
+      <div>
+        <h1>Unidades de Salud</h1>
+        <p>Dos fuentes sin fusionar: puntos MINSAL y predios OSM</p>
+      </div>
+    </div>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Buscar hospital, clínica o municipio">
+      <button id="fit" type="button">Ajustar</button>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="count-minsal">0</b><span>MINSAL</span></div>
+      <div class="stat"><b id="count-osm">0</b><span>OSM</span></div>
+      <div class="stat"><b id="count-all">0</b><span>en vista</span></div>
+    </div>
+  </aside>
+
+  <aside class="panel">
+    <div class="side-block">
+      <h2>Mapa base</h2>
+      <div class="base-grid" id="bases"></div>
+    </div>
+    <div class="side-block">
+      <h2>Capas vectoriales</h2>
+      <div class="overlay-list" id="overlays"></div>
+    </div>
+    <div class="side-block">
+      <h2>Datos</h2>
+      <div class="download-row">
+        <a href="data/minsal.geojson" download>Descargar MINSAL GeoJSON</a>
+        <a href="data/osm.geojson" download>Descargar OSM GeoJSON</a>
+      </div>
+    </div>
+    <div class="side-block">
+      <h2>Leyenda</h2>
+      <div class="legend">
+        <div><span class="swatch" style="color:#1f8a70;background:#1f8a70"></span> MINSAL (puntos oficiales)</div>
+        <div><span class="swatch" style="color:#c45c26;background:#c45c26"></span> OSM / Overpass (predios)</div>
+      </div>
+    </div>
+    <div class="side-block">
+      <h2>Resultados</h2>
+      <div class="results" id="results"></div>
+    </div>
+  </aside>
+
+  <div class="status" id="status">Cargando capas…</div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data/unidades.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
