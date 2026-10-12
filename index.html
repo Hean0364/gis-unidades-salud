@@ -4,63 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Unidades de Salud · El Salvador</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <aside class="dock">
+    <section class="dock-section dock-layers">
+      <header class="dock-title">
+        <span>Capas</span>
+        <div class="dock-tools">
+          <button id="expand-all" type="button" title="Expandir todo" aria-label="Expandir todo">
+            <svg viewBox="0 0 16 16"><rect x="2.5" y="2.5" width="11" height="11" fill="#fff" stroke="currentColor"/><path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <button id="collapse-all" type="button" title="Contraer todo" aria-label="Contraer todo">
+            <svg viewBox="0 0 16 16"><rect x="2.5" y="2.5" width="11" height="11" fill="#fff" stroke="currentColor"/><path d="M5 8h6" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <span class="tool-sep"></span>
+          <button id="zoom-layer" type="button" title="Zoom a la capa seleccionada" aria-label="Zoom a la capa seleccionada">
+            <svg viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="4" fill="#fff" stroke="currentColor" stroke-width="1.4"/><path d="M9.5 9.5l4.5 4.5" stroke="currentColor" stroke-width="1.8"/><rect x="4.5" y="4.5" width="4" height="4" fill="#2f80ed"/></svg>
+          </button>
+          <button id="full-extent" type="button" title="Extensión completa" aria-label="Extensión completa">
+            <svg viewBox="0 0 16 16"><path d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="5" y="5" width="6" height="6" fill="#7fa86f"/></svg>
+          </button>
+        </div>
+      </header>
+      <div class="tree" id="layers" role="tree"></div>
+    </section>
+  </aside>
+
   <div id="map"></div>
 
-  <aside class="brand">
-    <div class="brand-head">
-      <div class="logo">US</div>
-      <div>
-        <h1>Unidades de Salud</h1>
-        <p>Cuatro fuentes sin fusionar: MINSAL, Overpass, Geofabrik y HOT</p>
-      </div>
-    </div>
-    <div class="toolbar">
-      <input id="search" type="search" placeholder="Buscar hospital, clínica o municipio">
-      <button id="fit" type="button">Ajustar</button>
-    </div>
-    <div class="stats">
-      <div class="stat"><b id="count-minsal">0</b><span>MINSAL</span></div>
-      <div class="stat"><b id="count-osm">0</b><span>OSM</span></div>
-      <div class="stat"><b id="count-geofabrik">0</b><span>Geofabrik</span></div>
-      <div class="stat"><b id="count-hot">0</b><span>HOT</span></div>
-      <div class="stat"><b id="count-all">0</b><span>en vista</span></div>
-    </div>
-  </aside>
-
-  <aside class="panel">
-    <div class="side-block">
-      <h2>Mapa base</h2>
-      <div class="base-grid" id="bases"></div>
-    </div>
-    <div class="side-block">
-      <h2>Capas</h2>
-      <p class="hint">Enciende cada fuente. El filtro y la leyenda eligen qué tipos se ven.</p>
-      <div class="layer-list" id="layers"></div>
-    </div>
-    <div class="side-block">
-      <h2>Datos</h2>
-      <div class="download-row">
-        <a href="data/geojson/minsal.geojson" download>Descargar MINSAL GeoJSON</a>
-        <a href="data/geojson/overpass.geojson" download>Descargar Overpass GeoJSON</a>
-        <a href="data/tablas/overpass_poligonos.kml" download>Descargar polígonos KML</a>
-        <a href="data/geojson/geofabrik.geojson" download>Descargar Geofabrik GeoJSON</a>
-        <a href="data/geojson/hot.geojson" download>Descargar HOT GeoJSON</a>
-      </div>
-    </div>
-    <div class="side-block">
-      <h2>Resultados</h2>
-      <div class="results" id="results"></div>
-    </div>
-  </aside>
-
-  <div class="status" id="status">Cargando capas…</div>
+  <footer class="statusbar">
+    <span id="status">Cargando capas…</span>
+    <span class="statusbar-right">
+      <span id="coords">Lat —  Lon —</span>
+      <span class="crs">EPSG:4326</span>
+    </span>
+  </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="data/mapa/minsal.js"></script>

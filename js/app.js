@@ -42,7 +42,7 @@ const map = L.map("map", {
   minZoom: 8,
   maxZoom: 19,
   zoomControl: true,
-  layers: [esriSatellite]
+  layers: [osmCartographic]
 });
 
 map.fitBounds(SV_BOUNDS, { padding: [24, 24] });
@@ -53,9 +53,16 @@ const members = { minsal: [], osm: [], geofabrik: [], hot: [] };
 const collections = {};
 const typeOn = { minsal: {}, osm: {}, geofabrik: {}, hot: {} };
 const extraOn = { minsal: "all", osm: "all", geofabrik: "all", hot: "all" };
-const layerEnabled = { minsal: true, osm: true, geofabrik: true, hot: true };
-const legendScroll = {};
-let activeBase = "satellite";
+const layerEnabled = { minsal: false, osm: false, geofabrik: true, hot: false };
+const expanded = { fuentes: true, bases: true, minsal: false, osm: false, geofabrik: true, hot: false };
+let activeBase = "osm";
+let selectedLayer = "geofabrik";
+
+const ICONS = {
+  folder: '<svg viewBox="0 0 16 16"><path d="M1.5 3.5h5l1.5 1.5h6.5v8h-13z" fill="#f2c94c" stroke="#b8902a"/></svg>',
+  raster: '<svg viewBox="0 0 16 16"><rect x="1.5" y="2.5" width="13" height="11" fill="#dcebd5" stroke="#5b7f52"/><path d="M2 13l4-5 3 3 2-2 3.5 4z" fill="#7fa86f"/><circle cx="11" cy="5.5" r="1.3" fill="#e8b84a"/></svg>',
+  filter: '<svg viewBox="0 0 16 16"><path d="M2 3h12l-4.5 5.5V13l-3-1.5v-3z" fill="#e8b84a" stroke="#9a6b12"/></svg>'
+};
 
 function extraKey(sourceId) {
   if (sourceId === "minsal") return "region";
@@ -152,14 +159,6 @@ function popupHtml(p) {
     <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
     ${maps}
   </div>`;
-}
-
-function sourceKey(props) {
-  const fuente = (props.fuente || "").toLowerCase();
-  if (fuente.includes("minsal")) return "minsal";
-  if (fuente.includes("geofabrik")) return "geofabrik";
-  if (fuente.includes("hot")) return "hot";
-  return "osm";
 }
 
 function styleFor(feature, sourceId) {
@@ -302,76 +301,74 @@ function buildVectorLayers() {
   refreshView();
 }
 
-function updateStats() {
-  let total = 0;
-  for (const id of SOURCE_ORDER) {
-    const n = layerEnabled[id] ? filteredCount(id) : 0;
-    total += n;
-    document.getElementById(`count-${id}`).textContent = n;
-  }
-  document.getElementById("count-all").textContent = total;
+function swatch(fill, sourceId, stroke) {
+  const mark = document.createElement("span");
+  mark.className = `swatch ${sourceId === "minsal" ? "point" : "area"}`;
+  mark.style.background = fill;
+  if (stroke) mark.style.borderColor = stroke;
+  return mark;
 }
 
-function tipoSelectValue(sourceId, tipos) {
-  const on = tipos.filter((tipo) => typeOn[sourceId][tipo]);
-  if (on.length === tipos.length) return "all";
-  if (on.length === 1) return on[0];
-  return "custom";
+function icon(name) {
+  const span = document.createElement("span");
+  span.className = "tree-icon";
+  span.innerHTML = ICONS[name];
+  return span;
 }
 
-function applyTipoFilter(sourceId, value) {
-  if (value === "custom") return;
-  for (const tipo of Object.keys(typeOn[sourceId])) {
-    typeOn[sourceId][tipo] = value === "all" || tipo === value;
-  }
+function update(sourceId) {
   syncSource(sourceId);
   renderLayers();
   refreshView();
 }
 
-function swatch(color, sourceId) {
-  const mark = document.createElement("span");
-  mark.className = `swatch ${sourceId === "minsal" ? "point" : "area"}`;
-  mark.style.color = color;
-  mark.style.background = color;
-  return mark;
+function treeRow(depth, tag = "div") {
+  const row = document.createElement(tag);
+  row.className = "tree-row";
+  row.setAttribute("role", "treeitem");
+  row.style.setProperty("--depth", depth);
+  return row;
 }
 
-function buildTipoFilter(sourceId) {
-  const wrap = document.createElement("label");
-  wrap.className = "filter-label";
-  const caption = document.createElement("span");
-  caption.textContent = "Tipo";
-  const select = document.createElement("select");
-  select.className = "filter-select";
+function twisty(key) {
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = `twisty${expanded[key] ? " open" : ""}`;
+  btn.setAttribute("aria-label", expanded[key] ? "Contraer" : "Expandir");
+  btn.setAttribute("aria-expanded", String(!!expanded[key]));
+  btn.addEventListener("click", (event) => {
+    event.stopPropagation();
+    expanded[key] = !expanded[key];
+    renderLayers();
+  });
+  return btn;
+}
 
-  const tipos = tiposOf(sourceId);
-  const selected = tipoSelectValue(sourceId, tipos);
+function twistySpace() {
+  const span = document.createElement("span");
+  span.className = "twisty-space";
+  return span;
+}
 
-  const all = document.createElement("option");
-  all.value = "all";
-  all.textContent = "Todos los tipos";
-  select.append(all);
+function checkbox(checked, onChange, label) {
+  const input = document.createElement("input");
+  input.type = "checkbox";
+  input.checked = checked;
+  if (label) input.setAttribute("aria-label", label);
+  input.addEventListener("click", (event) => event.stopPropagation());
+  input.addEventListener("change", () => onChange(input.checked));
+  return input;
+}
 
-  if (selected === "custom") {
-    const custom = document.createElement("option");
-    custom.value = "custom";
-    const on = tipos.filter((tipo) => typeOn[sourceId][tipo]).length;
-    custom.textContent = on === 0 ? "Ninguno" : "Varios tipos";
-    select.append(custom);
-  }
-
-  for (const tipo of tipos) {
-    const option = document.createElement("option");
-    option.value = tipo;
-    option.textContent = `${legendLabel(tipo)} (${countTipo(sourceId, tipo)})`;
-    option.title = tipo;
-    select.append(option);
-  }
-  select.value = selected;
-  select.addEventListener("change", () => applyTipoFilter(sourceId, select.value));
-  wrap.append(caption, select);
-  return wrap;
+function rowText(text, count) {
+  const name = document.createElement("span");
+  name.className = "tree-name";
+  name.textContent = text;
+  if (count === undefined) return [name];
+  const total = document.createElement("span");
+  total.className = "tree-count";
+  total.textContent = `[${count}]`;
+  return [name, total];
 }
 
 function extraValues(sourceId) {
@@ -396,12 +393,12 @@ function extraValues(sourceId) {
 
 function buildExtraFilter(sourceId) {
   if (!extraKey(sourceId)) return null;
-  const wrap = document.createElement("label");
-  wrap.className = "filter-label";
+  const row = treeRow(2, "label");
+  row.classList.add("tree-filter");
   const caption = document.createElement("span");
+  caption.className = "tree-name";
   caption.textContent = extraCaption(sourceId);
   const select = document.createElement("select");
-  select.className = "filter-select";
 
   const all = document.createElement("option");
   all.value = "all";
@@ -411,121 +408,177 @@ function buildExtraFilter(sourceId) {
   for (const [value, count] of extraValues(sourceId)) {
     const option = document.createElement("option");
     option.value = value;
-    option.textContent = `${prettyExtra(sourceId, value)} (${count})`;
+    option.textContent = `${prettyExtra(sourceId, value)} [${count}]`;
     select.append(option);
   }
   select.value = extraOn[sourceId];
   select.addEventListener("change", () => {
     extraOn[sourceId] = select.value;
-    syncSource(sourceId);
-    renderLayers();
-    refreshView();
+    update(sourceId);
   });
-  wrap.append(caption, select);
-  return wrap;
+  row.append(twistySpace(), icon("filter"), caption, select);
+  return row;
 }
 
-function buildLegend(sourceId) {
-  const legend = document.createElement("div");
-  legend.className = "legend";
-  legend.dataset.source = sourceId;
+function setAllTipos(sourceId, on) {
+  for (const tipo of Object.keys(typeOn[sourceId])) typeOn[sourceId][tipo] = on;
+  update(sourceId);
+}
 
-  for (const tipo of tiposOf(sourceId)) {
-    const count = countTipo(sourceId, tipo);
-    const row = document.createElement("label");
-    row.title = tipo;
-    if (!count) row.classList.add("is-empty");
-
-    const input = document.createElement("input");
-    input.type = "checkbox";
-    input.checked = !!typeOn[sourceId][tipo];
-    input.addEventListener("change", () => {
-      typeOn[sourceId][tipo] = input.checked;
-      syncSource(sourceId);
-      renderLayers();
-      refreshView();
-    });
-
-    const name = document.createElement("span");
-    name.className = "legend-name";
-    name.textContent = legendLabel(tipo);
-    const total = document.createElement("em");
-    total.textContent = String(count);
-    row.append(input, swatch(colorForTipo(sourceId, tipo), sourceId), name, total);
-    legend.append(row);
+function buildBulkRow(sourceId) {
+  const row = treeRow(2);
+  row.classList.add("tree-actions");
+  row.append(twistySpace());
+  for (const [text, on] of [["Mostrar todas", true], ["Ocultar todas", false]]) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "link-btn";
+    btn.textContent = text;
+    btn.addEventListener("click", () => setAllTipos(sourceId, on));
+    row.append(btn);
   }
-  return legend;
+  return row;
 }
 
-function buildLayerCard(sourceId) {
-  const meta = SOURCE[sourceId];
-  const card = document.createElement("article");
-  card.className = `layer-card${layerEnabled[sourceId] ? " is-on" : ""}`;
-  card.style.setProperty("--source", meta.color);
+function buildCategoryRow(sourceId, tipo) {
+  const count = countTipo(sourceId, tipo);
+  const row = treeRow(2, "label");
+  row.classList.add("is-category");
+  if (!count) row.classList.add("is-empty");
+  if (!layerEnabled[sourceId]) row.classList.add("is-off");
+  row.title = tipo;
+  const input = checkbox(!!typeOn[sourceId][tipo], (on) => {
+    typeOn[sourceId][tipo] = on;
+    update(sourceId);
+  });
+  const stroke = sourceId === "minsal" ? null : SOURCE[sourceId].color;
+  row.append(
+    twistySpace(),
+    input,
+    swatch(colorForTipo(sourceId, tipo), sourceId, stroke),
+    ...rowText(legendLabel(tipo), count)
+  );
+  return row;
+}
 
-  const head = document.createElement("header");
-  head.className = "layer-head";
-  const toggle = document.createElement("label");
-  const checkbox = document.createElement("input");
-  checkbox.type = "checkbox";
-  checkbox.checked = layerEnabled[sourceId];
-  checkbox.setAttribute("aria-label", `Mostrar ${meta.label}`);
-  checkbox.addEventListener("change", () => {
-    layerEnabled[sourceId] = checkbox.checked;
-    syncSource(sourceId);
+function selectLayer(sourceId) {
+  selectedLayer = sourceId;
+  document.querySelectorAll(".tree-row[data-layer]").forEach((row) => {
+    row.classList.toggle("is-selected", row.dataset.layer === sourceId);
+  });
+}
+
+function buildSourceNode(sourceId) {
+  const meta = SOURCE[sourceId];
+  const node = document.createElement("div");
+  const row = treeRow(1);
+  row.classList.add("is-layer");
+  row.dataset.layer = sourceId;
+  if (selectedLayer === sourceId) row.classList.add("is-selected");
+  if (!layerEnabled[sourceId]) row.classList.add("is-off");
+  row.title = `${meta.hint}\nDoble clic: zoom a la capa`;
+  row.addEventListener("click", () => selectLayer(sourceId));
+  row.addEventListener("dblclick", () => zoomToLayer(sourceId));
+
+  const toggle = checkbox(layerEnabled[sourceId], (on) => {
+    layerEnabled[sourceId] = on;
+    update(sourceId);
+  }, `Mostrar ${meta.label}`);
+  const fill = sourceId === "minsal" ? meta.color : `${meta.color}66`;
+  row.append(
+    twisty(sourceId),
+    toggle,
+    swatch(fill, sourceId, sourceId === "minsal" ? null : meta.color),
+    ...rowText(meta.label, filteredCount(sourceId))
+  );
+  if (extraKey(sourceId) && extraOn[sourceId] !== "all") {
+    const mark = icon("filter");
+    mark.title = `Filtrada por ${extraCaption(sourceId).toLowerCase()}`;
+    row.append(mark);
+  }
+  node.append(row);
+
+  if (expanded[sourceId]) {
+    const children = document.createElement("div");
+    children.setAttribute("role", "group");
+    const extra = buildExtraFilter(sourceId);
+    if (extra) children.append(extra);
+    children.append(buildBulkRow(sourceId));
+    for (const tipo of tiposOf(sourceId)) children.append(buildCategoryRow(sourceId, tipo));
+    node.append(children);
+  }
+  return node;
+}
+
+function buildGroup(key, label, control, buildChildren) {
+  const node = document.createElement("div");
+  const row = treeRow(0);
+  row.classList.add("is-group");
+  row.append(twisty(key));
+  if (control) row.append(control);
+  row.append(icon("folder"), ...rowText(label));
+  node.append(row);
+  if (expanded[key]) {
+    const children = document.createElement("div");
+    children.setAttribute("role", "group");
+    children.append(...buildChildren());
+    node.append(children);
+  }
+  return node;
+}
+
+function buildSourcesGroup() {
+  const on = SOURCE_ORDER.filter((id) => layerEnabled[id]).length;
+  const control = checkbox(on === SOURCE_ORDER.length, (checked) => {
+    for (const id of SOURCE_ORDER) {
+      layerEnabled[id] = checked;
+      syncSource(id);
+    }
     renderLayers();
     refreshView();
-  });
-  const title = document.createElement("span");
-  title.className = "layer-title";
-  title.textContent = meta.label;
-  toggle.append(checkbox, swatch(meta.color, sourceId), title);
+  }, "Mostrar todas las fuentes");
+  control.indeterminate = on > 0 && on < SOURCE_ORDER.length;
+  return buildGroup("fuentes", "Unidades de salud", control, () => SOURCE_ORDER.map(buildSourceNode));
+}
 
-  const count = document.createElement("b");
-  count.className = "layer-count";
-  count.textContent = `${filteredCount(sourceId)} / ${collections[sourceId].features.length}`;
-  head.append(toggle, count);
+function buildBaseRow(id, item) {
+  const row = treeRow(1, "label");
+  row.classList.add("is-layer");
+  const input = document.createElement("input");
+  input.type = "radio";
+  input.name = "base";
+  input.checked = id === activeBase;
+  input.addEventListener("change", () => setBase(id));
+  row.append(twistySpace(), input, icon("raster"), ...rowText(item.label));
+  return row;
+}
 
-  const hint = document.createElement("p");
-  hint.className = "layer-hint";
-  hint.textContent = meta.hint;
-
-  card.append(head, hint, buildTipoFilter(sourceId));
-  const extra = buildExtraFilter(sourceId);
-  if (extra) card.append(extra);
-  card.append(buildLegend(sourceId));
-  return card;
+function buildBasesGroup() {
+  return buildGroup("bases", "Mapas base", null, () => (
+    Object.entries(bases).map(([id, item]) => buildBaseRow(id, item))
+  ));
 }
 
 function renderLayers() {
-  const panel = document.querySelector(".panel");
-  const panelTop = panel ? panel.scrollTop : 0;
-  document.querySelectorAll(".legend").forEach((legend) => {
-    legendScroll[legend.dataset.source] = legend.scrollTop;
-  });
-
   const box = document.getElementById("layers");
-  box.replaceChildren();
-  for (const id of SOURCE_ORDER) box.append(buildLayerCard(id));
-
-  document.querySelectorAll(".legend").forEach((legend) => {
-    const saved = legendScroll[legend.dataset.source];
-    if (saved) legend.scrollTop = saved;
-  });
-  if (panel) panel.scrollTop = panelTop;
+  const top = box.scrollTop;
+  box.replaceChildren(buildSourcesGroup(), buildBasesGroup());
+  box.scrollTop = top;
 }
 
-function renderBases() {
-  const box = document.getElementById("bases");
-  box.replaceChildren();
-  for (const [id, item] of Object.entries(bases)) {
-    const btn = document.createElement("button");
-    btn.className = `base-btn${id === activeBase ? " active" : ""}`;
-    btn.type = "button";
-    btn.textContent = item.label;
-    btn.addEventListener("click", () => setBase(id));
-    box.append(btn);
+function setExpanded(open) {
+  for (const key of Object.keys(expanded)) expanded[key] = open;
+  renderLayers();
+}
+
+function zoomToLayer(sourceId) {
+  const group = vectorLayers[sourceId];
+  if (!group || !layerEnabled[sourceId] || !group.getLayers().length) {
+    status(`${SOURCE[sourceId].label} no tiene elementos visibles`);
+    return;
   }
+  map.fitBounds(group.getBounds(), { padding: [24, 24] });
+  status(`Zoom a ${SOURCE[sourceId].label}`);
 }
 
 function setBase(id) {
@@ -536,132 +589,30 @@ function setBase(id) {
   bases[id].layer.addTo(map);
   if (bases[id].layer.bringToBack) bases[id].layer.bringToBack();
   raiseVectors();
-  renderBases();
-}
-
-function renderResults(list) {
-  const box = document.getElementById("results");
-  box.replaceChildren();
-  if (!list.length) {
-    const empty = document.createElement("div");
-    empty.className = "result";
-    empty.textContent = "Sin coincidencias";
-    box.append(empty);
-    return;
-  }
-
-  for (const feature of list.slice(0, 20)) {
-    const props = feature.properties;
-    const key = sourceKey(props);
-    const btn = document.createElement("button");
-    btn.className = "result";
-    btn.type = "button";
-    const strong = document.createElement("strong");
-    strong.append(
-      swatch(colorForTipo(key, props.tipo || ""), key),
-      document.createTextNode(props.nombre || "Sin nombre")
-    );
-    const small = document.createElement("small");
-    small.textContent = [legendLabel(props.tipo || ""), props.fuente, props.municipio, props.departamento]
-      .filter(Boolean)
-      .join(" · ");
-    btn.append(strong, small);
-    btn.addEventListener("click", () => focusFeature(feature));
-    box.append(btn);
-  }
-}
-
-function queryMatches(list, q) {
-  if (!q) return list.slice(0, 12);
-  return list.filter((feature) => {
-    const props = feature.properties;
-    const blob = [
-      props.nombre,
-      props.tipo,
-      props.municipio,
-      props.departamento,
-      props.region,
-      props.detalle,
-      props.fuente
-    ].filter(Boolean).join(" ").toLowerCase();
-    return blob.includes(q);
-  });
-}
-
-function currentQuery() {
-  return document.getElementById("search").value.trim().toLowerCase();
+  renderLayers();
 }
 
 function refreshView() {
-  updateStats();
-  const q = currentQuery();
-  const matches = queryMatches(visibleFeatures(), q);
-  renderResults(matches);
-  status(q ? `${matches.length} coincidencias` : `${visibleFeatures().length} registros activos`);
-}
-
-function focusFeature(feature) {
-  const key = sourceKey(feature.properties);
-  const group = vectorLayers[key];
-  if (!group) return;
-
-  const tipo = (feature.properties.tipo || "Sin tipo");
-  let changed = false;
-  if (!layerEnabled[key]) {
-    layerEnabled[key] = true;
-    changed = true;
-  }
-  if (!typeOn[key][tipo]) {
-    typeOn[key][tipo] = true;
-    changed = true;
-  }
-  const keyName = extraKey(key);
-  if (keyName && extraOn[key] !== "all") {
-    const value = feature.properties[keyName] || "Sin dato";
-    if (value !== extraOn[key]) {
-      extraOn[key] = "all";
-      changed = true;
-    }
-  }
-  if (changed) {
-    syncSource(key);
-    renderLayers();
-    refreshView();
-  }
-
-  let found = false;
-  group.eachLayer((layer) => {
-    const props = layer.feature && layer.feature.properties;
-    if (!props || props.id !== feature.properties.id) return;
-    found = true;
-    if (layer.getLatLng) {
-      map.setView(layer.getLatLng(), Math.max(map.getZoom(), 16));
-      layer.openPopup();
-    } else if (layer.getBounds) {
-      map.fitBounds(layer.getBounds(), { maxZoom: 17, padding: [40, 40] });
-      layer.openPopup();
-    }
-  });
-  if (!found && feature.properties.lat && feature.properties.lon) {
-    map.setView([feature.properties.lat, feature.properties.lon], 16);
-  }
+  status(`${visibleFeatures().length} registros activos`);
 }
 
 function status(text) {
   document.getElementById("status").textContent = text;
 }
 
-document.getElementById("fit").addEventListener("click", () => {
+document.getElementById("expand-all").addEventListener("click", () => setExpanded(true));
+document.getElementById("collapse-all").addEventListener("click", () => setExpanded(false));
+document.getElementById("zoom-layer").addEventListener("click", () => {
+  if (selectedLayer) zoomToLayer(selectedLayer);
+  else status("Selecciona una capa en el panel");
+});
+document.getElementById("full-extent").addEventListener("click", () => {
   map.fitBounds(SV_BOUNDS, { padding: [24, 24] });
 });
 
-document.getElementById("search").addEventListener("input", () => {
-  const q = currentQuery();
-  const matches = queryMatches(visibleFeatures(), q);
-  renderResults(matches);
-  status(q ? `${matches.length} coincidencias` : `${visibleFeatures().length} registros activos`);
-  if (q && matches.length === 1) focusFeature(matches[0]);
+const coords = document.getElementById("coords");
+map.on("mousemove", (event) => {
+  coords.textContent = `Lat ${event.latlng.lat.toFixed(5)}  Lon ${event.latlng.lng.toFixed(5)}`;
 });
 
-renderBases();
 buildVectorLayers();
