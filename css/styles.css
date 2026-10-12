@@ -105,18 +105,18 @@ html, body, #map {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
   padding: 0 16px 14px;
 }
 
 .stat {
   background: rgba(255, 255, 255, 0.06);
   border-radius: 12px;
-  padding: 8px 10px;
+  padding: 8px 6px;
 }
 
-.stat b { display: block; font-size: 1.1rem; }
+.stat b { display: block; font-size: 1rem; }
 .stat span { font-size: 0.72rem; color: rgba(247, 241, 230, 0.62); }
 
 .panel {
@@ -142,7 +142,65 @@ html, body, #map {
   color: var(--ink-soft);
 }
 
-.base-grid, .overlay-list, .legend { display: grid; gap: 8px; }
+.base-grid, .layer-list { display: grid; gap: 8px; }
+
+.side-block > .hint { margin: 0 0 10px; }
+
+.layer-card {
+  background: #fff;
+  border: 1px solid #ddd4c6;
+  border-left: 4px solid #ddd4c6;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.layer-card.is-on { border-left-color: var(--source, #c9822a); }
+
+.layer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.layer-head label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.layer-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.layer-count {
+  flex: none;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.layer-hint {
+  margin: 2px 0 8px 24px;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+}
+
+.filter-label {
+  display: grid;
+  gap: 4px;
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
 
 .filter-select {
   width: 100%;
@@ -150,7 +208,10 @@ html, body, #map {
   border-radius: 10px;
   border: 1px solid #ddd4c6;
   background: #fff;
-  font: inherit;
+  color: var(--ink);
+  font: 600 0.92rem/1.3 "Source Sans 3", "Segoe UI", sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .hint {
@@ -193,20 +254,51 @@ html, body, #map {
   font-weight: 700;
 }
 
-.overlay-list label,
-.legend div {
-  display: flex;
+.legend {
+  display: grid;
+  gap: 2px;
+  max-height: 9.5rem;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.legend label {
+  display: grid;
+  grid-template-columns: 16px 12px minmax(0, 1fr) auto;
   gap: 8px;
   align-items: center;
-  font-size: 0.92rem;
+  font-size: 0.86rem;
+  cursor: pointer;
+  padding: 2px 0;
 }
+
+.legend label.is-empty { opacity: 0.45; }
+
+.legend-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.legend em {
+  font-style: normal;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.layer-head input,
+.legend input { margin: 0; }
 
 .swatch {
   width: 12px;
   height: 12px;
   border-radius: 99px;
   box-shadow: 0 0 0 2px #fff, 0 0 0 3px currentColor;
+  flex: none;
 }
+
+.swatch.area { border-radius: 3px; }
 
 .results {
   max-height: 220px;
@@ -227,7 +319,13 @@ html, body, #map {
   color: inherit;
 }
 
-.result small { display: block; color: var(--ink-soft); }
+.result strong {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.result small { display: block; color: var(--ink-soft); margin-top: 2px; }
 
 .status {
   position: absolute;
