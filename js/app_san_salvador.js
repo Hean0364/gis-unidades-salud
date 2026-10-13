@@ -7,7 +7,7 @@ const SOURCE_ORDER = ["unificado", "minsal", "osm", "geofabrik", "hot"];
 const ADMINISTRATIVE_ORDER = ["departamentos"];
 
 const SOURCE = {
-  unificado: { color: "#0f766e", label: "Unificado (sin duplicados)", hint: "256 establecimientos únicos · 131 polígonos y 125 puntos" },
+  unificado: { color: "#0f766e", label: "Unificado (sin duplicados)", hint: "256 establecimientos únicos · incluye centroides de 131 polígonos" },
   minsal: { color: "#1f8a70", label: "MINSAL", hint: "San Salvador · establecimientos filtrados" },
   osm: { color: "#c45c26", label: "OSM / Overpass", hint: "San Salvador · establecimientos filtrados" },
   geofabrik: { color: "#2458a6", label: "Geofabrik", hint: "San Salvador · establecimientos filtrados" },
@@ -177,6 +177,8 @@ function popupHtml(p) {
     ["Fuente principal", p.fuente_conservada],
     ["Fuentes coincidentes", p.fuentes_coincidentes],
     ["Registros combinados", p.cantidad_fuentes],
+    ["Representación", p.representacion],
+    ["Método centroide", p.centroide_metodo],
     ["Tipo", p.tipo],
     ["Categoría", p.tipo_general],
     ["Detalle", p.detalle],
@@ -229,13 +231,38 @@ function pointMarker(feature, latlng, sourceId) {
   });
 }
 
+function centroidMarker(feature) {
+  const properties = feature.properties || {};
+  const latitude = Number(properties.centroide_latitud);
+  const longitude = Number(properties.centroide_longitud);
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) return null;
+
+  const marker = L.circleMarker([latitude, longitude], {
+    radius: 4,
+    color: "#111827",
+    weight: 1.25,
+    fillColor: "#facc15",
+    fillOpacity: 1
+  });
+  marker.feature = feature;
+  marker.bindPopup(popupHtml({
+    ...properties,
+    representacion: "Centroide del polígono"
+  }), { maxWidth: 320 });
+  const tooltip = document.createElement("span");
+  tooltip.textContent = `Centroide · ${properties.nombre || "Sin nombre"}`;
+  marker.bindTooltip(tooltip, { direction: "top" });
+  marker.on("mouseover", () => status(`Centroide · ${properties.nombre || "Sin nombre"}`));
+  return marker;
+}
+
 function bindFeature(layer, feature) {
   layer.bindPopup(popupHtml(feature.properties), { maxWidth: 320 });
   layer.on("mouseover", () => status(feature.properties.nombre || ""));
 }
 
 function makeLayer(geojson, sourceId) {
-  return L.geoJSON(geojson, {
+  const group = L.geoJSON(geojson, {
     style: (feature) => styleFor(feature, sourceId),
     pointToLayer: (feature, latlng) => pointMarker(feature, latlng, sourceId),
     onEachFeature: (feature, layer) => {
@@ -243,6 +270,17 @@ function makeLayer(geojson, sourceId) {
       members[sourceId].push(layer);
     }
   });
+  if (sourceId === "unificado") {
+    for (const feature of geojson.features || []) {
+      const geometryType = feature.geometry && feature.geometry.type;
+      if (geometryType !== "Polygon" && geometryType !== "MultiPolygon") continue;
+      const marker = centroidMarker(feature);
+      if (!marker) continue;
+      members[sourceId].push(marker);
+      group.addLayer(marker);
+    }
+  }
+  return group;
 }
 
 function departmentPopup(properties) {
