@@ -4,12 +4,22 @@ const SV_BOUNDS = [
 ];
 
 const SOURCE_ORDER = ["minsal", "osm", "geofabrik", "hot"];
+const ADMINISTRATIVE_ORDER = ["departamentos"];
 
 const SOURCE = {
   minsal: { color: "#1f8a70", label: "MINSAL", hint: "Puntos oficiales · color según el tipo" },
   osm: { color: "#c45c26", label: "OSM / Overpass", hint: "Predios · el borde marca la fuente" },
   geofabrik: { color: "#2458a6", label: "Geofabrik", hint: "Salud, 5 oct 2026 · el borde marca la fuente" },
   hot: { color: "#a21caf", label: "HOT / HDX", hint: "OSM humanitario, 7 oct 2026 · el borde marca la fuente" }
+};
+
+const ADMINISTRATIVE = {
+  departamentos: {
+    color: "#475569",
+    fillColor: "#94a3b8",
+    label: "Departamentos",
+    hint: "Límites de los 14 departamentos de El Salvador"
+  }
 };
 
 const DETALLE_ORDER = ["Predio", "Edificio", "Polígono", "Punto"];
@@ -47,6 +57,9 @@ const map = L.map("map", {
 
 map.fitBounds(SV_BOUNDS, { padding: [24, 24] });
 L.control.scale({ metric: true, imperial: false }).addTo(map);
+map.createPane("administrativePane");
+map.getPane("administrativePane").style.zIndex = 350;
+map.attributionControl.addAttribution('Límites: <a href="https://www.geoboundaries.org/" target="_blank" rel="noopener">geoBoundaries</a> / OpenStreetMap');
 
 const vectorLayers = {};
 const members = { minsal: [], osm: [], geofabrik: [], hot: [] };
@@ -54,7 +67,8 @@ const collections = {};
 const typeOn = { minsal: {}, osm: {}, geofabrik: {}, hot: {} };
 const extraOn = { minsal: "all", osm: "all", geofabrik: "all", hot: "all" };
 const layerEnabled = { minsal: false, osm: false, geofabrik: true, hot: false };
-const expanded = { fuentes: true, bases: true, minsal: false, osm: false, geofabrik: true, hot: false };
+const administrativeEnabled = { departamentos: true };
+const expanded = { fuentes: true, limites: true, bases: true, minsal: false, osm: false, geofabrik: true, hot: false };
 let activeBase = "osm";
 let selectedLayer = "geofabrik";
 
@@ -199,6 +213,45 @@ function makeLayer(geojson, sourceId) {
   });
 }
 
+function departmentPopup(properties) {
+  const p = properties || {};
+  return `<div class="popup">
+    <h3>${p.nombre || "Departamento"}</h3>
+    <dl>
+      <dt>Nivel</dt><dd>Departamento</dd>
+      <dt>Fuente</dt><dd>geoBoundaries / OpenStreetMap</dd>
+    </dl>
+  </div>`;
+}
+
+function makeDepartmentLayer(geojson) {
+  let group;
+  group = L.geoJSON(geojson, {
+    pane: "administrativePane",
+    style: {
+      color: ADMINISTRATIVE.departamentos.color,
+      fillColor: ADMINISTRATIVE.departamentos.fillColor,
+      weight: 1.5,
+      opacity: 0.9,
+      fillOpacity: 0.08
+    },
+    onEachFeature: (feature, layer) => {
+      const nombre = (feature.properties || {}).nombre || "Departamento";
+      layer.bindTooltip(nombre, { sticky: true, direction: "top" });
+      layer.bindPopup(departmentPopup(feature.properties), { maxWidth: 320 });
+      layer.on({
+        mouseover: () => {
+          layer.setStyle({ weight: 3, fillOpacity: 0.18 });
+          layer.bringToFront();
+          status(nombre);
+        },
+        mouseout: () => group.resetStyle(layer)
+      });
+    }
+  });
+  return group;
+}
+
 function indexSource(sourceId, geojson) {
   collections[sourceId] = geojson;
   typeOn[sourceId] = {};
@@ -280,6 +333,17 @@ function syncSource(sourceId) {
   raiseVectors();
 }
 
+function syncAdministrativeLayer(layerId) {
+  const layer = vectorLayers[layerId];
+  if (!layer) return;
+  if (administrativeEnabled[layerId]) {
+    if (!map.hasLayer(layer)) layer.addTo(map);
+  } else if (map.hasLayer(layer)) {
+    map.removeLayer(layer);
+  }
+  raiseVectors();
+}
+
 function buildVectorLayers() {
   const packs = {
     minsal: window.MINSAL_GEOJSON,
@@ -287,10 +351,13 @@ function buildVectorLayers() {
     geofabrik: window.GEOFABRIK_GEOJSON,
     hot: window.HOT_GEOJSON
   };
-  if (!packs.minsal || !packs.osm || !packs.geofabrik || !packs.hot) {
-    status("No se encontraron las cuatro fuentes");
+  if (!packs.minsal || !packs.osm || !packs.geofabrik || !packs.hot || !window.DEPARTAMENTOS_GEOJSON) {
+    status("No se encontraron todas las capas locales");
     return;
   }
+
+  vectorLayers.departamentos = makeDepartmentLayer(window.DEPARTAMENTOS_GEOJSON);
+  syncAdministrativeLayer("departamentos");
 
   for (const id of SOURCE_ORDER) {
     indexSource(id, packs[id]);
@@ -541,6 +608,49 @@ function buildSourcesGroup() {
   return buildGroup("fuentes", "Unidades de salud", control, () => SOURCE_ORDER.map(buildSourceNode));
 }
 
+function buildAdministrativeNode(layerId) {
+  const meta = ADMINISTRATIVE[layerId];
+  const row = treeRow(1, "label");
+  row.classList.add("is-layer");
+  row.dataset.layer = layerId;
+  if (selectedLayer === layerId) row.classList.add("is-selected");
+  if (!administrativeEnabled[layerId]) row.classList.add("is-off");
+  row.title = `${meta.hint}\nDoble clic: zoom a la capa`;
+  row.addEventListener("click", () => selectLayer(layerId));
+  row.addEventListener("dblclick", () => zoomToLayer(layerId));
+
+  const toggle = checkbox(administrativeEnabled[layerId], (on) => {
+    administrativeEnabled[layerId] = on;
+    syncAdministrativeLayer(layerId);
+    renderLayers();
+    status(on ? `${meta.label} visibles` : `${meta.label} ocultos`);
+  }, `Mostrar ${meta.label}`);
+  const count = vectorLayers[layerId] ? vectorLayers[layerId].getLayers().length : 0;
+  row.append(
+    twistySpace(),
+    toggle,
+    swatch(`${meta.fillColor}33`, "area", meta.color),
+    ...rowText(meta.label, count)
+  );
+  return row;
+}
+
+function buildAdministrativeGroup() {
+  const on = ADMINISTRATIVE_ORDER.filter((id) => administrativeEnabled[id]).length;
+  const control = checkbox(on === ADMINISTRATIVE_ORDER.length, (checked) => {
+    for (const id of ADMINISTRATIVE_ORDER) {
+      administrativeEnabled[id] = checked;
+      syncAdministrativeLayer(id);
+    }
+    renderLayers();
+    status(checked ? "Límites administrativos visibles" : "Límites administrativos ocultos");
+  }, "Mostrar todos los límites administrativos");
+  control.indeterminate = on > 0 && on < ADMINISTRATIVE_ORDER.length;
+  return buildGroup("limites", "Límites administrativos", control, () => (
+    ADMINISTRATIVE_ORDER.map(buildAdministrativeNode)
+  ));
+}
+
 function buildBaseRow(id, item) {
   const row = treeRow(1, "label");
   row.classList.add("is-layer");
@@ -562,7 +672,7 @@ function buildBasesGroup() {
 function renderLayers() {
   const box = document.getElementById("layers");
   const top = box.scrollTop;
-  box.replaceChildren(buildSourcesGroup(), buildBasesGroup());
+  box.replaceChildren(buildSourcesGroup(), buildAdministrativeGroup(), buildBasesGroup());
   box.scrollTop = top;
 }
 
@@ -573,12 +683,14 @@ function setExpanded(open) {
 
 function zoomToLayer(sourceId) {
   const group = vectorLayers[sourceId];
-  if (!group || !layerEnabled[sourceId] || !group.getLayers().length) {
-    status(`${SOURCE[sourceId].label} no tiene elementos visibles`);
+  const meta = SOURCE[sourceId] || ADMINISTRATIVE[sourceId];
+  const enabled = SOURCE[sourceId] ? layerEnabled[sourceId] : administrativeEnabled[sourceId];
+  if (!group || !enabled || !group.getLayers().length) {
+    status(`${meta.label} no tiene elementos visibles`);
     return;
   }
   map.fitBounds(group.getBounds(), { padding: [24, 24] });
-  status(`Zoom a ${SOURCE[sourceId].label}`);
+  status(`Zoom a ${meta.label}`);
 }
 
 function setBase(id) {

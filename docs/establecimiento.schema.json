@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:unidades-salud:schemas:establecimiento-salud",
+  "title": "Establecimiento de salud normalizado",
+  "description": "Contrato JSON equivalente a una fila de data/normalizados/establecimientos_salud.csv. Las celdas CSV vacías se convierten a null.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "fuente",
+    "fuente_id",
+    "nombre",
+    "tipo",
+    "tipo_codigo",
+    "detalle",
+    "detalle_codigo",
+    "departamento",
+    "municipio",
+    "region",
+    "direccion",
+    "operador",
+    "telefono",
+    "horario",
+    "especialidad",
+    "amenity",
+    "healthcare",
+    "edificio",
+    "geometria_tipo",
+    "vertices",
+    "centroide_latitud",
+    "centroide_longitud",
+    "centroide_metodo",
+    "geometria_wkt",
+    "fuente_url",
+    "google_maps"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "fuente": {
+      "type": "string",
+      "enum": ["minsal", "overpass", "geofabrik", "hot"]
+    },
+    "fuente_id": { "type": "string", "minLength": 1 },
+    "nombre": { "type": "string", "minLength": 1 },
+    "tipo": { "type": "string", "minLength": 1 },
+    "tipo_codigo": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+    "detalle": { "type": ["string", "null"] },
+    "detalle_codigo": { "type": ["string", "null"] },
+    "departamento": { "type": ["string", "null"] },
+    "municipio": { "type": ["string", "null"] },
+    "region": { "type": ["string", "null"] },
+    "direccion": { "type": ["string", "null"] },
+    "operador": { "type": ["string", "null"] },
+    "telefono": { "type": ["string", "null"] },
+    "horario": { "type": ["string", "null"] },
+    "especialidad": { "type": ["string", "null"] },
+    "amenity": { "type": ["string", "null"] },
+    "healthcare": { "type": ["string", "null"] },
+    "edificio": { "type": ["string", "null"] },
+    "geometria_tipo": {
+      "type": "string",
+      "enum": ["Point", "LineString", "Polygon", "MultiPolygon"]
+    },
+    "vertices": { "type": "integer", "minimum": 1 },
+    "centroide_latitud": { "type": "number", "minimum": -90, "maximum": 90 },
+    "centroide_longitud": { "type": "number", "minimum": -180, "maximum": 180 },
+    "centroide_metodo": {
+      "type": "string",
+      "enum": [
+        "coordenada_original",
+        "centroide_area",
+        "centroide_area_anillo",
+        "centroide_linea"
+      ]
+    },
+    "geometria_wkt": { "type": "string", "minLength": 1 },
+    "fuente_url": { "type": ["string", "null"], "format": "uri" },
+    "google_maps": { "type": "string", "format": "uri" }
+  }
+}

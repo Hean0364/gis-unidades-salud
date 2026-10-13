@@ -3,10 +3,11 @@ const SAN_SALVADOR_BOUNDS = [
   [14.0647772, -89.025446]
 ];
 
-const SOURCE_ORDER = ["minsal", "osm", "geofabrik", "hot"];
+const SOURCE_ORDER = ["unificado", "minsal", "osm", "geofabrik", "hot"];
 const ADMINISTRATIVE_ORDER = ["departamentos"];
 
 const SOURCE = {
+  unificado: { color: "#0f766e", label: "Unificado (sin duplicados)", hint: "256 establecimientos únicos · 131 polígonos y 125 puntos" },
   minsal: { color: "#1f8a70", label: "MINSAL", hint: "San Salvador · establecimientos filtrados" },
   osm: { color: "#c45c26", label: "OSM / Overpass", hint: "San Salvador · establecimientos filtrados" },
   geofabrik: { color: "#2458a6", label: "Geofabrik", hint: "San Salvador · establecimientos filtrados" },
@@ -62,15 +63,15 @@ map.getPane("administrativePane").style.zIndex = 350;
 map.attributionControl.addAttribution('Límite: <a href="https://www.geoboundaries.org/" target="_blank" rel="noopener">geoBoundaries</a> / OpenStreetMap');
 
 const vectorLayers = {};
-const members = { minsal: [], osm: [], geofabrik: [], hot: [] };
+const members = { unificado: [], minsal: [], osm: [], geofabrik: [], hot: [] };
 const collections = {};
-const typeOn = { minsal: {}, osm: {}, geofabrik: {}, hot: {} };
-const extraOn = { minsal: "all", osm: "all", geofabrik: "all", hot: "all" };
-const layerEnabled = { minsal: false, osm: false, geofabrik: true, hot: false };
+const typeOn = { unificado: {}, minsal: {}, osm: {}, geofabrik: {}, hot: {} };
+const extraOn = { unificado: "all", minsal: "all", osm: "all", geofabrik: "all", hot: "all" };
+const layerEnabled = { unificado: true, minsal: false, osm: false, geofabrik: false, hot: false };
 const administrativeEnabled = { departamentos: true };
-const expanded = { fuentes: true, limites: true, bases: true, minsal: false, osm: false, geofabrik: true, hot: false };
+const expanded = { fuentes: true, limites: true, bases: true, unificado: true, minsal: false, osm: false, geofabrik: false, hot: false };
 let activeBase = "osm";
-let selectedLayer = "geofabrik";
+let selectedLayer = "unificado";
 
 const ICONS = {
   folder: '<svg viewBox="0 0 16 16"><path d="M1.5 3.5h5l1.5 1.5h6.5v8h-13z" fill="#f2c94c" stroke="#b8902a"/></svg>',
@@ -79,12 +80,14 @@ const ICONS = {
 };
 
 function extraKey(sourceId) {
+  if (sourceId === "unificado") return "fuente_conservada";
   if (sourceId === "minsal") return "region";
   if (sourceId === "geofabrik" || sourceId === "hot") return "detalle";
   return null;
 }
 
 function extraCaption(sourceId) {
+  if (sourceId === "unificado") return "Fuente principal";
   if (sourceId === "minsal") return "Región";
   if (sourceId === "geofabrik" || sourceId === "hot") return "Geometría";
   return "";
@@ -171,6 +174,9 @@ function popupHtml(p) {
   if (!p) return "";
   const rows = [
     ["Fuente", p.fuente],
+    ["Fuente principal", p.fuente_conservada],
+    ["Fuentes coincidentes", p.fuentes_coincidentes],
+    ["Registros combinados", p.cantidad_fuentes],
     ["Tipo", p.tipo],
     ["Categoría", p.tipo_general],
     ["Detalle", p.detalle],
@@ -184,7 +190,8 @@ function popupHtml(p) {
     ["Dirección", p.direccion],
     ["Teléfono", p.telefono],
     ["Horario", p.horario],
-    ["ID fuente", p.fuente_id]
+    ["ID fuente", p.fuente_id],
+    ["IDs originales", p.ids_fuente]
   ].filter(([, value]) => value);
 
   const links = [
@@ -334,7 +341,7 @@ function visibleFeatures() {
 }
 
 function raiseVectors() {
-  for (const id of ["osm", "geofabrik", "hot", "minsal"]) {
+  for (const id of ["osm", "geofabrik", "hot", "minsal", "unificado"]) {
     const layer = vectorLayers[id];
     if (layer && map.hasLayer(layer)) layer.bringToFront();
   }
@@ -371,12 +378,13 @@ function syncAdministrativeLayer(layerId) {
 
 function buildVectorLayers() {
   const packs = {
+    unificado: window.UNIFICADO_GEOJSON,
     minsal: window.MINSAL_GEOJSON,
     osm: window.OVERPASS_GEOJSON,
     geofabrik: window.GEOFABRIK_GEOJSON,
     hot: window.HOT_GEOJSON
   };
-  if (!packs.minsal || !packs.osm || !packs.geofabrik || !packs.hot || !window.DEPARTAMENTOS_GEOJSON) {
+  if (!packs.unificado || !packs.minsal || !packs.osm || !packs.geofabrik || !packs.hot || !window.DEPARTAMENTOS_GEOJSON) {
     status("No se encontraron todas las capas locales");
     return;
   }

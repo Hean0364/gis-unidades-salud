@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import json
+import math
 import sys
 import tempfile
 import zipfile
@@ -127,27 +128,140 @@ def write_js(path: Path, variable: str, data) -> None:
     )
 
 
-def ring_centroid(ring):
-    if not ring:
+def _point_xy(point):
+    if not point or len(point) < 2:
         return None
-    xs = [p[0] for p in ring]
-    ys = [p[1] for p in ring]
-    return (sum(xs) / len(xs), sum(ys) / len(ys))
+    try:
+        x, y = float(point[0]), float(point[1])
+    except (TypeError, ValueError):
+        return None
+    if not math.isfinite(x) or not math.isfinite(y):
+        return None
+    return x, y
+
+
+def _mean_point(points):
+    clean = [_point_xy(point) for point in points or []]
+    clean = [point for point in clean if point is not None]
+    if len(clean) > 1 and clean[0] == clean[-1]:
+        clean.pop()
+    if not clean:
+        return None
+    return (
+        sum(point[0] for point in clean) / len(clean),
+        sum(point[1] for point in clean) / len(clean),
+    )
+
+
+def _ring_area_centroid(ring):
+    """Retorna (centroide, área con signo) usando la fórmula de Gauss."""
+    points = [_point_xy(point) for point in ring or []]
+    points = [point for point in points if point is not None]
+    if len(points) > 1 and points[0] == points[-1]:
+        points.pop()
+    if len(points) < 3:
+        return _mean_point(points), 0.0
+
+    # Trasladar cerca del origen evita cancelación numérica con polígonos
+    # pequeños expresados como longitud/latitud de valores absolutos grandes.
+    origin_x, origin_y = points[0]
+    local_points = [(x - origin_x, y - origin_y) for x, y in points]
+    twice_area = 0.0
+    cx_numerator = 0.0
+    cy_numerator = 0.0
+    for current, following in zip(local_points, local_points[1:] + local_points[:1]):
+        cross = current[0] * following[1] - following[0] * current[1]
+        twice_area += cross
+        cx_numerator += (current[0] + following[0]) * cross
+        cy_numerator += (current[1] + following[1]) * cross
+
+    if abs(twice_area) < 1e-15:
+        return _mean_point(points), 0.0
+    return (
+        origin_x + cx_numerator / (3.0 * twice_area),
+        origin_y + cy_numerator / (3.0 * twice_area),
+    ), twice_area / 2.0
+
+
+def _polygon_area_centroid(rings):
+    """Centro de masa de un polígono; resta huecos sin depender de orientación."""
+    if not rings:
+        return None, 0.0
+    weighted_x = 0.0
+    weighted_y = 0.0
+    total_area = 0.0
+    for index, ring in enumerate(rings):
+        centroid, signed_area = _ring_area_centroid(ring)
+        if not centroid or not signed_area:
+            continue
+        area = abs(signed_area) if index == 0 else -abs(signed_area)
+        weighted_x += centroid[0] * area
+        weighted_y += centroid[1] * area
+        total_area += area
+    if total_area > 1e-15:
+        return (weighted_x / total_area, weighted_y / total_area), total_area
+    return _mean_point(rings[0]), 0.0
+
+
+def _line_centroid(line):
+    """Punto medio ponderado por la longitud de cada segmento."""
+    points = [_point_xy(point) for point in line or []]
+    points = [point for point in points if point is not None]
+    if not points:
+        return None
+    if len(points) >= 4 and points[0] == points[-1]:
+        centroid, area = _polygon_area_centroid([points])
+        if centroid and area:
+            return centroid
+
+    weighted_x = 0.0
+    weighted_y = 0.0
+    total_length = 0.0
+    for start, end in zip(points, points[1:]):
+        mean_latitude = math.radians((start[1] + end[1]) / 2.0)
+        dx = (end[0] - start[0]) * math.cos(mean_latitude)
+        dy = end[1] - start[1]
+        length = math.hypot(dx, dy)
+        if not length:
+            continue
+        weighted_x += ((start[0] + end[0]) / 2.0) * length
+        weighted_y += ((start[1] + end[1]) / 2.0) * length
+        total_length += length
+    if total_length:
+        return weighted_x / total_length, weighted_y / total_length
+    return points[0]
 
 
 def geom_centroid(geom):
+    """Calcula el centro de masa de una geometría GeoJSON en EPSG:4326.
+
+    Los polígonos se ponderan por área, incluidos huecos y todas las partes de
+    un multipolígono. Las líneas abiertas se ponderan por longitud.
+    """
     if not geom:
         return None
-    t = geom.get("type")
-    c = geom.get("coordinates")
-    if t == "Point":
-        return (c[0], c[1])
-    if t == "LineString":
-        return ring_centroid(c)
-    if t == "Polygon":
-        return ring_centroid(c[0] if c else [])
-    if t == "MultiPolygon":
-        return ring_centroid(c[0][0] if c else [])
+    geometry_type = geom.get("type")
+    coordinates = geom.get("coordinates")
+    if geometry_type == "Point":
+        return _point_xy(coordinates)
+    if geometry_type == "LineString":
+        return _line_centroid(coordinates)
+    if geometry_type == "Polygon":
+        centroid, _ = _polygon_area_centroid(coordinates)
+        return centroid
+    if geometry_type == "MultiPolygon":
+        polygons = []
+        for polygon in coordinates or []:
+            centroid, area = _polygon_area_centroid(polygon)
+            if centroid and area:
+                polygons.append((centroid, area))
+        total_area = sum(area for _, area in polygons)
+        if total_area:
+            return (
+                sum(centroid[0] * area for centroid, area in polygons) / total_area,
+                sum(centroid[1] * area for centroid, area in polygons) / total_area,
+            )
+        return None
     return None
 
 
