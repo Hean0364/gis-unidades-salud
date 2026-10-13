@@ -1,0 +1,1212 @@
+{
+  "type": "FeatureCollection",
+  "name": "minsal_san_salvador_filtrado",
+  "meta": {
+    "fuente": "MINSAL",
+    "departamento": "San Salvador",
+    "filtro": "Establecimientos con capacidad de atencion a heridos; clinicas conservadas",
+    "count": 50
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-355",
+        "fuente_id": "355",
+        "nombre": "UCSFI Aguilares",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Aguilares",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.95739735,-89.18555915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1855591509757,
+          13.9573973490032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-369",
+        "fuente_id": "369",
+        "nombre": "CAE Apopa",
+        "tipo": "Centro de Atención de Emergencias (CAE)",
+        "tipo_general": "Emergencias médicas",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8034777,-89.18198088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1819808800264,
+          13.8034776977215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-381",
+        "fuente_id": "381",
+        "nombre": "UCSFI Chintuc",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.81042463,-89.1792743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1792742991945,
+          13.8104246281555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-377",
+        "fuente_id": "377",
+        "nombre": "UCSFI de Apopa",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80156752,-89.17797806"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1779780625789,
+          13.8015675150349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-372",
+        "fuente_id": "372",
+        "nombre": "UCSFI de Popotlán",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8026111,-89.16576216"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1657621631859,
+          13.8026111046878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-385",
+        "fuente_id": "385",
+        "nombre": "UCSFI Ayutuxtepeque",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Ayutuxtepeque",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.74874967,-89.20453023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2045302294899,
+          13.7487496748135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-390",
+        "fuente_id": "390",
+        "nombre": "UCSFI Ciudad Delgado",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Ciudad Delgado",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72390816,-89.17153886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1715388640621,
+          13.7239081552048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-393",
+        "fuente_id": "393",
+        "nombre": "UCSFI Habitat Confien",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Ciudad Delgado",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.74427594,-89.1695721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1695720961723,
+          13.7442759397234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-403",
+        "fuente_id": "403",
+        "nombre": "UCSFI Cuscatancingo",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Cuscatancingo",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72504925,-89.18247404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1824740380494,
+          13.725049245998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-399",
+        "fuente_id": "399",
+        "nombre": "UCSFI Villa Mariona Dr. Benjamin Valdez hijo",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Cuscatancingo",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.78777759,-89.18706669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1870666911092,
+          13.787777590415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-447",
+        "fuente_id": "447",
+        "nombre": "UCSFI El Paisnal",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "El Paisnal",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.97704507,-89.21470491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2147049104189,
+          13.977045071416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-456",
+        "fuente_id": "456",
+        "nombre": "UCSFI de Guazapa",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Guazapa",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87651094,-89.16989959"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1698995949755,
+          13.8765109363009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-471",
+        "fuente_id": "471",
+        "nombre": "Hospital Nacional Ilopango SS \"Enf. Angélica Vidal de Najarro\"",
+        "tipo": "Hospital básico (II Nivel)",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "Ilopango",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70442203,-89.10619535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1061953492098,
+          13.7044220299324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-467",
+        "fuente_id": "467",
+        "nombre": "UCSFI Ilopango",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Ilopango",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70869017,-89.11088041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1108804137595,
+          13.7086901650635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-462",
+        "fuente_id": "462",
+        "nombre": "UCSFI Santa Lucía Ilopango",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Ilopango",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70646882,-89.10525776"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1052577613781,
+          13.7064688238311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-484",
+        "fuente_id": "484",
+        "nombre": "SEM Zacamil",
+        "tipo": "Sistema de Emergencias Médicas (SEM)",
+        "tipo_general": "Emergencias médicas",
+        "departamento": "San Salvador",
+        "municipio": "Mejicanos",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73221094,-89.20470937"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2047093679306,
+          13.7322109365718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-527",
+        "fuente_id": "527",
+        "nombre": "Hospital Nacional Mejicanos SS (Zacamil) \"Dr. Juan José Fernández\"",
+        "tipo": "Hospital departamental (II Nivel)",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "Mejicanos",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72893573,-89.20730918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2073091848894,
+          13.7289357290941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-500",
+        "fuente_id": "500",
+        "nombre": "UCSFI \"Dr. Morán Quijada\"",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Mejicanos",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72754156,-89.18952623"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1895262289497,
+          13.727541562944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-490",
+        "fuente_id": "490",
+        "nombre": "UCSFI Zacamil",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Mejicanos",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73221524,-89.20483806"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2048380551884,
+          13.732215244784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-557",
+        "fuente_id": "557",
+        "nombre": "UCSFI Nejapa",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Nejapa",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.809425,-89.22896389"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.228963889585,
+          13.8094249997653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-622",
+        "fuente_id": "622",
+        "nombre": "UCSFI Panchimalco",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Panchimalco",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.61334431,-89.17867261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1786726076172,
+          13.6133443087655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-633",
+        "fuente_id": "633",
+        "nombre": "UCSFI Planes de Renderos",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Panchimalco",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.64338924,-89.18366411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1836641081715,
+          13.6433892426606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-644",
+        "fuente_id": "644",
+        "nombre": "UCSFI Rosario de Mora",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Rosario De Mora",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.57365699,-89.20685375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2068537498201,
+          13.5736569880146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-668",
+        "fuente_id": "668",
+        "nombre": "UCSFI \"Dr. Roberto Cáceres Bustamante\"",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Marcos",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.65422222,-89.16660833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1666083303695,
+          13.6542222202705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-698",
+        "fuente_id": "698",
+        "nombre": "CAE San Martin",
+        "tipo": "Centro de Atención de Emergencias (CAE)",
+        "tipo_general": "Emergencias médicas",
+        "departamento": "San Salvador",
+        "municipio": "San Martin",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73374741,-89.05864241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.058642411604,
+          13.7337474108753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-694",
+        "fuente_id": "694",
+        "nombre": "Ciudad Mujer San Martín",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Martin",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73384748,-89.06758384"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0675838430902,
+          13.7338474764333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-689",
+        "fuente_id": "689",
+        "nombre": "UCSFE San Martin",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Martin",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73354295,-89.05887212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0588721242969,
+          13.7335429531182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-357",
+        "fuente_id": "357",
+        "nombre": "Clínica de empleados",
+        "tipo": "Clínica de Empleados",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69948043,-89.19920238"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.199202381727,
+          13.6994804328979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-387",
+        "fuente_id": "387",
+        "nombre": "SEM Montserrat",
+        "tipo": "Sistema de Emergencias Médicas (SEM)",
+        "tipo_general": "Emergencias médicas",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.687459,-89.2071259"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2071259034186,
+          13.6874590035688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-413",
+        "fuente_id": "413",
+        "nombre": "Hospital Nacional de la Mujer San Salvador SS \"Dra. María Isabel Rodríguez\"",
+        "tipo": "Hospital Especializado (III Nivel)",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69051617,-89.20439366"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2043936559224,
+          13.6905161672652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-398",
+        "fuente_id": "398",
+        "nombre": "Hospital Nacional San Salvador SS \"Benjamin Bloom\"",
+        "tipo": "Hospital Especializado (III Nivel)",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7140005,-89.20399782"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.203997815089,
+          13.7140004961497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-365",
+        "fuente_id": "365",
+        "nombre": "Hospital Nacional San Salvador SS Neumológico \"Dr. José Antonio Saldaña\"",
+        "tipo": "Hospital departamental (II Nivel)",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.64796124,-89.19550894"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1955089359784,
+          13.647961239303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-396",
+        "fuente_id": "396",
+        "nombre": "Hospital Nacional San Salvador SS \"Rosales\"",
+        "tipo": "Hospital Especializado (III Nivel)",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70037773,-89.20546095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2054609523963,
+          13.7003777290402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-752",
+        "fuente_id": "752",
+        "nombre": "UCSFE Barrios",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69258848,-89.22987427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.229874273735,
+          13.6925884837851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-360",
+        "fuente_id": "360",
+        "nombre": "UCSFE de San Jacinto",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68500779,-89.19184416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1918441599622,
+          13.6850077871801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-345",
+        "fuente_id": "345",
+        "nombre": "UCSFE San Miguelito Dr. Juan Ramos Alvarenga Andido",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71071588,-89.18140373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1814037286261,
+          13.7107158779337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-769",
+        "fuente_id": "769",
+        "nombre": "UCSFI Concepcion",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70105213,-89.18652521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1865252073171,
+          13.7010521302145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-762",
+        "fuente_id": "762",
+        "nombre": "UCSFI Lourdes",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69521101,-89.17967081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1796708056794,
+          13.6952110072321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-765",
+        "fuente_id": "765",
+        "nombre": "UCSFI Monserrat",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6874871,-89.20705165"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2070516495755,
+          13.6874870956358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-379",
+        "fuente_id": "379",
+        "nombre": "UCSFI San Antonio Abad \"Dr. Eduardo Suárez Mendoza\"",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71868981,-89.22342708"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2234270757207,
+          13.7186898140199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-443",
+        "fuente_id": "443",
+        "nombre": "UCSFI Santiago Texacuangos",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Santiago Texacuangos",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.64542814,-89.11787237"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1178723654335,
+          13.6454281404336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-448",
+        "fuente_id": "448",
+        "nombre": "UCSFI Santo Tomas",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Santo Tomas",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.64640101,-89.14136314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1413631403316,
+          13.6464010057121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-465",
+        "fuente_id": "465",
+        "nombre": "SEM Soyapango",
+        "tipo": "Sistema de Emergencias Médicas (SEM)",
+        "tipo_general": "Emergencias médicas",
+        "departamento": "San Salvador",
+        "municipio": "Soyapango",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71452503,-89.13951284"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.139512840815,
+          13.7145250299141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-461",
+        "fuente_id": "461",
+        "nombre": "Hospital Nacional Soyapango SS \"Dr. José Molina Martínez\"",
+        "tipo": "Hospital departamental (II Nivel)",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "Soyapango",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71399206,-89.13914709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1391470872555,
+          13.7139920588336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-472",
+        "fuente_id": "472",
+        "nombre": "UCSFI Amatepec",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Soyapango",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69101432,-89.16789987"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1678998669996,
+          13.6910143236036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-450",
+        "fuente_id": "450",
+        "nombre": "UCSFI Unicentro Soyapango",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Soyapango",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7141264,-89.1404304"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1404303998092,
+          13.7141263978346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-457",
+        "fuente_id": "457",
+        "nombre": "UCSFI Zoila María de Guadrón",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Soyapango",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70290801,-89.14191259"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1419125867903,
+          13.7029080131665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-477",
+        "fuente_id": "477",
+        "nombre": "UCSFI Altavista",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Tonacatepeque",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72449016,-89.09997397"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.099973967895,
+          13.7244901607144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-491",
+        "fuente_id": "491",
+        "nombre": "UCSFI Distrito Italia",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Tonacatepeque",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80675379,-89.14270798"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1427079802957,
+          13.8067537892074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "MINSAL",
+        "id": "minsal-497",
+        "fuente_id": "497",
+        "nombre": "UCSFI Tonacatepeque Prof. Marcial Balmore Campos",
+        "tipo": "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)",
+        "tipo_general": "Unidad de salud",
+        "departamento": "San Salvador",
+        "municipio": "Tonacatepeque",
+        "region": "Metropolitana",
+        "sector": "Público",
+        "es_privado": "No",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.77726645,-89.11408366"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.114083656044,
+          13.7772664539422
+        ]
+      }
+    }
+  ]
+}

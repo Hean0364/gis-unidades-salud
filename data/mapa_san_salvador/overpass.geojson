@@ -1,0 +1,7595 @@
+{
+  "type": "FeatureCollection",
+  "name": "overpass_san_salvador_filtrado",
+  "meta": {
+    "fuente": "OSM / Overpass",
+    "departamento": "San Salvador",
+    "filtro": "Establecimientos con capacidad de atencion a heridos; clinicas conservadas",
+    "count": 114
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1510169201",
+        "fuente_id": "way/1510169201",
+        "nombre": "A&A Center",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1510169201",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71424588,-89.14115253"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1412029,
+              13.7143094
+            ],
+            [
+              -89.1411419,
+              13.7141674
+            ],
+            [
+              -89.1411018,
+              13.7141841
+            ],
+            [
+              -89.1411583,
+              13.714311
+            ],
+            [
+              -89.141164,
+              13.7143249
+            ],
+            [
+              -89.1412029,
+              13.7143094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-461595304",
+        "fuente_id": "way/461595304",
+        "nombre": "Audio Med",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/461595304",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71075168,-89.2149624"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2151151,
+              13.7107235
+            ],
+            [
+              -89.2150053,
+              13.7106267
+            ],
+            [
+              -89.2149809,
+              13.7106168
+            ],
+            [
+              -89.2149606,
+              13.7106168
+            ],
+            [
+              -89.2149443,
+              13.7106287
+            ],
+            [
+              -89.2148142,
+              13.7107847
+            ],
+            [
+              -89.2149443,
+              13.7109012
+            ],
+            [
+              -89.2151151,
+              13.7107235
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-671291221",
+        "fuente_id": "way/671291221",
+        "nombre": "CECIAM",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/671291221",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70045687,-89.23983968"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2398837,
+              13.7007384
+            ],
+            [
+              -89.2400324,
+              13.7002536
+            ],
+            [
+              -89.2398059,
+              13.7001779
+            ],
+            [
+              -89.2396395,
+              13.7006421
+            ],
+            [
+              -89.2398837,
+              13.7007384
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1303391474",
+        "fuente_id": "way/1303391474",
+        "nombre": "Centro de Salud Nejapa",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/1303391474",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8114748,-89.23361591"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2336675,
+              13.8118239
+            ],
+            [
+              -89.233885,
+              13.8112289
+            ],
+            [
+              -89.2335956,
+              13.8111225
+            ],
+            [
+              -89.2333429,
+              13.8116493
+            ],
+            [
+              -89.233399,
+              13.8117264
+            ],
+            [
+              -89.2336675,
+              13.8118239
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399289740",
+        "fuente_id": "way/399289740",
+        "nombre": "Centro Médico Delgado",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Paleca",
+        "fuente_url": "https://www.openstreetmap.org/way/399289740",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71963217,-89.16983513"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1697818,
+              13.7195905
+            ],
+            [
+              -89.1697687,
+              13.7196481
+            ],
+            [
+              -89.1698885,
+              13.7196738
+            ],
+            [
+              -89.1699016,
+              13.7196163
+            ],
+            [
+              -89.1697818,
+              13.7195905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1510169206",
+        "fuente_id": "way/1510169206",
+        "nombre": "Centro Médico Mesías",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1510169206",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71426657,-89.140934"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1410022,
+              13.7143026
+            ],
+            [
+              -89.1409562,
+              13.7141943
+            ],
+            [
+              -89.1408658,
+              13.7142306
+            ],
+            [
+              -89.1409118,
+              13.7143388
+            ],
+            [
+              -89.1410022,
+              13.7143026
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1511176944",
+        "fuente_id": "way/1511176944",
+        "nombre": "Centro Médico San Antonio",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1511176944",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70278352,-89.15009435"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.150126,
+              13.7028317
+            ],
+            [
+              -89.1501401,
+              13.702744
+            ],
+            [
+              -89.1500624,
+              13.7027341
+            ],
+            [
+              -89.1500497,
+              13.7028251
+            ],
+            [
+              -89.150126,
+              13.7028317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1511176958",
+        "fuente_id": "way/1511176958",
+        "nombre": "Centro Médico San Francisco",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1511176958",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70358321,-89.14932542"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.149371,
+              13.7035233
+            ],
+            [
+              -89.1493598,
+              13.7035231
+            ],
+            [
+              -89.1492771,
+              13.7035211
+            ],
+            [
+              -89.1492846,
+              13.7036486
+            ],
+            [
+              -89.1493373,
+              13.7036452
+            ],
+            [
+              -89.149371,
+              13.7036431
+            ],
+            [
+              -89.149371,
+              13.7035233
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-572757884",
+        "fuente_id": "way/572757884",
+        "nombre": "Chintuc 1",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/572757884",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8112236,-89.18082454"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1806992,
+              13.8114447
+            ],
+            [
+              -89.1811473,
+              13.8111383
+            ],
+            [
+              -89.1807799,
+              13.8110563
+            ],
+            [
+              -89.1806283,
+              13.8111956
+            ],
+            [
+              -89.1806337,
+              13.8113623
+            ],
+            [
+              -89.1806992,
+              13.8114447
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-397140054",
+        "fuente_id": "way/397140054",
+        "nombre": "Clínica Asistencial Familia de Nazareth",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Pasaje Layco",
+        "fuente_url": "https://www.openstreetmap.org/way/397140054",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7142371,-89.19471865"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1947615,
+              13.7142807
+            ],
+            [
+              -89.194769,
+              13.7142019
+            ],
+            [
+              -89.1946758,
+              13.7141935
+            ],
+            [
+              -89.1946683,
+              13.7142723
+            ],
+            [
+              -89.1947615,
+              13.7142807
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1112418085",
+        "fuente_id": "way/1112418085",
+        "nombre": "Clinica Comunal ISSS - Ciudad Delgado",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Instituto Salvadoreño del Seguro Social",
+        "fuente_url": "https://www.openstreetmap.org/way/1112418085",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72164502,-89.16832647"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1682993,
+              13.721786
+            ],
+            [
+              -89.1684418,
+              13.7217481
+            ],
+            [
+              -89.1684099,
+              13.7215869
+            ],
+            [
+              -89.1683229,
+              13.7214976
+            ],
+            [
+              -89.1681964,
+              13.7215725
+            ],
+            [
+              -89.1682993,
+              13.721786
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1125737558",
+        "fuente_id": "way/1125737558",
+        "nombre": "Clinica Comunal ISSS Mejicanos",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/1125737558",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72818583,-89.18994943"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1899679,
+              13.728279
+            ],
+            [
+              -89.1900154,
+              13.7281589
+            ],
+            [
+              -89.1899634,
+              13.7281241
+            ],
+            [
+              -89.1899344,
+              13.728112
+            ],
+            [
+              -89.1898712,
+              13.7281406
+            ],
+            [
+              -89.18993,
+              13.7282016
+            ],
+            [
+              -89.189903,
+              13.7282415
+            ],
+            [
+              -89.1899679,
+              13.728279
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1110612225",
+        "fuente_id": "way/1110612225",
+        "nombre": "Clínica Comunal ISSS Virgen del Tránsito",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/1110612225",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7220551,-89.19076894"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1907943,
+              13.7221923
+            ],
+            [
+              -89.1908989,
+              13.7221349
+            ],
+            [
+              -89.1908494,
+              13.7220533
+            ],
+            [
+              -89.1908218,
+              13.7220533
+            ],
+            [
+              -89.1907283,
+              13.721909
+            ],
+            [
+              -89.190643,
+              13.7219638
+            ],
+            [
+              -89.1907393,
+              13.7221095
+            ],
+            [
+              -89.1907943,
+              13.7221923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-396751347",
+        "fuente_id": "way/396751347",
+        "nombre": "Clínica de Medicina Natural Shing Tong",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Calle Auro",
+        "fuente_url": "https://www.openstreetmap.org/way/396751347",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71253315,-89.20901462"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2090765,
+              13.7125705
+            ],
+            [
+              -89.2090834,
+              13.7125099
+            ],
+            [
+              -89.2089528,
+              13.7124958
+            ],
+            [
+              -89.2089458,
+              13.7125564
+            ],
+            [
+              -89.2090765,
+              13.7125705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-395851894",
+        "fuente_id": "way/395851894",
+        "nombre": "Clínica de Neurologia",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard Altamira",
+        "fuente_url": "https://www.openstreetmap.org/way/395851894",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68329668,-89.21920525"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2191689,
+              13.6832839
+            ],
+            [
+              -89.2191747,
+              13.6833172
+            ],
+            [
+              -89.2192384,
+              13.6833116
+            ],
+            [
+              -89.2192374,
+              13.6832751
+            ],
+            [
+              -89.2191689,
+              13.6832839
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-671291220",
+        "fuente_id": "way/671291220",
+        "nombre": "Clínica EPSSA",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/671291220",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70027231,-89.23915939"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2391723,
+              13.7004117
+            ],
+            [
+              -89.2392502,
+              13.700171
+            ],
+            [
+              -89.239144,
+              13.7001366
+            ],
+            [
+              -89.2390697,
+              13.7003705
+            ],
+            [
+              -89.2391723,
+              13.7004117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-395841197",
+        "fuente_id": "way/395841197",
+        "nombre": "Clínica Jesus de Nazaret",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Calle Monserrat",
+        "fuente_url": "https://www.openstreetmap.org/way/395841197",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68690557,-89.2030086"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2030405,
+              13.6869309
+            ],
+            [
+              -89.203008,
+              13.6868656
+            ],
+            [
+              -89.2029767,
+              13.6868803
+            ],
+            [
+              -89.2030092,
+              13.6869455
+            ],
+            [
+              -89.2030405,
+              13.6869309
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1510169197",
+        "fuente_id": "way/1510169197",
+        "nombre": "Clinica Medica Cristo Rey",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1510169197",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71417666,-89.1413768"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1414485,
+              13.7142806
+            ],
+            [
+              -89.1413912,
+              13.7141478
+            ],
+            [
+              -89.1413471,
+              13.7140492
+            ],
+            [
+              -89.1413058,
+              13.7140673
+            ],
+            [
+              -89.1413885,
+              13.7142702
+            ],
+            [
+              -89.1414016,
+              13.7142999
+            ],
+            [
+              -89.1414485,
+              13.7142806
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-396980702",
+        "fuente_id": "way/396980702",
+        "nombre": "Clínica Medica Horizonte",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Calle Zacamil",
+        "fuente_url": "https://www.openstreetmap.org/way/396980702",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72856285,-89.19837336"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1984473,
+              13.7285824
+            ],
+            [
+              -89.1983519,
+              13.7284914
+            ],
+            [
+              -89.1982994,
+              13.7285433
+            ],
+            [
+              -89.1983355,
+              13.7285777
+            ],
+            [
+              -89.1983948,
+              13.7286343
+            ],
+            [
+              -89.1984473,
+              13.7285824
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399782024",
+        "fuente_id": "way/399782024",
+        "nombre": "Clínica Médica MerBel",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "21 Calle Poniente, 1633",
+        "telefono": "+503 7276 6870",
+        "horario": "Mo-Fr 07:00-15:00; Tu,Th off",
+        "fuente_url": "https://www.openstreetmap.org/way/399782024",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71080816,-89.20657258"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2066152,
+              13.7109191
+            ],
+            [
+              -89.20664,
+              13.7107095
+            ],
+            [
+              -89.2065299,
+              13.7106973
+            ],
+            [
+              -89.2065052,
+              13.7109068
+            ],
+            [
+              -89.2066152,
+              13.7109191
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-396990910",
+        "fuente_id": "way/396990910",
+        "nombre": "Clínica Medica PCN",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Calle a Mariona",
+        "fuente_url": "https://www.openstreetmap.org/way/396990910",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72756043,-89.18782379"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1878615,
+              13.727572
+            ],
+            [
+              -89.187839,
+              13.727525
+            ],
+            [
+              -89.1877861,
+              13.7275488
+            ],
+            [
+              -89.1878086,
+              13.7275959
+            ],
+            [
+              -89.1878615,
+              13.727572
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1509660640",
+        "fuente_id": "way/1509660640",
+        "nombre": "Clínica Médica y Dental Guadalupana",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1509660640",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70331635,-89.14915775"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1491941,
+              13.7033798
+            ],
+            [
+              -89.1492059,
+              13.7032634
+            ],
+            [
+              -89.1491195,
+              13.7032514
+            ],
+            [
+              -89.1491125,
+              13.7033734
+            ],
+            [
+              -89.1491941,
+              13.7033798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-982108243",
+        "fuente_id": "way/982108243",
+        "nombre": "Clínica Venolaser",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/982108243",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7117165,-89.20180425"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2018688,
+              13.7118042
+            ],
+            [
+              -89.2018826,
+              13.7116411
+            ],
+            [
+              -89.2017394,
+              13.7116276
+            ],
+            [
+              -89.201727,
+              13.7117938
+            ],
+            [
+              -89.2018688,
+              13.7118042
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-396315798",
+        "fuente_id": "way/396315798",
+        "nombre": "Clínica Vila",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Augusta",
+        "fuente_url": "https://www.openstreetmap.org/way/396315798",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71356199,-89.22309083"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2230684,
+              13.713431
+            ],
+            [
+              -89.22299,
+              13.7135643
+            ],
+            [
+              -89.223016,
+              13.7135787
+            ],
+            [
+              -89.2229759,
+              13.713647
+            ],
+            [
+              -89.2230685,
+              13.7136984
+            ],
+            [
+              -89.2231188,
+              13.7136129
+            ],
+            [
+              -89.2231555,
+              13.7136333
+            ],
+            [
+              -89.2232238,
+              13.7135172
+            ],
+            [
+              -89.2231783,
+              13.7134919
+            ],
+            [
+              -89.2230684,
+              13.713431
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-396926453",
+        "fuente_id": "way/396926453",
+        "nombre": "Clínica y Laboratorio Profamilia",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Bulevar Constitución",
+        "fuente_url": "https://www.openstreetmap.org/way/396926453",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72062012,-89.22235084"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2222654,
+              13.7206659
+            ],
+            [
+              -89.2223234,
+              13.7206652
+            ],
+            [
+              -89.2224122,
+              13.7206642
+            ],
+            [
+              -89.2224374,
+              13.7206639
+            ],
+            [
+              -89.2224363,
+              13.7205743
+            ],
+            [
+              -89.2222642,
+              13.7205764
+            ],
+            [
+              -89.2222654,
+              13.7206659
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1510169200",
+        "fuente_id": "way/1510169200",
+        "nombre": "Clinica y Laboratorio San Lucas",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1510169200",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71422304,-89.14119468"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1412557,
+              13.7143
+            ],
+            [
+              -89.1412134,
+              13.7142003
+            ],
+            [
+              -89.1411921,
+              13.7141501
+            ],
+            [
+              -89.1411756,
+              13.714111
+            ],
+            [
+              -89.1411262,
+              13.7141308
+            ],
+            [
+              -89.1411419,
+              13.7141674
+            ],
+            [
+              -89.1412029,
+              13.7143094
+            ],
+            [
+              -89.1412115,
+              13.7143294
+            ],
+            [
+              -89.1412627,
+              13.7143241
+            ],
+            [
+              -89.1412557,
+              13.7143
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-396788116",
+        "fuente_id": "way/396788116",
+        "nombre": "Clínicas Medicas",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Bernal",
+        "fuente_url": "https://www.openstreetmap.org/way/396788116",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72277805,-89.21685225"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2168179,
+              13.7227428
+            ],
+            [
+              -89.2168186,
+              13.7228139
+            ],
+            [
+              -89.2168866,
+              13.7228133
+            ],
+            [
+              -89.2168859,
+              13.7227422
+            ],
+            [
+              -89.2168179,
+              13.7227428
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399716396",
+        "fuente_id": "way/399716396",
+        "nombre": "Clínicas Medicas Integrales",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Calle Del Mirador",
+        "fuente_url": "https://www.openstreetmap.org/way/399716396",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70927509,-89.24333342"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2433694,
+              13.7093022
+            ],
+            [
+              -89.2433711,
+              13.7092501
+            ],
+            [
+              -89.2432973,
+              13.7092478
+            ],
+            [
+              -89.2432961,
+              13.7093004
+            ],
+            [
+              -89.2433694,
+              13.7093022
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399728582",
+        "fuente_id": "way/399728582",
+        "nombre": "Clínicas Médicas San Jorge",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "87 Avenida Norte",
+        "fuente_url": "https://www.openstreetmap.org/way/399728582",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7053725,-89.2410531"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2409764,
+              13.7054209
+            ],
+            [
+              -89.2411226,
+              13.7054302
+            ],
+            [
+              -89.2411298,
+              13.7053241
+            ],
+            [
+              -89.2409836,
+              13.7053148
+            ],
+            [
+              -89.2409764,
+              13.7054209
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-396752023",
+        "fuente_id": "way/396752023",
+        "nombre": "Electrolab Medic",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/396752023",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71435201,-89.21058435"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2108828,
+              13.7142989
+            ],
+            [
+              -89.2103467,
+              13.7142197
+            ],
+            [
+              -89.210305,
+              13.7143992
+            ],
+            [
+              -89.2104116,
+              13.7143992
+            ],
+            [
+              -89.2104349,
+              13.7144445
+            ],
+            [
+              -89.2106946,
+              13.7144833
+            ],
+            [
+              -89.2107929,
+              13.7144413
+            ],
+            [
+              -89.2108112,
+              13.7143992
+            ],
+            [
+              -89.2108611,
+              13.7144025
+            ],
+            [
+              -89.2108828,
+              13.7142989
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399546047",
+        "fuente_id": "way/399546047",
+        "nombre": "Grupo Carpio",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "87 Avenida Norte",
+        "fuente_url": "https://www.openstreetmap.org/way/399546047",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.705861,-89.24060374"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2407112,
+              13.7059787
+            ],
+            [
+              -89.2407193,
+              13.7058914
+            ],
+            [
+              -89.2406938,
+              13.7058914
+            ],
+            [
+              -89.2406991,
+              13.7057689
+            ],
+            [
+              -89.2405127,
+              13.7057468
+            ],
+            [
+              -89.2404899,
+              13.7059435
+            ],
+            [
+              -89.2406589,
+              13.7059565
+            ],
+            [
+              -89.2406562,
+              13.7059722
+            ],
+            [
+              -89.2407112,
+              13.7059787
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-395649862",
+        "fuente_id": "way/395649862",
+        "nombre": "Instituto Salvadoreño de Rehabilitación Integral",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/395649862",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67981622,-89.19824799"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1995611,
+              13.6784268
+            ],
+            [
+              -89.1991803,
+              13.6783408
+            ],
+            [
+              -89.1986934,
+              13.6783825
+            ],
+            [
+              -89.1986116,
+              13.6785897
+            ],
+            [
+              -89.1986143,
+              13.6788308
+            ],
+            [
+              -89.1984614,
+              13.6789546
+            ],
+            [
+              -89.1976179,
+              13.679193
+            ],
+            [
+              -89.1971699,
+              13.6790197
+            ],
+            [
+              -89.1969232,
+              13.6793533
+            ],
+            [
+              -89.1969688,
+              13.6797807
+            ],
+            [
+              -89.1973738,
+              13.6802185
+            ],
+            [
+              -89.1978445,
+              13.6811763
+            ],
+            [
+              -89.1987323,
+              13.6812362
+            ],
+            [
+              -89.1989764,
+              13.6806837
+            ],
+            [
+              -89.1989818,
+              13.6803632
+            ],
+            [
+              -89.1988651,
+              13.6798928
+            ],
+            [
+              -89.1995611,
+              13.6784268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-956429581",
+        "fuente_id": "way/956429581",
+        "nombre": "ISSS",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Instituto Salvadoreño del Seguro Social",
+        "fuente_url": "https://www.openstreetmap.org/way/956429581",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80116078,-89.18027028"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1812594,
+              13.8008564
+            ],
+            [
+              -89.1811434,
+              13.8008981
+            ],
+            [
+              -89.1810539,
+              13.800918
+            ],
+            [
+              -89.1807906,
+              13.8009356
+            ],
+            [
+              -89.1805356,
+              13.8009229
+            ],
+            [
+              -89.1801874,
+              13.800873
+            ],
+            [
+              -89.1799185,
+              13.8008362
+            ],
+            [
+              -89.179656,
+              13.8008081
+            ],
+            [
+              -89.179656,
+              13.8008458
+            ],
+            [
+              -89.1796217,
+              13.8008572
+            ],
+            [
+              -89.1796731,
+              13.8009562
+            ],
+            [
+              -89.1797798,
+              13.8011621
+            ],
+            [
+              -89.1798423,
+              13.801333
+            ],
+            [
+              -89.1798933,
+              13.8014458
+            ],
+            [
+              -89.1799227,
+              13.801509
+            ],
+            [
+              -89.1800528,
+              13.8015325
+            ],
+            [
+              -89.1802621,
+              13.8015424
+            ],
+            [
+              -89.1804547,
+              13.8015561
+            ],
+            [
+              -89.1805479,
+              13.8015486
+            ],
+            [
+              -89.1806448,
+              13.8015635
+            ],
+            [
+              -89.1806423,
+              13.801535
+            ],
+            [
+              -89.1806231,
+              13.8014755
+            ],
+            [
+              -89.1806308,
+              13.8012413
+            ],
+            [
+              -89.1806397,
+              13.8010555
+            ],
+            [
+              -89.1806487,
+              13.8010171
+            ],
+            [
+              -89.1808158,
+              13.8010282
+            ],
+            [
+              -89.1810506,
+              13.8010196
+            ],
+            [
+              -89.1812636,
+              13.8009774
+            ],
+            [
+              -89.1813032,
+              13.8009663
+            ],
+            [
+              -89.1812678,
+              13.8008774
+            ],
+            [
+              -89.1812594,
+              13.8008564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1510169204",
+        "fuente_id": "way/1510169204",
+        "nombre": "Laboratorio Clínico Alvarez",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1510169204",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71425035,-89.14105874"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1411177,
+              13.7143244
+            ],
+            [
+              -89.1410635,
+              13.7141993
+            ],
+            [
+              -89.1410451,
+              13.7141578
+            ],
+            [
+              -89.1410007,
+              13.7141754
+            ],
+            [
+              -89.1410464,
+              13.7142851
+            ],
+            [
+              -89.1410697,
+              13.7143409
+            ],
+            [
+              -89.1411177,
+              13.7143244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399333419",
+        "fuente_id": "way/399333419",
+        "nombre": "Laboratorio Clinico de Especialidades",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Paleca",
+        "fuente_url": "https://www.openstreetmap.org/way/399333419",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71784632,-89.16964076"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1696912,
+              13.7178942
+            ],
+            [
+              -89.169682,
+              13.7177907
+            ],
+            [
+              -89.1695901,
+              13.717798
+            ],
+            [
+              -89.1696001,
+              13.7179026
+            ],
+            [
+              -89.1696912,
+              13.7178942
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1222614954",
+        "fuente_id": "way/1222614954",
+        "nombre": "Medicentro La Esperanza",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1222614954",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71239451,-89.20426221"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2037145,
+              13.7127686
+            ],
+            [
+              -89.2046537,
+              13.7131121
+            ],
+            [
+              -89.2047903,
+              13.7118857
+            ],
+            [
+              -89.203815,
+              13.7117979
+            ],
+            [
+              -89.2037843,
+              13.7120964
+            ],
+            [
+              -89.2037145,
+              13.7127686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399719660",
+        "fuente_id": "way/399719660",
+        "nombre": "Multiclinicas Escalón",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "79 Avenida Norte, 4050",
+        "fuente_url": "https://www.openstreetmap.org/way/399719660",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70658399,-89.23544461"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2355219,
+              13.7067141
+            ],
+            [
+              -89.2355252,
+              13.7066749
+            ],
+            [
+              -89.2355006,
+              13.7066729
+            ],
+            [
+              -89.2355186,
+              13.7064601
+            ],
+            [
+              -89.2353826,
+              13.7064493
+            ],
+            [
+              -89.2353729,
+              13.7065642
+            ],
+            [
+              -89.2354133,
+              13.7065674
+            ],
+            [
+              -89.2354092,
+              13.7066158
+            ],
+            [
+              -89.2353679,
+              13.7066125
+            ],
+            [
+              -89.2353603,
+              13.7067023
+            ],
+            [
+              -89.2353901,
+              13.7067047
+            ],
+            [
+              -89.2355219,
+              13.7067141
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399732361",
+        "fuente_id": "way/399732361",
+        "nombre": "Neurolab",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "9 Calle Poniente",
+        "fuente_url": "https://www.openstreetmap.org/way/399732361",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70738625,-89.2337532"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2338062,
+              13.7072939
+            ],
+            [
+              -89.2337288,
+              13.7072886
+            ],
+            [
+              -89.2337269,
+              13.7073145
+            ],
+            [
+              -89.233664,
+              13.7073102
+            ],
+            [
+              -89.2336609,
+              13.7073518
+            ],
+            [
+              -89.2337349,
+              13.7073569
+            ],
+            [
+              -89.2337242,
+              13.7075047
+            ],
+            [
+              -89.2337905,
+              13.7075093
+            ],
+            [
+              -89.2338062,
+              13.7072939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1110611770",
+        "fuente_id": "way/1110611770",
+        "nombre": "Policlínico ISBM Mejicanos",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1110611770",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72126825,-89.19148321"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1915981,
+              13.7213473
+            ],
+            [
+              -89.1916352,
+              13.7212403
+            ],
+            [
+              -89.1914376,
+              13.7211949
+            ],
+            [
+              -89.1914352,
+              13.7212205
+            ],
+            [
+              -89.1913376,
+              13.7212059
+            ],
+            [
+              -89.191331,
+              13.7212938
+            ],
+            [
+              -89.1915981,
+              13.7213473
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1417682659",
+        "fuente_id": "way/1417682659",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1417682659",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71046868,-89.09100531"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.0912742,
+              13.7106772
+            ],
+            [
+              -89.0910313,
+              13.7103662
+            ],
+            [
+              -89.0908086,
+              13.7101876
+            ],
+            [
+              -89.0907345,
+              13.7103016
+            ],
+            [
+              -89.0909928,
+              13.7105457
+            ],
+            [
+              -89.0911641,
+              13.7107602
+            ],
+            [
+              -89.0912742,
+              13.7106772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-992320104",
+        "fuente_id": "way/992320104",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/992320104",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.79651481,-89.17826385"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1784249,
+              13.7968145
+            ],
+            [
+              -89.1784173,
+              13.7967334
+            ],
+            [
+              -89.1784158,
+              13.7962045
+            ],
+            [
+              -89.1781791,
+              13.7961382
+            ],
+            [
+              -89.1781654,
+              13.7963901
+            ],
+            [
+              -89.1780516,
+              13.7964815
+            ],
+            [
+              -89.1781351,
+              13.7968336
+            ],
+            [
+              -89.1784249,
+              13.7968145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1125737557",
+        "fuente_id": "way/1125737557",
+        "nombre": "Unidad Comunitaria de Salud Familiar \"Dr. Hugo Morán Quijada\"",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "FOSALUD",
+        "horario": "24/7",
+        "fuente_url": "https://www.openstreetmap.org/way/1125737557",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72843305,-89.18955668"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1897182,
+              13.7285111
+            ],
+            [
+              -89.1896821,
+              13.7284501
+            ],
+            [
+              -89.1897328,
+              13.7284074
+            ],
+            [
+              -89.1896465,
+              13.7282742
+            ],
+            [
+              -89.1896002,
+              13.7283015
+            ],
+            [
+              -89.1894752,
+              13.7282831
+            ],
+            [
+              -89.1893593,
+              13.7283677
+            ],
+            [
+              -89.1895396,
+              13.7286385
+            ],
+            [
+              -89.1897182,
+              13.7285111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-241553325",
+        "fuente_id": "way/241553325",
+        "nombre": "Unidad de Salud de Apopa",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/241553325",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8015534,-89.17783312"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1777458,
+              13.8014027
+            ],
+            [
+              -89.1776621,
+              13.8016018
+            ],
+            [
+              -89.1779205,
+              13.8017041
+            ],
+            [
+              -89.1780041,
+              13.801505
+            ],
+            [
+              -89.1777458,
+              13.8014027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1565058763",
+        "fuente_id": "way/1565058763",
+        "nombre": "Unidad de Salud Intermedia - Guadalupe",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/1565058763",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7029703,-89.14190957"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1422026,
+              13.7027757
+            ],
+            [
+              -89.1417235,
+              13.7027144
+            ],
+            [
+              -89.1416951,
+              13.7027216
+            ],
+            [
+              -89.1416766,
+              13.7027326
+            ],
+            [
+              -89.1416668,
+              13.7027485
+            ],
+            [
+              -89.14166,
+              13.7027808
+            ],
+            [
+              -89.1416446,
+              13.7029329
+            ],
+            [
+              -89.141622,
+              13.7031035
+            ],
+            [
+              -89.1416627,
+              13.7031719
+            ],
+            [
+              -89.142139,
+              13.7032358
+            ],
+            [
+              -89.1422026,
+              13.7027757
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1154156921",
+        "fuente_id": "way/1154156921",
+        "nombre": "Unidad de Salud Zacamil",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/1154156921",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73224386,-89.20475534"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.20488,
+              13.732604
+            ],
+            [
+              -89.2051538,
+              13.7320104
+            ],
+            [
+              -89.2044742,
+              13.7320054
+            ],
+            [
+              -89.2044382,
+              13.7320266
+            ],
+            [
+              -89.2044374,
+              13.7323974
+            ],
+            [
+              -89.2046999,
+              13.7325183
+            ],
+            [
+              -89.20488,
+              13.732604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-435993855",
+        "fuente_id": "way/435993855",
+        "nombre": "Centro de Salud Tutunichapa",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Municipal",
+        "fuente_url": "https://www.openstreetmap.org/way/435993855",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70286083,-89.20526777"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2055619,
+              13.7031108
+            ],
+            [
+              -89.2055974,
+              13.7027038
+            ],
+            [
+              -89.2049424,
+              13.7026535
+            ],
+            [
+              -89.2049256,
+              13.7028306
+            ],
+            [
+              -89.2049128,
+              13.7029663
+            ],
+            [
+              -89.2055619,
+              13.7031108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1151260239",
+        "fuente_id": "way/1151260239",
+        "nombre": "Hospital Amatepec ISSS",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/1151260239",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70039661,-89.16357217"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1638964,
+              13.7009164
+            ],
+            [
+              -89.1638651,
+              13.7001285
+            ],
+            [
+              -89.163795,
+              13.6992669
+            ],
+            [
+              -89.1637109,
+              13.6992325
+            ],
+            [
+              -89.1632729,
+              13.7003543
+            ],
+            [
+              -89.1631181,
+              13.700724
+            ],
+            [
+              -89.1630893,
+              13.7008422
+            ],
+            [
+              -89.163118,
+              13.7009423
+            ],
+            [
+              -89.1631635,
+              13.7010113
+            ],
+            [
+              -89.1632245,
+              13.7010588
+            ],
+            [
+              -89.1632827,
+              13.7010938
+            ],
+            [
+              -89.1633462,
+              13.7011068
+            ],
+            [
+              -89.1634754,
+              13.7010963
+            ],
+            [
+              -89.1638951,
+              13.7010621
+            ],
+            [
+              -89.1638964,
+              13.7009164
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-6880782",
+        "fuente_id": "relation/6880782",
+        "nombre": "Hospital Central",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/relation/6880782",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70450357,-89.20248469"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2023508,
+              13.7050333
+            ],
+            [
+              -89.2025615,
+              13.704938
+            ],
+            [
+              -89.2027722,
+              13.7047611
+            ],
+            [
+              -89.2028896,
+              13.704625
+            ],
+            [
+              -89.2030816,
+              13.7043528
+            ],
+            [
+              -89.2029812,
+              13.7040533
+            ],
+            [
+              -89.2029088,
+              13.7040828
+            ],
+            [
+              -89.2028738,
+              13.7040919
+            ],
+            [
+              -89.2027804,
+              13.7040987
+            ],
+            [
+              -89.2026777,
+              13.704101
+            ],
+            [
+              -89.2026216,
+              13.7041078
+            ],
+            [
+              -89.2025819,
+              13.7041146
+            ],
+            [
+              -89.2022086,
+              13.704217
+            ],
+            [
+              -89.2022083,
+              13.7042452
+            ],
+            [
+              -89.2018558,
+              13.7044072
+            ],
+            [
+              -89.2018254,
+              13.704414
+            ],
+            [
+              -89.2017974,
+              13.704405
+            ],
+            [
+              -89.2018791,
+              13.7045206
+            ],
+            [
+              -89.2020752,
+              13.7047702
+            ],
+            [
+              -89.2021406,
+              13.704845
+            ],
+            [
+              -89.2023508,
+              13.7050333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-961899128",
+        "fuente_id": "way/961899128",
+        "nombre": "Hospital Centro Ginecológico",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/961899128",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70907178,-89.20227166"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2021478,
+              13.7093333
+            ],
+            [
+              -89.2022079,
+              13.7092919
+            ],
+            [
+              -89.2022185,
+              13.7093064
+            ],
+            [
+              -89.2026189,
+              13.7090306
+            ],
+            [
+              -89.202596,
+              13.7089992
+            ],
+            [
+              -89.202509,
+              13.7090591
+            ],
+            [
+              -89.2024499,
+              13.7089781
+            ],
+            [
+              -89.2024682,
+              13.7089655
+            ],
+            [
+              -89.2023544,
+              13.7088095
+            ],
+            [
+              -89.2019885,
+              13.7090614
+            ],
+            [
+              -89.2020794,
+              13.7091859
+            ],
+            [
+              -89.2020914,
+              13.7091777
+            ],
+            [
+              -89.2021335,
+              13.7092354
+            ],
+            [
+              -89.2020955,
+              13.7092616
+            ],
+            [
+              -89.2021478,
+              13.7093333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-671283006",
+        "fuente_id": "way/671283006",
+        "nombre": "Hospital Divina Providencia",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/671283006",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71124512,-89.22349175"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2238833,
+              13.7118934
+            ],
+            [
+              -89.2243205,
+              13.7114009
+            ],
+            [
+              -89.2235159,
+              13.7108146
+            ],
+            [
+              -89.2233227,
+              13.710726
+            ],
+            [
+              -89.2230116,
+              13.7106765
+            ],
+            [
+              -89.2228748,
+              13.7108016
+            ],
+            [
+              -89.2226817,
+              13.7111429
+            ],
+            [
+              -89.2238833,
+              13.7118934
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-140084935",
+        "fuente_id": "way/140084935",
+        "nombre": "Hospital El Salvador",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Ministerio de Salud y Asistencia Social",
+        "fuente_url": "https://www.openstreetmap.org/way/140084935",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68852214,-89.23581905"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2384969,
+              13.6881575
+            ],
+            [
+              -89.2383895,
+              13.6879865
+            ],
+            [
+              -89.2381235,
+              13.6876047
+            ],
+            [
+              -89.238011,
+              13.6874601
+            ],
+            [
+              -89.2379773,
+              13.6874216
+            ],
+            [
+              -89.2377591,
+              13.6873841
+            ],
+            [
+              -89.2376819,
+              13.6873005
+            ],
+            [
+              -89.2376095,
+              13.6872022
+            ],
+            [
+              -89.2374315,
+              13.6869636
+            ],
+            [
+              -89.2374371,
+              13.6867606
+            ],
+            [
+              -89.2371954,
+              13.6864532
+            ],
+            [
+              -89.23716,
+              13.6864314
+            ],
+            [
+              -89.2370848,
+              13.6864314
+            ],
+            [
+              -89.2371029,
+              13.6864255
+            ],
+            [
+              -89.2370742,
+              13.6864276
+            ],
+            [
+              -89.2370464,
+              13.6864481
+            ],
+            [
+              -89.2368671,
+              13.6865847
+            ],
+            [
+              -89.2358024,
+              13.6873399
+            ],
+            [
+              -89.2353244,
+              13.6876897
+            ],
+            [
+              -89.2350406,
+              13.6878974
+            ],
+            [
+              -89.2348421,
+              13.6880414
+            ],
+            [
+              -89.2345155,
+              13.6882784
+            ],
+            [
+              -89.2344733,
+              13.688309
+            ],
+            [
+              -89.2341792,
+              13.6885238
+            ],
+            [
+              -89.2340397,
+              13.6886276
+            ],
+            [
+              -89.2334284,
+              13.6890721
+            ],
+            [
+              -89.2331513,
+              13.6892678
+            ],
+            [
+              -89.2330703,
+              13.689325
+            ],
+            [
+              -89.2335158,
+              13.6898751
+            ],
+            [
+              -89.2338204,
+              13.6901888
+            ],
+            [
+              -89.2340377,
+              13.6901771
+            ],
+            [
+              -89.2341812,
+              13.6902032
+            ],
+            [
+              -89.2344199,
+              13.6901917
+            ],
+            [
+              -89.234578,
+              13.6902592
+            ],
+            [
+              -89.2346772,
+              13.6903817
+            ],
+            [
+              -89.2347967,
+              13.6905133
+            ],
+            [
+              -89.2350274,
+              13.6903465
+            ],
+            [
+              -89.2352646,
+              13.6902409
+            ],
+            [
+              -89.2354148,
+              13.6901471
+            ],
+            [
+              -89.2355343,
+              13.6899803
+            ],
+            [
+              -89.2355544,
+              13.6897721
+            ],
+            [
+              -89.2354968,
+              13.6895165
+            ],
+            [
+              -89.236048,
+              13.6892767
+            ],
+            [
+              -89.2362291,
+              13.6890487
+            ],
+            [
+              -89.2364087,
+              13.6889471
+            ],
+            [
+              -89.2368674,
+              13.6888988
+            ],
+            [
+              -89.2372804,
+              13.6887698
+            ],
+            [
+              -89.2375353,
+              13.688719
+            ],
+            [
+              -89.2378799,
+              13.6886422
+            ],
+            [
+              -89.2381937,
+              13.6884597
+            ],
+            [
+              -89.2384969,
+              13.6881575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-6880781",
+        "fuente_id": "relation/6880781",
+        "nombre": "Hospital General del ISSS",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/relation/6880781",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70352336,-89.2034232"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2021982,
+              13.7036562
+            ],
+            [
+              -89.2022086,
+              13.704217
+            ],
+            [
+              -89.2025819,
+              13.7041146
+            ],
+            [
+              -89.2026216,
+              13.7041078
+            ],
+            [
+              -89.2026777,
+              13.704101
+            ],
+            [
+              -89.2027804,
+              13.7040987
+            ],
+            [
+              -89.2028738,
+              13.7040919
+            ],
+            [
+              -89.2029088,
+              13.7040828
+            ],
+            [
+              -89.2029812,
+              13.7040533
+            ],
+            [
+              -89.2030816,
+              13.7043528
+            ],
+            [
+              -89.2031566,
+              13.7045926
+            ],
+            [
+              -89.203174,
+              13.7046453
+            ],
+            [
+              -89.2033833,
+              13.7045409
+            ],
+            [
+              -89.2034238,
+              13.7045237
+            ],
+            [
+              -89.2034851,
+              13.7045084
+            ],
+            [
+              -89.2035501,
+              13.704496
+            ],
+            [
+              -89.2035919,
+              13.7044904
+            ],
+            [
+              -89.2036235,
+              13.7044882
+            ],
+            [
+              -89.2039949,
+              13.7045001
+            ],
+            [
+              -89.2042114,
+              13.7044955
+            ],
+            [
+              -89.204258,
+              13.704491
+            ],
+            [
+              -89.2042869,
+              13.7044825
+            ],
+            [
+              -89.2043163,
+              13.7044615
+            ],
+            [
+              -89.2043394,
+              13.704432
+            ],
+            [
+              -89.2043483,
+              13.7044002
+            ],
+            [
+              -89.204489,
+              13.7028554
+            ],
+            [
+              -89.2044884,
+              13.7028348
+            ],
+            [
+              -89.2044844,
+              13.7028121
+            ],
+            [
+              -89.2044783,
+              13.7027918
+            ],
+            [
+              -89.2044682,
+              13.702772
+            ],
+            [
+              -89.2044535,
+              13.7027487
+            ],
+            [
+              -89.2044287,
+              13.7027215
+            ],
+            [
+              -89.2044004,
+              13.7026985
+            ],
+            [
+              -89.2043781,
+              13.7026846
+            ],
+            [
+              -89.2043569,
+              13.7026716
+            ],
+            [
+              -89.2043315,
+              13.7026629
+            ],
+            [
+              -89.2043117,
+              13.7026574
+            ],
+            [
+              -89.2042956,
+              13.7026555
+            ],
+            [
+              -89.2041325,
+              13.7026367
+            ],
+            [
+              -89.2034864,
+              13.7025624
+            ],
+            [
+              -89.2033249,
+              13.7025569
+            ],
+            [
+              -89.2032819,
+              13.7025586
+            ],
+            [
+              -89.2032389,
+              13.7025633
+            ],
+            [
+              -89.2031297,
+              13.7025825
+            ],
+            [
+              -89.203052,
+              13.7026003
+            ],
+            [
+              -89.2029742,
+              13.7026242
+            ],
+            [
+              -89.2028958,
+              13.7026568
+            ],
+            [
+              -89.2028112,
+              13.702694
+            ],
+            [
+              -89.2024184,
+              13.7029157
+            ],
+            [
+              -89.2023825,
+              13.7033673
+            ],
+            [
+              -89.202232,
+              13.703362
+            ],
+            [
+              -89.2021982,
+              13.7036562
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-6539660",
+        "fuente_id": "relation/6539660",
+        "nombre": "Hospital Instituto del Cáncer",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/relation/6539660",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70114908,-89.20833309"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2081677,
+              13.7016227
+            ],
+            [
+              -89.2084377,
+              13.7016456
+            ],
+            [
+              -89.2085289,
+              13.7006488
+            ],
+            [
+              -89.2082761,
+              13.7006875
+            ],
+            [
+              -89.2081783,
+              13.7008365
+            ],
+            [
+              -89.2081758,
+              13.7008789
+            ],
+            [
+              -89.2082132,
+              13.7008807
+            ],
+            [
+              -89.2082055,
+              13.701013
+            ],
+            [
+              -89.2081681,
+              13.7010091
+            ],
+            [
+              -89.2081575,
+              13.7011912
+            ],
+            [
+              -89.2081677,
+              13.7016227
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-175606176",
+        "fuente_id": "way/175606176",
+        "nombre": "Hospital Medico Quirurgico ISSS",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/175606176",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70213787,-89.20710279"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2081955,
+              13.7027567
+            ],
+            [
+              -89.2082443,
+              13.7027469
+            ],
+            [
+              -89.2082785,
+              13.702729
+            ],
+            [
+              -89.2083077,
+              13.7027014
+            ],
+            [
+              -89.2083419,
+              13.7026664
+            ],
+            [
+              -89.2083639,
+              13.7026064
+            ],
+            [
+              -89.208434,
+              13.7018522
+            ],
+            [
+              -89.2084082,
+              13.7018138
+            ],
+            [
+              -89.2083708,
+              13.7017925
+            ],
+            [
+              -89.2083157,
+              13.7017874
+            ],
+            [
+              -89.2064036,
+              13.7016159
+            ],
+            [
+              -89.2056637,
+              13.7015456
+            ],
+            [
+              -89.2056188,
+              13.7020682
+            ],
+            [
+              -89.2058077,
+              13.702102
+            ],
+            [
+              -89.2059031,
+              13.7021439
+            ],
+            [
+              -89.2060962,
+              13.7023494
+            ],
+            [
+              -89.2061908,
+              13.7024964
+            ],
+            [
+              -89.2062816,
+              13.7025529
+            ],
+            [
+              -89.2064017,
+              13.7025812
+            ],
+            [
+              -89.2081955,
+              13.7027567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-446419890",
+        "fuente_id": "way/446419890",
+        "nombre": "Hospital Nacional de la Mujer \"Doctora Maria Isabel Rodriguez\"",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/446419890",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69066103,-89.20444691"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2055198,
+              13.6914733
+            ],
+            [
+              -89.2055268,
+              13.6912051
+            ],
+            [
+              -89.2055356,
+              13.6908665
+            ],
+            [
+              -89.2054298,
+              13.6908642
+            ],
+            [
+              -89.205407,
+              13.6908637
+            ],
+            [
+              -89.2053763,
+              13.6908587
+            ],
+            [
+              -89.2053126,
+              13.6908357
+            ],
+            [
+              -89.2052274,
+              13.6907971
+            ],
+            [
+              -89.2050807,
+              13.6907176
+            ],
+            [
+              -89.2049605,
+              13.6905906
+            ],
+            [
+              -89.2047698,
+              13.6902499
+            ],
+            [
+              -89.2047062,
+              13.6901152
+            ],
+            [
+              -89.2046642,
+              13.6900113
+            ],
+            [
+              -89.2045082,
+              13.689727
+            ],
+            [
+              -89.2041078,
+              13.6899741
+            ],
+            [
+              -89.2035261,
+              13.6900145
+            ],
+            [
+              -89.2034779,
+              13.6900267
+            ],
+            [
+              -89.2034352,
+              13.6900441
+            ],
+            [
+              -89.203409,
+              13.6900593
+            ],
+            [
+              -89.2033788,
+              13.6900798
+            ],
+            [
+              -89.2033546,
+              13.6901077
+            ],
+            [
+              -89.2033418,
+              13.6901364
+            ],
+            [
+              -89.2033264,
+              13.690173
+            ],
+            [
+              -89.2033035,
+              13.6902344
+            ],
+            [
+              -89.2032899,
+              13.6902894
+            ],
+            [
+              -89.2032568,
+              13.6905253
+            ],
+            [
+              -89.2033581,
+              13.6905454
+            ],
+            [
+              -89.2034137,
+              13.6905576
+            ],
+            [
+              -89.2035571,
+              13.6906004
+            ],
+            [
+              -89.203716,
+              13.6906694
+            ],
+            [
+              -89.2038331,
+              13.6907481
+            ],
+            [
+              -89.2039591,
+              13.6908561
+            ],
+            [
+              -89.2041552,
+              13.6910241
+            ],
+            [
+              -89.2043571,
+              13.6912042
+            ],
+            [
+              -89.2044885,
+              13.6913388
+            ],
+            [
+              -89.2045707,
+              13.6914376
+            ],
+            [
+              -89.2046092,
+              13.6914838
+            ],
+            [
+              -89.2046923,
+              13.6916212
+            ],
+            [
+              -89.2047428,
+              13.6915877
+            ],
+            [
+              -89.2047825,
+              13.6914865
+            ],
+            [
+              -89.2047976,
+              13.6914195
+            ],
+            [
+              -89.204809,
+              13.6912595
+            ],
+            [
+              -89.2051604,
+              13.6913857
+            ],
+            [
+              -89.2054608,
+              13.6916199
+            ],
+            [
+              -89.2054966,
+              13.6915585
+            ],
+            [
+              -89.2055084,
+              13.6915337
+            ],
+            [
+              -89.2055158,
+              13.6914997
+            ],
+            [
+              -89.2055198,
+              13.6914733
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1286180155",
+        "fuente_id": "way/1286180155",
+        "nombre": "Hospital Nacional Dr. José Antonio Saldaña",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Carretera a los Planes de Renderos",
+        "operador": "Gobierno de El Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/1286180155",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6473174,-89.19461032"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.194811,
+              13.6484284
+            ],
+            [
+              -89.1952945,
+              13.6483401
+            ],
+            [
+              -89.1961685,
+              13.6482033
+            ],
+            [
+              -89.1961314,
+              13.6477301
+            ],
+            [
+              -89.1962233,
+              13.6475933
+            ],
+            [
+              -89.1963562,
+              13.6476028
+            ],
+            [
+              -89.1964833,
+              13.6475439
+            ],
+            [
+              -89.1960962,
+              13.6473102
+            ],
+            [
+              -89.1961118,
+              13.6472
+            ],
+            [
+              -89.1961333,
+              13.6470879
+            ],
+            [
+              -89.1960805,
+              13.6469454
+            ],
+            [
+              -89.1959749,
+              13.6468352
+            ],
+            [
+              -89.1958791,
+              13.6468352
+            ],
+            [
+              -89.1956797,
+              13.6469359
+            ],
+            [
+              -89.1955682,
+              13.646991
+            ],
+            [
+              -89.1954881,
+              13.6470119
+            ],
+            [
+              -89.1949367,
+              13.6466907
+            ],
+            [
+              -89.1946336,
+              13.646647
+            ],
+            [
+              -89.1945319,
+              13.6463829
+            ],
+            [
+              -89.1939394,
+              13.6462537
+            ],
+            [
+              -89.1936207,
+              13.6459934
+            ],
+            [
+              -89.1934894,
+              13.6462802
+            ],
+            [
+              -89.1933501,
+              13.6465056
+            ],
+            [
+              -89.1933372,
+              13.646533
+            ],
+            [
+              -89.1931084,
+              13.6466375
+            ],
+            [
+              -89.1927134,
+              13.6472893
+            ],
+            [
+              -89.1929983,
+              13.647388
+            ],
+            [
+              -89.1933232,
+              13.6475053
+            ],
+            [
+              -89.1936494,
+              13.6476181
+            ],
+            [
+              -89.1939033,
+              13.6477468
+            ],
+            [
+              -89.1941314,
+              13.6479077
+            ],
+            [
+              -89.1943521,
+              13.6480543
+            ],
+            [
+              -89.194811,
+              13.6484284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-984041568",
+        "fuente_id": "way/984041568",
+        "nombre": "Hospital Nacional General y de Psiquiatría Dr. José Molina Martínez",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/984041568",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71412492,-89.1383422"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1401398,
+              13.7145306
+            ],
+            [
+              -89.1401411,
+              13.7145085
+            ],
+            [
+              -89.1401599,
+              13.7141389
+            ],
+            [
+              -89.1401635,
+              13.7141078
+            ],
+            [
+              -89.1401707,
+              13.7139934
+            ],
+            [
+              -89.1401436,
+              13.7138276
+            ],
+            [
+              -89.140136,
+              13.7137811
+            ],
+            [
+              -89.140159,
+              13.7135904
+            ],
+            [
+              -89.1398876,
+              13.7134674
+            ],
+            [
+              -89.1397774,
+              13.7134898
+            ],
+            [
+              -89.139553,
+              13.7134927
+            ],
+            [
+              -89.1391934,
+              13.7135664
+            ],
+            [
+              -89.1390019,
+              13.7134976
+            ],
+            [
+              -89.1388201,
+              13.7134747
+            ],
+            [
+              -89.1386356,
+              13.7133887
+            ],
+            [
+              -89.1385184,
+              13.7133255
+            ],
+            [
+              -89.1384918,
+              13.7133111
+            ],
+            [
+              -89.1381601,
+              13.7132471
+            ],
+            [
+              -89.1380825,
+              13.7132289
+            ],
+            [
+              -89.13805,
+              13.7132213
+            ],
+            [
+              -89.1380454,
+              13.7131176
+            ],
+            [
+              -89.1380443,
+              13.7129269
+            ],
+            [
+              -89.1377786,
+              13.7129121
+            ],
+            [
+              -89.1375922,
+              13.7129086
+            ],
+            [
+              -89.1373578,
+              13.7129375
+            ],
+            [
+              -89.1372826,
+              13.7129907
+            ],
+            [
+              -89.1372419,
+              13.7130866
+            ],
+            [
+              -89.1371732,
+              13.7131127
+            ],
+            [
+              -89.1370794,
+              13.7131054
+            ],
+            [
+              -89.1370075,
+              13.7132497
+            ],
+            [
+              -89.1368739,
+              13.7133289
+            ],
+            [
+              -89.1367597,
+              13.7132847
+            ],
+            [
+              -89.1366373,
+              13.7132909
+            ],
+            [
+              -89.1364689,
+              13.7133003
+            ],
+            [
+              -89.1364528,
+              13.7133602
+            ],
+            [
+              -89.136442,
+              13.7134488
+            ],
+            [
+              -89.1364447,
+              13.71354
+            ],
+            [
+              -89.1364796,
+              13.713626
+            ],
+            [
+              -89.1365225,
+              13.7137068
+            ],
+            [
+              -89.1365815,
+              13.7137615
+            ],
+            [
+              -89.1366298,
+              13.7138136
+            ],
+            [
+              -89.1366807,
+              13.7138787
+            ],
+            [
+              -89.1367612,
+              13.7140221
+            ],
+            [
+              -89.1368149,
+              13.7141393
+            ],
+            [
+              -89.1368819,
+              13.7142618
+            ],
+            [
+              -89.1369168,
+              13.7143426
+            ],
+            [
+              -89.1369812,
+              13.7144494
+            ],
+            [
+              -89.1370348,
+              13.7145302
+            ],
+            [
+              -89.1371153,
+              13.7145927
+            ],
+            [
+              -89.1371877,
+              13.714637
+            ],
+            [
+              -89.1372842,
+              13.7146683
+            ],
+            [
+              -89.137413,
+              13.7147412
+            ],
+            [
+              -89.1375417,
+              13.7148377
+            ],
+            [
+              -89.1376973,
+              13.714921
+            ],
+            [
+              -89.1378582,
+              13.7150122
+            ],
+            [
+              -89.1379709,
+              13.7151269
+            ],
+            [
+              -89.1380755,
+              13.7152598
+            ],
+            [
+              -89.1381962,
+              13.7153901
+            ],
+            [
+              -89.1383246,
+              13.7156192
+            ],
+            [
+              -89.1384904,
+              13.7155171
+            ],
+            [
+              -89.1386679,
+              13.7153969
+            ],
+            [
+              -89.1389341,
+              13.7152222
+            ],
+            [
+              -89.1391862,
+              13.7150566
+            ],
+            [
+              -89.1394548,
+              13.714891
+            ],
+            [
+              -89.1396976,
+              13.7147322
+            ],
+            [
+              -89.1399451,
+              13.7146097
+            ],
+            [
+              -89.1401398,
+              13.7145306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-6539661",
+        "fuente_id": "relation/6539661",
+        "nombre": "Hospital Nacional Rosales",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/relation/6539661",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70066241,-89.20659756"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2049574,
+              13.7005003
+            ],
+            [
+              -89.2048641,
+              13.7013042
+            ],
+            [
+              -89.2048638,
+              13.7013118
+            ],
+            [
+              -89.2048652,
+              13.7013212
+            ],
+            [
+              -89.2048683,
+              13.7013294
+            ],
+            [
+              -89.2048736,
+              13.7013367
+            ],
+            [
+              -89.204878,
+              13.7013397
+            ],
+            [
+              -89.2048854,
+              13.7013429
+            ],
+            [
+              -89.2048986,
+              13.7013453
+            ],
+            [
+              -89.2081677,
+              13.7016227
+            ],
+            [
+              -89.2081575,
+              13.7011912
+            ],
+            [
+              -89.2081681,
+              13.7010091
+            ],
+            [
+              -89.2082055,
+              13.701013
+            ],
+            [
+              -89.2082132,
+              13.7008807
+            ],
+            [
+              -89.2081758,
+              13.7008789
+            ],
+            [
+              -89.2081783,
+              13.7008365
+            ],
+            [
+              -89.2082761,
+              13.7006875
+            ],
+            [
+              -89.2085289,
+              13.7006488
+            ],
+            [
+              -89.2085854,
+              13.7000301
+            ],
+            [
+              -89.2085852,
+              13.7000196
+            ],
+            [
+              -89.2085827,
+              13.7000094
+            ],
+            [
+              -89.2085779,
+              13.6999971
+            ],
+            [
+              -89.2085685,
+              13.6999848
+            ],
+            [
+              -89.2085588,
+              13.6999783
+            ],
+            [
+              -89.2085444,
+              13.6999729
+            ],
+            [
+              -89.2085157,
+              13.6999682
+            ],
+            [
+              -89.2083273,
+              13.6999521
+            ],
+            [
+              -89.2079543,
+              13.69992
+            ],
+            [
+              -89.2079246,
+              13.7002481
+            ],
+            [
+              -89.2078968,
+              13.7002457
+            ],
+            [
+              -89.2078862,
+              13.7003632
+            ],
+            [
+              -89.207295,
+              13.7003129
+            ],
+            [
+              -89.2072368,
+              13.7000977
+            ],
+            [
+              -89.207238,
+              13.7000829
+            ],
+            [
+              -89.2072518,
+              13.6999272
+            ],
+            [
+              -89.2072579,
+              13.6998602
+            ],
+            [
+              -89.2050964,
+              13.6996692
+            ],
+            [
+              -89.2050842,
+              13.6996696
+            ],
+            [
+              -89.2050714,
+              13.6996711
+            ],
+            [
+              -89.2050609,
+              13.6996749
+            ],
+            [
+              -89.2050495,
+              13.6996809
+            ],
+            [
+              -89.2050403,
+              13.6996902
+            ],
+            [
+              -89.2050352,
+              13.6997006
+            ],
+            [
+              -89.2050321,
+              13.6997133
+            ],
+            [
+              -89.2049832,
+              13.7002116
+            ],
+            [
+              -89.2049719,
+              13.7003375
+            ],
+            [
+              -89.2049611,
+              13.7004593
+            ],
+            [
+              -89.2049574,
+              13.7005003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-199277541",
+        "fuente_id": "way/199277541",
+        "nombre": "ISSS 15 de Septiembre",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/199277541",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68895973,-89.20229515"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2027373,
+              13.6887349
+            ],
+            [
+              -89.2025794,
+              13.6887244
+            ],
+            [
+              -89.202456,
+              13.6887088
+            ],
+            [
+              -89.2022476,
+              13.6884706
+            ],
+            [
+              -89.2020153,
+              13.688519
+            ],
+            [
+              -89.2018262,
+              13.6888624
+            ],
+            [
+              -89.2019573,
+              13.6890209
+            ],
+            [
+              -89.2020976,
+              13.68927
+            ],
+            [
+              -89.2021666,
+              13.689527
+            ],
+            [
+              -89.2027082,
+              13.6891883
+            ],
+            [
+              -89.2027373,
+              13.6887349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-565558865",
+        "fuente_id": "way/565558865",
+        "nombre": "ISSS Atlacatl",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/565558865",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71238008,-89.17939893"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1796989,
+              13.7118032
+            ],
+            [
+              -89.1795795,
+              13.7118135
+            ],
+            [
+              -89.1789969,
+              13.7118639
+            ],
+            [
+              -89.1790786,
+              13.7127559
+            ],
+            [
+              -89.1793394,
+              13.7130501
+            ],
+            [
+              -89.1797763,
+              13.7128231
+            ],
+            [
+              -89.1797791,
+              13.7126788
+            ],
+            [
+              -89.1797453,
+              13.7123093
+            ],
+            [
+              -89.1796989,
+              13.7118032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-8030854",
+        "fuente_id": "relation/8030854",
+        "nombre": "ISSS Zacamil",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Calle Zacamil",
+        "fuente_url": "https://www.openstreetmap.org/relation/8030854",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.728169,-89.20400597"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2043918,
+              13.7284961
+            ],
+            [
+              -89.2044692,
+              13.7284944
+            ],
+            [
+              -89.2044603,
+              13.7283025
+            ],
+            [
+              -89.2044459,
+              13.7279942
+            ],
+            [
+              -89.2044408,
+              13.7278851
+            ],
+            [
+              -89.2044399,
+              13.7278704
+            ],
+            [
+              -89.2044363,
+              13.7278523
+            ],
+            [
+              -89.2044319,
+              13.7278402
+            ],
+            [
+              -89.2044177,
+              13.7278264
+            ],
+            [
+              -89.204407,
+              13.7278221
+            ],
+            [
+              -89.2043875,
+              13.7278204
+            ],
+            [
+              -89.20355,
+              13.7278434
+            ],
+            [
+              -89.203566,
+              13.7285143
+            ],
+            [
+              -89.2043918,
+              13.7284961
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-400832464",
+        "fuente_id": "way/400832464",
+        "nombre": "Policlinico ISSS Roma",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "6a 10a Calle",
+        "operador": "ISSS",
+        "fuente_url": "https://www.openstreetmap.org/way/400832464",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69439507,-89.22517755"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2252538,
+              13.6941803
+            ],
+            [
+              -89.2252031,
+              13.6941534
+            ],
+            [
+              -89.2251458,
+              13.6941497
+            ],
+            [
+              -89.2250426,
+              13.6941855
+            ],
+            [
+              -89.2249599,
+              13.6942353
+            ],
+            [
+              -89.2249987,
+              13.6943077
+            ],
+            [
+              -89.2251136,
+              13.6946568
+            ],
+            [
+              -89.2253959,
+              13.6945661
+            ],
+            [
+              -89.2252538,
+              13.6941803
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1154155567",
+        "fuente_id": "way/1154155567",
+        "nombre": "Sin nombre",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "fuente_url": "https://www.openstreetmap.org/way/1154155567",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72829523,-89.20586691"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2061567,
+              13.7283428
+            ],
+            [
+              -89.2061441,
+              13.7280761
+            ],
+            [
+              -89.2059282,
+              13.7280849
+            ],
+            [
+              -89.205798,
+              13.7280044
+            ],
+            [
+              -89.2056209,
+              13.7282873
+            ],
+            [
+              -89.2055897,
+              13.7283372
+            ],
+            [
+              -89.2055771,
+              13.7284075
+            ],
+            [
+              -89.2055695,
+              13.72845
+            ],
+            [
+              -89.205554,
+              13.7285366
+            ],
+            [
+              -89.2059603,
+              13.7285047
+            ],
+            [
+              -89.2061567,
+              13.7283428
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-6880783",
+        "fuente_id": "relation/6880783",
+        "nombre": "Unidad de Medicina Física y Rehabilitación del ISSS",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/relation/6880783",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70385371,-89.20178346"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2017974,
+              13.704405
+            ],
+            [
+              -89.2018254,
+              13.704414
+            ],
+            [
+              -89.2018558,
+              13.7044072
+            ],
+            [
+              -89.2022083,
+              13.7042452
+            ],
+            [
+              -89.2022086,
+              13.704217
+            ],
+            [
+              -89.2021982,
+              13.7036562
+            ],
+            [
+              -89.2020735,
+              13.7036496
+            ],
+            [
+              -89.2020293,
+              13.7036822
+            ],
+            [
+              -89.2018308,
+              13.7034451
+            ],
+            [
+              -89.2018308,
+              13.7032809
+            ],
+            [
+              -89.2015438,
+              13.7034229
+            ],
+            [
+              -89.2012608,
+              13.7035291
+            ],
+            [
+              -89.2012514,
+              13.7035343
+            ],
+            [
+              -89.2012373,
+              13.7035565
+            ],
+            [
+              -89.20123,
+              13.7035767
+            ],
+            [
+              -89.2012306,
+              13.7035917
+            ],
+            [
+              -89.2012371,
+              13.7036134
+            ],
+            [
+              -89.2015671,
+              13.7040799
+            ],
+            [
+              -89.2017974,
+              13.704405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1463787675",
+        "fuente_id": "way/1463787675",
+        "nombre": "Unidad de Salud Altavista",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/1463787675",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72468939,-89.10011016"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1005337,
+              13.7249306
+            ],
+            [
+              -89.1004809,
+              13.7245475
+            ],
+            [
+              -89.1003508,
+              13.7242908
+            ],
+            [
+              -89.0997613,
+              13.7243085
+            ],
+            [
+              -89.0997959,
+              13.7251537
+            ],
+            [
+              -89.1000987,
+              13.7250964
+            ],
+            [
+              -89.1001882,
+              13.7250214
+            ],
+            [
+              -89.1005337,
+              13.7249306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-241570026",
+        "fuente_id": "way/241570026",
+        "nombre": "Unidad de Salud Barrios",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/241570026",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6926899,-89.22977897"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2297647,
+              13.6924413
+            ],
+            [
+              -89.2295515,
+              13.6927892
+            ],
+            [
+              -89.2297969,
+              13.6929351
+            ],
+            [
+              -89.2300048,
+              13.692595
+            ],
+            [
+              -89.2297647,
+              13.6924413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-8043111",
+        "fuente_id": "relation/8043111",
+        "nombre": "Unidad de Salud Enfermera Margarita Montoya",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/relation/8043111",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68720608,-89.20760665"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2081586,
+              13.6874928
+            ],
+            [
+              -89.208173,
+              13.6873992
+            ],
+            [
+              -89.2081071,
+              13.6873205
+            ],
+            [
+              -89.2081307,
+              13.6871334
+            ],
+            [
+              -89.2080953,
+              13.6870694
+            ],
+            [
+              -89.207205,
+              13.6869185
+            ],
+            [
+              -89.2069743,
+              13.6873062
+            ],
+            [
+              -89.2081586,
+              13.6874928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1088723341",
+        "fuente_id": "way/1088723341",
+        "nombre": "Unidad de Salud Familiar de Ilopango",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/1088723341",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70530451,-89.10500476"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1051803,
+              13.705367
+            ],
+            [
+              -89.1051844,
+              13.7052643
+            ],
+            [
+              -89.1048144,
+              13.7052504
+            ],
+            [
+              -89.1048164,
+              13.7053354
+            ],
+            [
+              -89.1051803,
+              13.705367
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-586424593",
+        "fuente_id": "way/586424593",
+        "nombre": "Unidad de Salud San miguelito",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/586424593",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71089559,-89.18132418"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1811813,
+              13.7105135
+            ],
+            [
+              -89.1810757,
+              13.7112227
+            ],
+            [
+              -89.181467,
+              13.7112777
+            ],
+            [
+              -89.1815727,
+              13.7105685
+            ],
+            [
+              -89.1811813,
+              13.7105135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-983366115",
+        "fuente_id": "way/983366115",
+        "nombre": "Unidad Médica ISSS Ilopango",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "fuente_url": "https://www.openstreetmap.org/way/983366115",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69552483,-89.12895048"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1281424,
+              13.6949462
+            ],
+            [
+              -89.127976,
+              13.6953384
+            ],
+            [
+              -89.1282209,
+              13.6954895
+            ],
+            [
+              -89.1283965,
+              13.6956168
+            ],
+            [
+              -89.1286492,
+              13.6957964
+            ],
+            [
+              -89.1289665,
+              13.6960209
+            ],
+            [
+              -89.1291268,
+              13.6961316
+            ],
+            [
+              -89.1293101,
+              13.6962678
+            ],
+            [
+              -89.1293686,
+              13.6963127
+            ],
+            [
+              -89.1296012,
+              13.6960074
+            ],
+            [
+              -89.1297152,
+              13.6952411
+            ],
+            [
+              -89.1281424,
+              13.6949462
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399508125",
+        "fuente_id": "way/399508125",
+        "nombre": "Clínica de Ortopedia",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "4a Calle Oriente, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399508125",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80201134,-89.17755373"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1775864,
+              13.8020762
+            ],
+            [
+              -89.1776197,
+              13.801978
+            ],
+            [
+              -89.177521,
+              13.8019465
+            ],
+            [
+              -89.1774878,
+              13.8020447
+            ],
+            [
+              -89.1775864,
+              13.8020762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399529725",
+        "fuente_id": "way/399529725",
+        "nombre": "Clínica Médica",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Quirino Chávez Norte, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399529725",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80266938,-89.17849091"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1785246,
+              13.8027268
+            ],
+            [
+              -89.1785481,
+              13.8026335
+            ],
+            [
+              -89.1784572,
+              13.802612
+            ],
+            [
+              -89.1784337,
+              13.8027052
+            ],
+            [
+              -89.1785246,
+              13.8027268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399512912",
+        "fuente_id": "way/399512912",
+        "nombre": "Clínica Médica Dr. Pérez",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "3a Avenida Norte, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399512912",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8016127,-89.17739547"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1773483,
+              13.8016229
+            ],
+            [
+              -89.1774229,
+              13.8016513
+            ],
+            [
+              -89.1774426,
+              13.8016025
+            ],
+            [
+              -89.1773681,
+              13.8015741
+            ],
+            [
+              -89.1773483,
+              13.8016229
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399508133",
+        "fuente_id": "way/399508133",
+        "nombre": "Clínica Médica Familiar Climefac",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Prolongación 4a Avenida Norte, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399508133",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80366208,-89.17995048"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1800033,
+              13.8036816
+            ],
+            [
+              -89.1799994,
+              13.8036346
+            ],
+            [
+              -89.1798977,
+              13.8036425
+            ],
+            [
+              -89.1799016,
+              13.8036896
+            ],
+            [
+              -89.1800033,
+              13.8036816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399328311",
+        "fuente_id": "way/399328311",
+        "nombre": "Clínica Médica La Sagrada Familia",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Quirino Chávez, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399328311",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7978898,-89.17829758"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1783419,
+              13.7979181
+            ],
+            [
+              -89.1783339,
+              13.7978682
+            ],
+            [
+              -89.1783285,
+              13.7978467
+            ],
+            [
+              -89.1782523,
+              13.7978594
+            ],
+            [
+              -89.1782684,
+              13.797936
+            ],
+            [
+              -89.178303,
+              13.7979271
+            ],
+            [
+              -89.1783419,
+              13.7979181
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399328309",
+        "fuente_id": "way/399328309",
+        "nombre": "Clínica Médica Santa Catarina",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Quirino Chávez, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399328309",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.79764072,-89.1782492"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1782951,
+              13.7976963
+            ],
+            [
+              -89.1782711,
+              13.7975727
+            ],
+            [
+              -89.1782033,
+              13.7975852
+            ],
+            [
+              -89.1782273,
+              13.7977087
+            ],
+            [
+              -89.1782951,
+              13.7976963
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399538153",
+        "fuente_id": "way/399538153",
+        "nombre": "Clínica Municipal",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Prolongación 4a Avenida Norte, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399538153",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80442397,-89.17955244"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.179609,
+              13.804501
+            ],
+            [
+              -89.1796312,
+              13.8043683
+            ],
+            [
+              -89.1794959,
+              13.8043469
+            ],
+            [
+              -89.1794737,
+              13.8044797
+            ],
+            [
+              -89.179609,
+              13.804501
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399512903",
+        "fuente_id": "way/399512903",
+        "nombre": "Clínica Pediátrica María Auxiliadora",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "3a Avenida Sur, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399512903",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.79880276,-89.17824162"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1782743,
+              13.7988428
+            ],
+            [
+              -89.1782859,
+              13.7987752
+            ],
+            [
+              -89.178209,
+              13.7987627
+            ],
+            [
+              -89.1781973,
+              13.7988303
+            ],
+            [
+              -89.1782743,
+              13.7988428
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399328316",
+        "fuente_id": "way/399328316",
+        "nombre": "Clínica San Sebastián",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "3a Avenida Sur, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399328316",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7985925,-89.1781141"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1781457,
+              13.7986205
+            ],
+            [
+              -89.1781518,
+              13.7985729
+            ],
+            [
+              -89.1780825,
+              13.7985645
+            ],
+            [
+              -89.1780764,
+              13.7986121
+            ],
+            [
+              -89.1781457,
+              13.7986205
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-399542299",
+        "fuente_id": "way/399542299",
+        "nombre": "Emergencia Unidad Médica de Apopa",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Apopa",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "6a Calle Poniente, Apopa",
+        "fuente_url": "https://www.openstreetmap.org/way/399542299",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8034858,-89.1793232"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1793651,
+              13.8035324
+            ],
+            [
+              -89.1793792,
+              13.8034563
+            ],
+            [
+              -89.1792813,
+              13.8034392
+            ],
+            [
+              -89.1792672,
+              13.8035153
+            ],
+            [
+              -89.1793651,
+              13.8035324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-465545592",
+        "fuente_id": "way/465545592",
+        "nombre": "Clínica Comunal ISSS",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Cuscatancingo",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Calle Bolívar, 7, Cuscatancingo",
+        "telefono": "+503 2593 0008",
+        "horario": "07:00-16:00",
+        "fuente_url": "https://www.openstreetmap.org/way/465545592",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73182358,-89.18173219"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.181634,
+              13.7318923
+            ],
+            [
+              -89.1817272,
+              13.7318958
+            ],
+            [
+              -89.1817279,
+              13.7318775
+            ],
+            [
+              -89.1818165,
+              13.7318808
+            ],
+            [
+              -89.1818222,
+              13.7317333
+            ],
+            [
+              -89.1816379,
+              13.731791
+            ],
+            [
+              -89.181634,
+              13.7318923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1087599652",
+        "fuente_id": "way/1087599652",
+        "nombre": "Megacentro de Vacunacion",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "Distrito Municipal 4",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Alameda Presidente Doctor Manuel Enrique Araujo, Distrito Municipal 4",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/1087599652",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68607547,-89.23820514"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2389956,
+              13.6859344
+            ],
+            [
+              -89.238552,
+              13.6853694
+            ],
+            [
+              -89.2374885,
+              13.6861568
+            ],
+            [
+              -89.2374548,
+              13.6862129
+            ],
+            [
+              -89.2374668,
+              13.6862515
+            ],
+            [
+              -89.2378277,
+              13.6867923
+            ],
+            [
+              -89.2384769,
+              13.6863189
+            ],
+            [
+              -89.2384949,
+              13.6863051
+            ],
+            [
+              -89.2389956,
+              13.6859344
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-776399927",
+        "fuente_id": "way/776399927",
+        "nombre": "Unidad Comunitaria de Salud Familiar de Panchimalco",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "Panchimalco",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Panchimalco",
+        "fuente_url": "https://www.openstreetmap.org/way/776399927",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.61336383,-89.17851898"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1787697,
+              13.6135349
+            ],
+            [
+              -89.1787562,
+              13.6133756
+            ],
+            [
+              -89.1782476,
+              13.613172
+            ],
+            [
+              -89.1782037,
+              13.613282
+            ],
+            [
+              -89.1782662,
+              13.6132968
+            ],
+            [
+              -89.1783338,
+              13.6133198
+            ],
+            [
+              -89.1784064,
+              13.6133559
+            ],
+            [
+              -89.1785011,
+              13.6134298
+            ],
+            [
+              -89.1784774,
+              13.6134905
+            ],
+            [
+              -89.1785872,
+              13.6135037
+            ],
+            [
+              -89.1786836,
+              13.6135201
+            ],
+            [
+              -89.1787697,
+              13.6135349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-742336376",
+        "fuente_id": "way/742336376",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Rosario de Mora",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Avenida Central Sur, Rosario de Mora",
+        "fuente_url": "https://www.openstreetmap.org/way/742336376",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.57426404,-89.20686355"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2066565,
+              13.574318
+            ],
+            [
+              -89.2069493,
+              13.5744637
+            ],
+            [
+              -89.2069805,
+              13.5744044
+            ],
+            [
+              -89.2069192,
+              13.574374
+            ],
+            [
+              -89.2069862,
+              13.5742468
+            ],
+            [
+              -89.2070907,
+              13.5742988
+            ],
+            [
+              -89.207126,
+              13.5742318
+            ],
+            [
+              -89.2070318,
+              13.5741849
+            ],
+            [
+              -89.2070235,
+              13.5742007
+            ],
+            [
+              -89.2067817,
+              13.5740803
+            ],
+            [
+              -89.2066565,
+              13.574318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-398068432",
+        "fuente_id": "way/398068432",
+        "nombre": "Clínica Dental Osuna",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Bartolo",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard San Bartolo, San Bartolo",
+        "fuente_url": "https://www.openstreetmap.org/way/398068432",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70982783,-89.10458164"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1046208,
+              13.709844
+            ],
+            [
+              -89.1046149,
+              13.7098021
+            ],
+            [
+              -89.1045425,
+              13.7098117
+            ],
+            [
+              -89.1045483,
+              13.7098535
+            ],
+            [
+              -89.1046208,
+              13.709844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-398069342",
+        "fuente_id": "way/398069342",
+        "nombre": "Clínica Medica Economica",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Bartolo",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard San Bartolo, San Bartolo",
+        "fuente_url": "https://www.openstreetmap.org/way/398069342",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70762648,-89.10484293"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1049209,
+              13.7076434
+            ],
+            [
+              -89.1049176,
+              13.7075997
+            ],
+            [
+              -89.1047647,
+              13.7076099
+            ],
+            [
+              -89.1047678,
+              13.707653
+            ],
+            [
+              -89.1048469,
+              13.707648
+            ],
+            [
+              -89.1049209,
+              13.7076434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-398061438",
+        "fuente_id": "way/398061438",
+        "nombre": "Clínica San Pedro",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Bartolo",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard San Bartolo, San Bartolo",
+        "fuente_url": "https://www.openstreetmap.org/way/398061438",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70782595,-89.10522372"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1052842,
+              13.7078365
+            ],
+            [
+              -89.1052757,
+              13.707794
+            ],
+            [
+              -89.1051632,
+              13.7078154
+            ],
+            [
+              -89.1051718,
+              13.7078579
+            ],
+            [
+              -89.1052842,
+              13.7078365
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-398065405",
+        "fuente_id": "way/398065405",
+        "nombre": "Clinico de Diagnostico",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Bartolo",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "4 Avenida Norte, San Bartolo",
+        "fuente_url": "https://www.openstreetmap.org/way/398065405",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70285401,-89.10475301"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1046513,
+              13.7028822
+            ],
+            [
+              -89.104843,
+              13.7028915
+            ],
+            [
+              -89.1048465,
+              13.7028244
+            ],
+            [
+              -89.1046716,
+              13.7028159
+            ],
+            [
+              -89.1046513,
+              13.7028822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-398068433",
+        "fuente_id": "way/398068433",
+        "nombre": "Multi Clínica San Bartolo",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Bartolo",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard San Bartolo, San Bartolo",
+        "fuente_url": "https://www.openstreetmap.org/way/398068433",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70972063,-89.10458747"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.104619,
+              13.7097627
+            ],
+            [
+              -89.1046038,
+              13.7096711
+            ],
+            [
+              -89.1045559,
+              13.7096786
+            ],
+            [
+              -89.1045712,
+              13.7097702
+            ],
+            [
+              -89.104619,
+              13.7097627
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-766585972",
+        "fuente_id": "way/766585972",
+        "nombre": "Hospital Nacional de San Bartolo",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Bartolo",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Calle Francisco Meléndez, San Bartolo",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/766585972",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70430717,-89.10606832"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.106511,
+              13.7049967
+            ],
+            [
+              -89.1066478,
+              13.7037121
+            ],
+            [
+              -89.1063117,
+              13.7036847
+            ],
+            [
+              -89.105665,
+              13.7036319
+            ],
+            [
+              -89.1056178,
+              13.7036275
+            ],
+            [
+              -89.1056103,
+              13.7036616
+            ],
+            [
+              -89.1055981,
+              13.7038227
+            ],
+            [
+              -89.1054928,
+              13.704896
+            ],
+            [
+              -89.1055965,
+              13.7049066
+            ],
+            [
+              -89.1056655,
+              13.7049136
+            ],
+            [
+              -89.1056865,
+              13.7049157
+            ],
+            [
+              -89.1058966,
+              13.7049363
+            ],
+            [
+              -89.106511,
+              13.7049967
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1319139717",
+        "fuente_id": "way/1319139717",
+        "nombre": "Centro de Atención de Emergencias - San Martín",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Martín",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Carretera Panamericana, San Martín",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/1319139717",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73378961,-89.05877751"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.0590083,
+              13.7341948
+            ],
+            [
+              -89.0590838,
+              13.7339379
+            ],
+            [
+              -89.0591678,
+              13.733652
+            ],
+            [
+              -89.0589482,
+              13.7336313
+            ],
+            [
+              -89.0588277,
+              13.7333098
+            ],
+            [
+              -89.0583737,
+              13.7334666
+            ],
+            [
+              -89.0584444,
+              13.733601
+            ],
+            [
+              -89.0586156,
+              13.7339287
+            ],
+            [
+              -89.0585025,
+              13.7339619
+            ],
+            [
+              -89.0586543,
+              13.7342461
+            ],
+            [
+              -89.0590083,
+              13.7341948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-400818637",
+        "fuente_id": "way/400818637",
+        "nombre": "Clínica de Ginecología y Ultrasonografía",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Martín",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "4a Avenida, San Martín",
+        "fuente_url": "https://www.openstreetmap.org/way/400818637",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73818462,-89.05429669"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.0543343,
+              13.7382183
+            ],
+            [
+              -89.0543412,
+              13.7381611
+            ],
+            [
+              -89.0542541,
+              13.7381509
+            ],
+            [
+              -89.0542578,
+              13.7382108
+            ],
+            [
+              -89.0543343,
+              13.7382183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-400267833",
+        "fuente_id": "way/400267833",
+        "nombre": "Clínica Parroquial San Martín Obispo",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Martín",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "2a Avenida, San Martín",
+        "fuente_url": "https://www.openstreetmap.org/way/400267833",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73881347,-89.05501511"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.0550366,
+              13.7389325
+            ],
+            [
+              -89.0550471,
+              13.7388412
+            ],
+            [
+              -89.0550589,
+              13.738705
+            ],
+            [
+              -89.05499,
+              13.7386995
+            ],
+            [
+              -89.0549725,
+              13.7389115
+            ],
+            [
+              -89.0549924,
+              13.7389266
+            ],
+            [
+              -89.0550366,
+              13.7389325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-400850017",
+        "fuente_id": "way/400850017",
+        "nombre": "Centro Europeo de Cirugia Plastica",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard El Hipódromo, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/400850017",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6930584,-89.24363476"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2437703,
+              13.6931608
+            ],
+            [
+              -89.243771,
+              13.6930594
+            ],
+            [
+              -89.243737,
+              13.69305
+            ],
+            [
+              -89.2437375,
+              13.6929814
+            ],
+            [
+              -89.2434864,
+              13.6929797
+            ],
+            [
+              -89.2434855,
+              13.6931016
+            ],
+            [
+              -89.2436557,
+              13.6931028
+            ],
+            [
+              -89.2436553,
+              13.69316
+            ],
+            [
+              -89.2437703,
+              13.6931608
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-569821297",
+        "fuente_id": "way/569821297",
+        "nombre": "Centro Medico de Especialidades Bethoven",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Olímpica, 1029, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/569821297",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7011869,-89.2323237"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2323908,
+              13.7012703
+            ],
+            [
+              -89.2324068,
+              13.7011244
+            ],
+            [
+              -89.2322566,
+              13.7011035
+            ],
+            [
+              -89.2322406,
+              13.7012494
+            ],
+            [
+              -89.2323908,
+              13.7012703
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-569827650",
+        "fuente_id": "way/569827650",
+        "nombre": "Cirma",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "27 Avenida Norte, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/569827650",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70972914,-89.20543815"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2052937,
+              13.7098028
+            ],
+            [
+              -89.2055699,
+              13.7098184
+            ],
+            [
+              -89.2055834,
+              13.7096569
+            ],
+            [
+              -89.2053071,
+              13.7096386
+            ],
+            [
+              -89.2052937,
+              13.7098028
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-400049742",
+        "fuente_id": "way/400049742",
+        "nombre": "Multiclinica Santa Fé",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "27 Avenida Norte, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/400049742",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71120108,-89.20515974"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2049851,
+              13.7112868
+            ],
+            [
+              -89.2053138,
+              13.7113183
+            ],
+            [
+              -89.2053344,
+              13.7111154
+            ],
+            [
+              -89.2051346,
+              13.7110962
+            ],
+            [
+              -89.2050057,
+              13.7110838
+            ],
+            [
+              -89.2049851,
+              13.7112868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-545081538",
+        "fuente_id": "way/545081538",
+        "nombre": "Multiclínicas Escalón",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Calle Padres Aguilar, 307, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/545081538",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70063698,-89.23815955"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2381689,
+              13.7007321
+            ],
+            [
+              -89.238236,
+              13.7005757
+            ],
+            [
+              -89.2381502,
+              13.7005419
+            ],
+            [
+              -89.2380831,
+              13.7006982
+            ],
+            [
+              -89.2381689,
+              13.7007321
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-400850016",
+        "fuente_id": "way/400850016",
+        "nombre": "NovaLaser",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard El Hipódromo, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/400850016",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69288619,-89.24374063"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.243814,
+              13.6929552
+            ],
+            [
+              -89.2438164,
+              13.6928196
+            ],
+            [
+              -89.2436672,
+              13.6928172
+            ],
+            [
+              -89.2436649,
+              13.6929528
+            ],
+            [
+              -89.243814,
+              13.6929552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-529591187",
+        "fuente_id": "way/529591187",
+        "nombre": "Policlínico Magisterial",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Diagonal Hector Silva, San Salvador",
+        "horario": "Mo-Sa 07:00-14:00",
+        "fuente_url": "https://www.openstreetmap.org/way/529591187",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70663485,-89.20228709"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2023898,
+              13.7067155
+            ],
+            [
+              -89.2023965,
+              13.7065591
+            ],
+            [
+              -89.2021833,
+              13.7065539
+            ],
+            [
+              -89.2021793,
+              13.7067116
+            ],
+            [
+              -89.2023898,
+              13.7067155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-400850015",
+        "fuente_id": "way/400850015",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard El Hipódromo, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/400850015",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.692396,-89.2437702"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2438183,
+              13.6924823
+            ],
+            [
+              -89.2438329,
+              13.6923191
+            ],
+            [
+              -89.2437221,
+              13.6923097
+            ],
+            [
+              -89.2437075,
+              13.6924729
+            ],
+            [
+              -89.2438183,
+              13.6924823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-400282465",
+        "fuente_id": "way/400282465",
+        "nombre": "Stem Cell Center",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Avenida Alberto Masferrer sur, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/400282465",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69841815,-89.25012537"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2500025,
+              13.6984502
+            ],
+            [
+              -89.2502412,
+              13.6984694
+            ],
+            [
+              -89.2502482,
+              13.6983861
+            ],
+            [
+              -89.2500096,
+              13.6983669
+            ],
+            [
+              -89.2500025,
+              13.6984502
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-8776557",
+        "fuente_id": "relation/8776557",
+        "nombre": "Anexo Hospital Benjamin Bloom",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Boulevard de Los Héroes, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/relation/8776557",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71375862,-89.20575133"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2052752,
+              13.7136117
+            ],
+            [
+              -89.2053503,
+              13.7142844
+            ],
+            [
+              -89.206264,
+              13.7141564
+            ],
+            [
+              -89.2060882,
+              13.7133217
+            ],
+            [
+              -89.2057416,
+              13.7131035
+            ],
+            [
+              -89.2054299,
+              13.7134343
+            ],
+            [
+              -89.2053469,
+              13.7135286
+            ],
+            [
+              -89.2052752,
+              13.7136117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-436036743",
+        "fuente_id": "way/436036743",
+        "nombre": "Hospital 1 de Mayo",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "23 Avenida Sur, San Salvador",
+        "operador": "Instituto Salvadoreño del Seguro Social",
+        "fuente_url": "https://www.openstreetmap.org/way/436036743",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6999488,-89.2041426"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2038353,
+              13.7002657
+            ],
+            [
+              -89.204405,
+              13.7003213
+            ],
+            [
+              -89.2044416,
+              13.6999672
+            ],
+            [
+              -89.2044477,
+              13.6999079
+            ],
+            [
+              -89.2044619,
+              13.6997704
+            ],
+            [
+              -89.2044758,
+              13.6996351
+            ],
+            [
+              -89.2041901,
+              13.6996073
+            ],
+            [
+              -89.2038794,
+              13.699577
+            ],
+            [
+              -89.2038651,
+              13.699716
+            ],
+            [
+              -89.2038639,
+              13.699728
+            ],
+            [
+              -89.2038442,
+              13.6999186
+            ],
+            [
+              -89.2038121,
+              13.7002301
+            ],
+            [
+              -89.2038353,
+              13.7002657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-relation-8776526",
+        "fuente_id": "relation/8776526",
+        "nombre": "Hospital Benjamín Bloom",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/relation/8776526",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71418235,-89.20395869"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2046046,
+              13.7139384
+            ],
+            [
+              -89.2043877,
+              13.713791
+            ],
+            [
+              -89.204326,
+              13.7137467
+            ],
+            [
+              -89.2042991,
+              13.7137298
+            ],
+            [
+              -89.2042567,
+              13.7137075
+            ],
+            [
+              -89.2042246,
+              13.7136958
+            ],
+            [
+              -89.2041642,
+              13.7136762
+            ],
+            [
+              -89.204085,
+              13.7136566
+            ],
+            [
+              -89.2040423,
+              13.7136477
+            ],
+            [
+              -89.2039884,
+              13.7136398
+            ],
+            [
+              -89.2036784,
+              13.713606
+            ],
+            [
+              -89.2036714,
+              13.7136075
+            ],
+            [
+              -89.203666,
+              13.7136112
+            ],
+            [
+              -89.203663,
+              13.713618
+            ],
+            [
+              -89.2035525,
+              13.7147605
+            ],
+            [
+              -89.2035523,
+              13.7147889
+            ],
+            [
+              -89.2035535,
+              13.7148079
+            ],
+            [
+              -89.2035589,
+              13.7148302
+            ],
+            [
+              -89.2035658,
+              13.7148496
+            ],
+            [
+              -89.2035779,
+              13.7148689
+            ],
+            [
+              -89.2035939,
+              13.7148868
+            ],
+            [
+              -89.2036132,
+              13.714901
+            ],
+            [
+              -89.2036295,
+              13.7149112
+            ],
+            [
+              -89.203653,
+              13.7149193
+            ],
+            [
+              -89.2036725,
+              13.7149234
+            ],
+            [
+              -89.2036999,
+              13.7149255
+            ],
+            [
+              -89.2037206,
+              13.7149259
+            ],
+            [
+              -89.2037393,
+              13.7149233
+            ],
+            [
+              -89.2037592,
+              13.7149151
+            ],
+            [
+              -89.2037811,
+              13.7149015
+            ],
+            [
+              -89.2038042,
+              13.7148811
+            ],
+            [
+              -89.2038235,
+              13.7148602
+            ],
+            [
+              -89.2046046,
+              13.7139384
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-290097619",
+        "fuente_id": "way/290097619",
+        "nombre": "Hospital de La Mujer",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "83 Avenida Sur, San Salvador",
+        "fuente_url": "https://www.openstreetmap.org/way/290097619",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70200292,-89.23790706"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2380756,
+              13.7022035
+            ],
+            [
+              -89.2381467,
+              13.7022087
+            ],
+            [
+              -89.2383076,
+              13.7022205
+            ],
+            [
+              -89.2383421,
+              13.7019453
+            ],
+            [
+              -89.2383448,
+              13.7019232
+            ],
+            [
+              -89.2383492,
+              13.7018478
+            ],
+            [
+              -89.2383331,
+              13.7018061
+            ],
+            [
+              -89.2382889,
+              13.7017618
+            ],
+            [
+              -89.2379777,
+              13.7016641
+            ],
+            [
+              -89.2377873,
+              13.701595
+            ],
+            [
+              -89.2376907,
+              13.7015872
+            ],
+            [
+              -89.237621,
+              13.7016224
+            ],
+            [
+              -89.2375955,
+              13.7016784
+            ],
+            [
+              -89.2375217,
+              13.7023599
+            ],
+            [
+              -89.2377472,
+              13.7023793
+            ],
+            [
+              -89.238066,
+              13.7023964
+            ],
+            [
+              -89.2380679,
+              13.7023625
+            ],
+            [
+              -89.2380718,
+              13.7022944
+            ],
+            [
+              -89.2380751,
+              13.7022209
+            ],
+            [
+              -89.2380756,
+              13.7022035
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-316324664",
+        "fuente_id": "way/316324664",
+        "nombre": "Hospital Militar",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Avenida Bernal, San Salvador",
+        "operador": "FAES",
+        "fuente_url": "https://www.openstreetmap.org/way/316324664",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.718916,-89.21575386"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.216588,
+              13.7195653
+            ],
+            [
+              -89.2165745,
+              13.7187969
+            ],
+            [
+              -89.2165658,
+              13.7183015
+            ],
+            [
+              -89.2164995,
+              13.7182653
+            ],
+            [
+              -89.2163707,
+              13.7182769
+            ],
+            [
+              -89.2158578,
+              13.718322
+            ],
+            [
+              -89.2149014,
+              13.7180832
+            ],
+            [
+              -89.2150204,
+              13.7195102
+            ],
+            [
+              -89.2155528,
+              13.7196645
+            ],
+            [
+              -89.216588,
+              13.7195653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1562066519",
+        "fuente_id": "way/1562066519",
+        "nombre": "Hospital Policlinico Policial",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "23 Avenida Norte, 1301, San Salvador",
+        "horario": "Mo-Fr 09:00-16:00; Sa-Su 09:00-14:00",
+        "fuente_url": "https://www.openstreetmap.org/way/1562066519",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71245547,-89.20216837"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2023175,
+              13.7125822
+            ],
+            [
+              -89.2023413,
+              13.7123468
+            ],
+            [
+              -89.2020131,
+              13.7123322
+            ],
+            [
+              -89.2019947,
+              13.7125552
+            ],
+            [
+              -89.2022745,
+              13.7125854
+            ],
+            [
+              -89.2022756,
+              13.7125795
+            ],
+            [
+              -89.2023175,
+              13.7125822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-39317434",
+        "fuente_id": "way/39317434",
+        "nombre": "Hospital Rosales",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "San Salvador",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "San Salvador",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/39317434",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70087104,-89.20422545"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2046076,
+              13.701317
+            ],
+            [
+              -89.2046294,
+              13.7013096
+            ],
+            [
+              -89.2046431,
+              13.7012972
+            ],
+            [
+              -89.2046511,
+              13.7012824
+            ],
+            [
+              -89.204682,
+              13.7009474
+            ],
+            [
+              -89.2047194,
+              13.7005415
+            ],
+            [
+              -89.2047169,
+              13.7005276
+            ],
+            [
+              -89.2047088,
+              13.7005154
+            ],
+            [
+              -89.2047003,
+              13.7005086
+            ],
+            [
+              -89.2046883,
+              13.7005032
+            ],
+            [
+              -89.20385,
+              13.7004235
+            ],
+            [
+              -89.2038337,
+              13.7004269
+            ],
+            [
+              -89.2038222,
+              13.7004331
+            ],
+            [
+              -89.2038155,
+              13.7004367
+            ],
+            [
+              -89.2038074,
+              13.7004538
+            ],
+            [
+              -89.2037563,
+              13.7009589
+            ],
+            [
+              -89.2037436,
+              13.7009578
+            ],
+            [
+              -89.2037214,
+              13.7011947
+            ],
+            [
+              -89.2037254,
+              13.7012128
+            ],
+            [
+              -89.2037408,
+              13.7012293
+            ],
+            [
+              -89.2037641,
+              13.7012348
+            ],
+            [
+              -89.2046076,
+              13.701317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-395638737",
+        "fuente_id": "way/395638737",
+        "nombre": "Cruz Verde Salvadoreña",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Santa Anita",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "17 Avenida Sur, Santa Anita",
+        "telefono": "2130 7653",
+        "fuente_url": "https://www.openstreetmap.org/way/395638737",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68677266,-89.20116497"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.2010953,
+              13.6868349
+            ],
+            [
+              -89.2011114,
+              13.6868336
+            ],
+            [
+              -89.2011118,
+              13.6868549
+            ],
+            [
+              -89.2011489,
+              13.6868528
+            ],
+            [
+              -89.2011477,
+              13.6868329
+            ],
+            [
+              -89.2012448,
+              13.6868273
+            ],
+            [
+              -89.2012372,
+              13.6867039
+            ],
+            [
+              -89.2010878,
+              13.6867125
+            ],
+            [
+              -89.2010953,
+              13.6868349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1564730283",
+        "fuente_id": "way/1564730283",
+        "nombre": "Clínica El Carmelo",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "SOYAPANGO",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Anden G, 32, SOYAPANGO",
+        "fuente_url": "https://www.openstreetmap.org/way/1564730283",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71418299,-89.1500137"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.150092,
+              13.7141965
+            ],
+            [
+              -89.1499872,
+              13.7139601
+            ],
+            [
+              -89.1497885,
+              13.7140199
+            ],
+            [
+              -89.1498794,
+              13.7142713
+            ],
+            [
+              -89.1502923,
+              13.7143971
+            ],
+            [
+              -89.1501875,
+              13.7141666
+            ],
+            [
+              -89.150092,
+              13.7141965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-1107820439",
+        "fuente_id": "way/1107820439",
+        "nombre": "Unidad de Salud de Soyapango",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "Soyapango",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Calle La Fuente, Soyapango",
+        "operador": "Ministerio de Salud",
+        "fuente_url": "https://www.openstreetmap.org/way/1107820439",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71421831,-89.14045959"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1401707,
+              13.7139934
+            ],
+            [
+              -89.1401635,
+              13.7141078
+            ],
+            [
+              -89.1401599,
+              13.7141389
+            ],
+            [
+              -89.1401411,
+              13.7145085
+            ],
+            [
+              -89.1403194,
+              13.7144336
+            ],
+            [
+              -89.140405,
+              13.714405
+            ],
+            [
+              -89.1405647,
+              13.714373
+            ],
+            [
+              -89.1408738,
+              13.7143473
+            ],
+            [
+              -89.1407646,
+              13.71404
+            ],
+            [
+              -89.1401707,
+              13.7139934
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-446923600",
+        "fuente_id": "way/446923600",
+        "nombre": "Unidad Médica Soyapango-ISSS",
+        "tipo": "Hospital",
+        "tipo_general": "Hospital",
+        "departamento": "San Salvador",
+        "municipio": "Soyapango",
+        "sector": "Público",
+        "es_privado": "No",
+        "direccion": "Soyapango",
+        "fuente_url": "https://www.openstreetmap.org/way/446923600",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71405737,-89.14673234"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.147414,
+              13.7143262
+            ],
+            [
+              -89.1474157,
+              13.7133948
+            ],
+            [
+              -89.1460893,
+              13.7136943
+            ],
+            [
+              -89.146022,
+              13.7137131
+            ],
+            [
+              -89.1459761,
+              13.7137459
+            ],
+            [
+              -89.145953,
+              13.7137837
+            ],
+            [
+              -89.1459798,
+              13.7139233
+            ],
+            [
+              -89.1460832,
+              13.7143521
+            ],
+            [
+              -89.1461775,
+              13.7147285
+            ],
+            [
+              -89.1474145,
+              13.7144323
+            ],
+            [
+              -89.147414,
+              13.7143262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fuente": "OSM / Overpass",
+        "id": "overpass-way-700260772",
+        "fuente_id": "way/700260772",
+        "nombre": "USCF Tonacatepeque",
+        "tipo": "Clínica",
+        "tipo_general": "Clínica",
+        "departamento": "San Salvador",
+        "municipio": "Tonacatepeque",
+        "sector": "No determinado",
+        "es_privado": "No determinado",
+        "direccion": "Calle a Tacuazinapa, Tonacatepeque",
+        "horario": "24/7",
+        "fuente_url": "https://www.openstreetmap.org/way/700260772",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.77721651,-89.11402453"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.1142943,
+              13.7775274
+            ],
+            [
+              -89.1140572,
+              13.7769018
+            ],
+            [
+              -89.1136926,
+              13.776998
+            ],
+            [
+              -89.1137705,
+              13.7771596
+            ],
+            [
+              -89.1139227,
+              13.7771389
+            ],
+            [
+              -89.1140253,
+              13.7775549
+            ],
+            [
+              -89.1142943,
+              13.7775274
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
