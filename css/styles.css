@@ -103,6 +103,107 @@ body {
   background: var(--border);
 }
 
+.map-search {
+  position: relative;
+  z-index: 10;
+  flex: none;
+  padding: 7px 8px;
+  background: var(--chrome);
+  border-bottom: 1px solid var(--border);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.search-field {
+  display: flex;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #aeb8c0;
+  border-radius: 3px;
+}
+
+.search-field:focus-within {
+  border-color: #3584c8;
+  box-shadow: 0 0 0 2px rgba(53, 132, 200, 0.16);
+}
+
+.search-field input {
+  width: 100%;
+  min-width: 0;
+  padding: 0 7px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+}
+
+.search-field input::placeholder { color: #77828b; }
+
+.search-field button {
+  width: 28px;
+  flex: none;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink-soft);
+  font: 20px/1 "Segoe UI", sans-serif;
+  cursor: pointer;
+}
+
+.search-field button:hover { color: var(--ink); }
+
+.search-results {
+  position: absolute;
+  top: calc(100% - 2px);
+  right: 8px;
+  left: 8px;
+  max-height: 320px;
+  overflow: auto;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 4px 10px rgba(31, 41, 51, 0.18);
+}
+
+.search-result {
+  display: block;
+  width: 100%;
+  padding: 7px 9px;
+  border: 0;
+  border-bottom: 1px solid #edf0f2;
+  background: #fff;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.search-result:last-child { border-bottom: 0; }
+.search-result:hover,
+.search-result.is-active { background: var(--hover); }
+.search-result-name { display: block; font-weight: 600; }
+.search-result-detail {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.search-empty {
+  padding: 9px;
+  color: var(--ink-soft);
+}
+
 /* Layer tree */
 
 .tree {

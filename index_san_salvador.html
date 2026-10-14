@@ -28,6 +28,23 @@
           </button>
         </div>
       </header>
+      <div class="map-search">
+        <label class="visually-hidden" for="map-search-input">Buscar unidad de salud</label>
+        <div class="search-field">
+          <input
+            id="map-search-input"
+            type="search"
+            placeholder="Buscar unidad de salud…"
+            autocomplete="off"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-expanded="false"
+            aria-controls="map-search-results"
+          >
+          <button id="map-search-clear" type="button" aria-label="Limpiar búsqueda" title="Limpiar búsqueda">×</button>
+        </div>
+        <div id="map-search-results" class="search-results" role="listbox" aria-label="Resultados de búsqueda" hidden></div>
+      </div>
       <div class="tree" id="layers" role="tree"></div>
     </section>
   </aside>
@@ -47,7 +64,7 @@
   <script src="data/mapa_san_salvador/overpass.js"></script>
   <script src="data/mapa_san_salvador/geofabrik.js"></script>
   <script src="data/mapa_san_salvador/hot.js"></script>
-  <script src="data/mapa_san_salvador/unidades_salud_deduplicadas.js"></script>
+  <script src="data/mapa_san_salvador/unidades_salud_sin_privados_sin_superposiciones.js"></script>
   <script src="data/mapa_san_salvador/departamento.js"></script>
   <script src="js/app_san_salvador.js"></script>
 </body>

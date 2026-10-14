@@ -3,15 +3,17 @@ const SAN_SALVADOR_BOUNDS = [
   [14.0647772, -89.025446]
 ];
 
-const SOURCE_ORDER = ["unificado", "minsal", "osm", "geofabrik", "hot"];
+const FILTERED_SOURCE_IDS = ["unificado_poligonos", "unificado_puntos"];
+const SOURCE_ORDER = [...FILTERED_SOURCE_IDS, "minsal", "osm", "geofabrik", "hot"];
 const ADMINISTRATIVE_ORDER = ["departamentos"];
 
 const SOURCE = {
-  unificado: { color: "#0f766e", label: "Unificado (sin duplicados)", hint: "256 establecimientos únicos · incluye centroides de 131 polígonos" },
-  minsal: { color: "#1f8a70", label: "MINSAL", hint: "San Salvador · establecimientos filtrados" },
-  osm: { color: "#c45c26", label: "OSM / Overpass", hint: "San Salvador · establecimientos filtrados" },
-  geofabrik: { color: "#2458a6", label: "Geofabrik", hint: "San Salvador · establecimientos filtrados" },
-  hot: { color: "#a21caf", label: "HOT / HDX", hint: "San Salvador · establecimientos filtrados" }
+  unificado_poligonos: { color: "#0f766e", label: "Polígonos depurados", hint: "Sin privados lucrativos ni edificios internos · los centroides acompañan a cada polígono" },
+  unificado_puntos: { color: "#d97706", label: "Puntos depurados", hint: "Sin privados lucrativos ni puntos superpuestos con polígonos" },
+  minsal: { color: "#1f8a70", label: "MINSAL", hint: "Registros vinculados con la capa principal filtrada" },
+  osm: { color: "#c45c26", label: "OSM / Overpass", hint: "Registros vinculados con la capa principal filtrada" },
+  geofabrik: { color: "#2458a6", label: "Geofabrik", hint: "Registros vinculados con la capa principal filtrada" },
+  hot: { color: "#a21caf", label: "HOT / HDX", hint: "Registros vinculados con la capa principal filtrada" }
 };
 
 const ADMINISTRATIVE = {
@@ -63,15 +65,30 @@ map.getPane("administrativePane").style.zIndex = 350;
 map.attributionControl.addAttribution('Límite: <a href="https://www.geoboundaries.org/" target="_blank" rel="noopener">geoBoundaries</a> / OpenStreetMap');
 
 const vectorLayers = {};
-const members = { unificado: [], minsal: [], osm: [], geofabrik: [], hot: [] };
+const members = Object.fromEntries(SOURCE_ORDER.map((sourceId) => [sourceId, []]));
 const collections = {};
-const typeOn = { unificado: {}, minsal: {}, osm: {}, geofabrik: {}, hot: {} };
-const extraOn = { unificado: "all", minsal: "all", osm: "all", geofabrik: "all", hot: "all" };
-const layerEnabled = { unificado: true, minsal: false, osm: false, geofabrik: false, hot: false };
+const typeOn = Object.fromEntries(SOURCE_ORDER.map((sourceId) => [sourceId, {}]));
+const extraOn = Object.fromEntries(SOURCE_ORDER.map((sourceId) => [sourceId, "all"]));
+const layerEnabled = Object.fromEntries(SOURCE_ORDER.map((sourceId) => (
+  [sourceId, FILTERED_SOURCE_IDS.includes(sourceId)]
+)));
 const administrativeEnabled = { departamentos: true };
-const expanded = { fuentes: true, limites: true, bases: true, unificado: true, minsal: false, osm: false, geofabrik: false, hot: false };
+const expanded = {
+  fuentes: true,
+  limites: true,
+  bases: true,
+  unificado_poligonos: true,
+  unificado_puntos: true,
+  minsal: false,
+  osm: false,
+  geofabrik: false,
+  hot: false
+};
 let activeBase = "osm";
-let selectedLayer = "unificado";
+let selectedLayer = "unificado_poligonos";
+let searchIndex = [];
+let searchMatches = [];
+let activeSearchResult = -1;
 
 const ICONS = {
   folder: '<svg viewBox="0 0 16 16"><path d="M1.5 3.5h5l1.5 1.5h6.5v8h-13z" fill="#f2c94c" stroke="#b8902a"/></svg>',
@@ -80,14 +97,14 @@ const ICONS = {
 };
 
 function extraKey(sourceId) {
-  if (sourceId === "unificado") return "fuente_conservada";
+  if (FILTERED_SOURCE_IDS.includes(sourceId)) return "fuente_conservada";
   if (sourceId === "minsal") return "region";
   if (sourceId === "geofabrik" || sourceId === "hot") return "detalle";
   return null;
 }
 
 function extraCaption(sourceId) {
-  if (sourceId === "unificado") return "Fuente principal";
+  if (FILTERED_SOURCE_IDS.includes(sourceId)) return "Fuente principal";
   if (sourceId === "minsal") return "Región";
   if (sourceId === "geofabrik" || sourceId === "hot") return "Geometría";
   return "";
@@ -159,6 +176,10 @@ function escapeHtml(value) {
   })[character]);
 }
 
+function isPointSource(sourceId) {
+  return sourceId === "minsal" || sourceId === "unificado_puntos";
+}
+
 function externalLink(url, label) {
   if (!url) return "";
   try {
@@ -172,18 +193,27 @@ function externalLink(url, label) {
 
 function popupHtml(p) {
   if (!p) return "";
+  const rectifiedType = p.tipo_rectificado || p.tipo;
+  const investigatedSector = p.sector_investigado || p.sector;
+  const originalName = p.nombre_original && p.nombre_original !== p.nombre ? p.nombre_original : "";
+  const originalType = p.tipo_original && p.tipo_original !== rectifiedType ? p.tipo_original : "";
   const rows = [
     ["Fuente", p.fuente],
     ["Fuente principal", p.fuente_conservada],
     ["Fuentes coincidentes", p.fuentes_coincidentes],
     ["Registros combinados", p.cantidad_fuentes],
-    ["Representación", p.representacion],
+    ["Representación", p.representacion || p.detalle],
     ["Método centroide", p.centroide_metodo],
-    ["Tipo", p.tipo],
+    ["Tipo", rectifiedType],
+    ["Tipo original", originalType],
     ["Categoría", p.tipo_general],
     ["Detalle", p.detalle],
-    ["Sector", p.sector],
+    ["Sector", investigatedSector],
+    ["Confianza", p.nivel_confianza],
     ["Privado", p.es_privado],
+    ["Descripción", p.descripcion_breve],
+    ["Criterio", p.criterio_sector],
+    ["Nombre original", originalName],
     ["Departamento", p.departamento],
     ["Municipio", p.municipio],
     ["Región", p.region ? prettyExtra("minsal", p.region) : ""],
@@ -196,10 +226,18 @@ function popupHtml(p) {
     ["IDs originales", p.ids_fuente]
   ].filter(([, value]) => value);
 
-  const links = [
-    externalLink(p.fuente_url, "Abrir registro original"),
-    externalLink(p.google_maps, "Abrir en Google Maps")
-  ].filter(Boolean);
+  const linkDefinitions = [
+    [p.fuente_url, "Abrir registro original"],
+    [p.fuente_investigacion_1, "Fuente de investigación 1"],
+    [p.fuente_investigacion_2, "Fuente de investigación 2"],
+    [p.fuente_investigacion_3, "Fuente de investigación 3"],
+    [p.google_maps, "Abrir en Google Maps"]
+  ];
+  const seenUrls = new Set();
+  const links = linkDefinitions
+    .filter(([url]) => url && !seenUrls.has(String(url)) && seenUrls.add(String(url)))
+    .map(([url, label]) => externalLink(url, label))
+    .filter(Boolean);
   const linksHtml = links.length ? `<p>${links.join("<br>")}</p>` : "";
 
   return `<div class="popup">
@@ -223,7 +261,7 @@ function styleFor(feature, sourceId) {
 function pointMarker(feature, latlng, sourceId) {
   const tipo = (feature.properties || {}).tipo || "Sin tipo";
   return L.circleMarker(latlng, {
-    radius: sourceId === "minsal" ? 6 : 5,
+    radius: isPointSource(sourceId) ? 6 : 5,
     color: "#fff",
     weight: 1.5,
     fillColor: colorForTipo(sourceId, tipo),
@@ -245,6 +283,7 @@ function centroidMarker(feature) {
     fillOpacity: 1
   });
   marker.feature = feature;
+  marker.isCentroid = true;
   marker.bindPopup(popupHtml({
     ...properties,
     representacion: "Centroide del polígono"
@@ -270,7 +309,7 @@ function makeLayer(geojson, sourceId) {
       members[sourceId].push(layer);
     }
   });
-  if (sourceId === "unificado") {
+  if (sourceId === "unificado_poligonos") {
     for (const feature of geojson.features || []) {
       const geometryType = feature.geometry && feature.geometry.type;
       if (geometryType !== "Polygon" && geometryType !== "MultiPolygon") continue;
@@ -379,7 +418,7 @@ function visibleFeatures() {
 }
 
 function raiseVectors() {
-  for (const id of ["osm", "geofabrik", "hot", "minsal", "unificado"]) {
+  for (const id of ["osm", "geofabrik", "hot", "minsal", "unificado_poligonos", "unificado_puntos"]) {
     const layer = vectorLayers[id];
     if (layer && map.hasLayer(layer)) layer.bringToFront();
   }
@@ -414,15 +453,67 @@ function syncAdministrativeLayer(layerId) {
   raiseVectors();
 }
 
-function buildVectorLayers() {
-  const packs = {
-    unificado: window.UNIFICADO_GEOJSON,
-    minsal: window.MINSAL_GEOJSON,
-    osm: window.OVERPASS_GEOJSON,
-    geofabrik: window.GEOFABRIK_GEOJSON,
-    hot: window.HOT_GEOJSON
+function referenceIds(filteredFeatures, sourceId) {
+  const sourceName = {
+    minsal: "minsal",
+    osm: "overpass",
+    geofabrik: "geofabrik",
+    hot: "hot"
+  }[sourceId];
+  const ids = new Set();
+
+  for (const feature of filteredFeatures) {
+    const properties = feature.properties || {};
+    for (const entry of String(properties.ids_fuente || "").split(";")) {
+      const separator = entry.indexOf(":");
+      if (separator < 0) continue;
+      const label = entry.slice(0, separator).trim().toLocaleLowerCase("es");
+      const sourceRecordId = entry.slice(separator + 1).trim();
+      if (label === sourceName && sourceRecordId) ids.add(sourceRecordId);
+    }
+    const conserved = String(properties.fuente_conservada || "").trim().toLocaleLowerCase("es");
+    const conservedId = String(properties.fuente_id || "").trim();
+    if (conserved === sourceName && conservedId) ids.add(conservedId);
+  }
+  return ids;
+}
+
+function filterReferenceCollection(collection, sourceId, filteredFeatures) {
+  const ids = referenceIds(filteredFeatures, sourceId);
+  const features = (collection.features || []).filter((feature) => (
+    ids.has(String((feature.properties || {}).fuente_id || "").trim())
+  ));
+  return {
+    ...collection,
+    meta: {
+      ...(collection.meta || {}),
+      count: features.length,
+      filtro_sectorial: "Solo registros vinculados con el XLSX depurado"
+    },
+    features
   };
-  if (!packs.unificado || !packs.minsal || !packs.osm || !packs.geofabrik || !packs.hot || !window.DEPARTAMENTOS_GEOJSON) {
+}
+
+function buildVectorLayers() {
+  const filtered = window.UNIDADES_DEPURADAS_GEOJSON;
+  const filteredFeatures = (filtered && filtered.features) || [];
+  const packs = {
+    unificado_poligonos: filtered ? {
+      ...filtered,
+      name: `${filtered.name}_poligonos`,
+      features: filteredFeatures.filter((feature) => ["Polygon", "MultiPolygon"].includes(feature.geometry && feature.geometry.type))
+    } : null,
+    unificado_puntos: filtered ? {
+      ...filtered,
+      name: `${filtered.name}_puntos`,
+      features: filteredFeatures.filter((feature) => ["Point", "MultiPoint"].includes(feature.geometry && feature.geometry.type))
+    } : null,
+    minsal: window.MINSAL_GEOJSON && filterReferenceCollection(window.MINSAL_GEOJSON, "minsal", filteredFeatures),
+    osm: window.OVERPASS_GEOJSON && filterReferenceCollection(window.OVERPASS_GEOJSON, "osm", filteredFeatures),
+    geofabrik: window.GEOFABRIK_GEOJSON && filterReferenceCollection(window.GEOFABRIK_GEOJSON, "geofabrik", filteredFeatures),
+    hot: window.HOT_GEOJSON && filterReferenceCollection(window.HOT_GEOJSON, "hot", filteredFeatures)
+  };
+  if (SOURCE_ORDER.some((sourceId) => !packs[sourceId]) || !window.DEPARTAMENTOS_GEOJSON) {
     status("No se encontraron todas las capas locales");
     return;
   }
@@ -435,13 +526,165 @@ function buildVectorLayers() {
     vectorLayers[id] = makeLayer(packs[id], id);
     syncSource(id);
   }
+  searchIndex = FILTERED_SOURCE_IDS.flatMap((sourceId) => (
+    collections[sourceId].features.map((feature) => {
+      const properties = feature.properties || {};
+      const name = properties.nombre || "Sin nombre";
+      const details = [properties.tipo, properties.representacion, properties.municipio, properties.direccion]
+        .filter(Boolean)
+        .join(" · ");
+      const searchable = [
+        name,
+        properties.nombre_original,
+        properties.tipo,
+        properties.tipo_original,
+        properties.municipio,
+        properties.direccion,
+        properties.sector,
+        properties.descripcion_breve
+      ].filter(Boolean).join(" ");
+      return { sourceId, feature, name, details, normalized: normalizeSearchText(searchable) };
+    })
+  ));
   renderLayers();
   refreshView();
 }
 
+function normalizeSearchText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase("es")
+    .trim();
+}
+
+function renderSearchResults(query) {
+  const input = document.getElementById("map-search-input");
+  const results = document.getElementById("map-search-results");
+  const normalizedQuery = normalizeSearchText(query);
+  results.replaceChildren();
+  searchMatches = [];
+  activeSearchResult = -1;
+
+  if (normalizedQuery.length < 2) {
+    results.hidden = true;
+    input.setAttribute("aria-expanded", "false");
+    input.removeAttribute("aria-activedescendant");
+    return;
+  }
+
+  searchMatches = searchIndex
+    .filter((item) => item.normalized.includes(normalizedQuery))
+    .sort((a, b) => {
+      const aName = normalizeSearchText(a.name);
+      const bName = normalizeSearchText(b.name);
+      const aRank = aName.startsWith(normalizedQuery) ? 0 : aName.includes(normalizedQuery) ? 1 : 2;
+      const bRank = bName.startsWith(normalizedQuery) ? 0 : bName.includes(normalizedQuery) ? 1 : 2;
+      return aRank - bRank || a.name.localeCompare(b.name, "es");
+    });
+
+  if (!searchMatches.length) {
+    const empty = document.createElement("div");
+    empty.className = "search-empty";
+    empty.textContent = "No se encontraron unidades de salud";
+    results.append(empty);
+  } else {
+    const visibleMatches = searchMatches.slice(0, 8);
+    visibleMatches.forEach((item, index) => {
+      const option = document.createElement("button");
+      option.type = "button";
+      option.id = `map-search-option-${index}`;
+      option.className = "search-result";
+      option.setAttribute("role", "option");
+      option.setAttribute("aria-selected", "false");
+      const name = document.createElement("span");
+      name.className = "search-result-name";
+      name.textContent = item.name;
+      option.append(name);
+      if (item.details) {
+        const details = document.createElement("span");
+        details.className = "search-result-detail";
+        details.textContent = item.details;
+        option.append(details);
+      }
+      option.addEventListener("click", () => selectSearchResult(item));
+      results.append(option);
+    });
+    if (searchMatches.length > visibleMatches.length) {
+      const more = document.createElement("div");
+      more.className = "search-empty";
+      more.textContent = `${visibleMatches.length} de ${searchMatches.length} coincidencias; escribe más para afinar`;
+      results.append(more);
+    }
+  }
+
+  results.hidden = false;
+  input.setAttribute("aria-expanded", "true");
+  input.removeAttribute("aria-activedescendant");
+}
+
+function highlightSearchResult(index) {
+  const options = [...document.querySelectorAll("#map-search-results [role='option']")];
+  if (!options.length) return;
+  activeSearchResult = (index + options.length) % options.length;
+  options.forEach((option, optionIndex) => {
+    const active = optionIndex === activeSearchResult;
+    option.classList.toggle("is-active", active);
+    option.setAttribute("aria-selected", String(active));
+  });
+  const active = options[activeSearchResult];
+  document.getElementById("map-search-input").setAttribute("aria-activedescendant", active.id);
+  active.scrollIntoView({ block: "nearest" });
+}
+
+function selectSearchResult(item) {
+  const feature = item.feature;
+  const properties = feature.properties || {};
+  const id = properties.id;
+  const tipo = properties.tipo || "Sin tipo";
+  const sourceId = item.sourceId;
+
+  layerEnabled[sourceId] = true;
+  typeOn[sourceId][tipo] = true;
+  extraOn[sourceId] = "all";
+  selectedLayer = sourceId;
+  expanded.fuentes = true;
+  expanded[sourceId] = true;
+  syncSource(sourceId);
+  renderLayers();
+
+  const layer = members[sourceId].find((member) => (
+    member.feature && member.feature.properties && member.feature.properties.id === id &&
+    (member.isCentroid || member.feature.geometry.type === "Point")
+  )) || members[sourceId].find((member) => (
+    member.feature && member.feature.properties && member.feature.properties.id === id
+  ));
+  if (!layer) {
+    status(`No se pudo ubicar ${item.name}`);
+    return;
+  }
+
+  let location;
+  if (layer.getLatLng) {
+    location = layer.getLatLng();
+  } else {
+    location = layer.getBounds().getCenter();
+  }
+
+  const zoom = layer.isCentroid ? 16 : 17;
+  map.setView(location, Math.max(map.getZoom(), zoom));
+  layer.openPopup();
+  const input = document.getElementById("map-search-input");
+  input.value = item.name;
+  document.getElementById("map-search-results").hidden = true;
+  input.setAttribute("aria-expanded", "false");
+  input.removeAttribute("aria-activedescendant");
+  status(`Resultado: ${item.name}`);
+}
+
 function swatch(fill, sourceId, stroke) {
   const mark = document.createElement("span");
-  mark.className = `swatch ${sourceId === "minsal" ? "point" : "area"}`;
+  mark.className = `swatch ${isPointSource(sourceId) ? "point" : "area"}`;
   mark.style.background = fill;
   if (stroke) mark.style.borderColor = stroke;
   return mark;
@@ -589,7 +832,7 @@ function buildCategoryRow(sourceId, tipo) {
     typeOn[sourceId][tipo] = on;
     update(sourceId);
   });
-  const stroke = sourceId === "minsal" ? null : SOURCE[sourceId].color;
+  const stroke = isPointSource(sourceId) ? null : SOURCE[sourceId].color;
   row.append(
     twistySpace(),
     input,
@@ -622,11 +865,11 @@ function buildSourceNode(sourceId) {
     layerEnabled[sourceId] = on;
     update(sourceId);
   }, `Mostrar ${meta.label}`);
-  const fill = sourceId === "minsal" ? meta.color : `${meta.color}66`;
+  const fill = isPointSource(sourceId) ? meta.color : `${meta.color}66`;
   row.append(
     twisty(sourceId),
     toggle,
-    swatch(fill, sourceId, sourceId === "minsal" ? null : meta.color),
+    swatch(fill, sourceId, isPointSource(sourceId) ? null : meta.color),
     ...rowText(meta.label, filteredCount(sourceId))
   );
   if (extraKey(sourceId) && extraOn[sourceId] !== "all") {
@@ -791,6 +1034,41 @@ document.getElementById("zoom-layer").addEventListener("click", () => {
 });
 document.getElementById("full-extent").addEventListener("click", () => {
   map.fitBounds(SAN_SALVADOR_BOUNDS, { padding: [24, 24] });
+});
+
+const searchInput = document.getElementById("map-search-input");
+const searchResults = document.getElementById("map-search-results");
+searchInput.addEventListener("input", () => renderSearchResults(searchInput.value));
+searchInput.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowDown" && !searchResults.hidden) {
+    event.preventDefault();
+    highlightSearchResult(activeSearchResult + 1);
+  } else if (event.key === "ArrowUp" && !searchResults.hidden) {
+    event.preventDefault();
+    highlightSearchResult(activeSearchResult < 0 ? 0 : activeSearchResult - 1);
+  } else if (event.key === "Enter" && !searchResults.hidden) {
+    const index = activeSearchResult < 0 ? 0 : activeSearchResult;
+    if (searchMatches[index]) {
+      event.preventDefault();
+      selectSearchResult(searchMatches[index]);
+    }
+  } else if (event.key === "Escape" && !searchResults.hidden) {
+    searchResults.hidden = true;
+    searchInput.setAttribute("aria-expanded", "false");
+    searchInput.removeAttribute("aria-activedescendant");
+  }
+});
+document.getElementById("map-search-clear").addEventListener("click", () => {
+  searchInput.value = "";
+  renderSearchResults("");
+  searchInput.focus();
+});
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".map-search")) {
+    searchResults.hidden = true;
+    searchInput.setAttribute("aria-expanded", "false");
+    searchInput.removeAttribute("aria-activedescendant");
+  }
 });
 
 const coords = document.getElementById("coords");
