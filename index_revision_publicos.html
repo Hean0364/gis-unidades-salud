@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Revisión de polígonos · San Salvador públicos</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/revision_publicos.css">
+</head>
+<body>
+  <header class="top"><div><strong>Revisión de polígonos</strong><span>Departamento de San Salvador · MINSAL e ISSS · 11 fichas</span></div><nav><a href="index_san_salvador.html">Visor existente</a><button id="export" disabled>Exportar revisiones JSON</button><label class="file">Importar JSON<input id="import" type="file" accept=".json,application/json" disabled></label></nav></header>
+  <p class="notice">Ninguna coincidencia está validada por defecto. La identificación geográfica, la existencia documental y el funcionamiento se revisan por separado. Las decisiones permanecen en esta sesión: exporta el JSON antes de cerrar.</p>
+  <div id="message" role="status" aria-live="polite">Cargando archivos locales del piloto…</div>
+  <main>
+    <aside class="catalog"><h1>Establecimientos</h1><div id="establishments"></div><p class="muted">Instituciones propuestas según el piloto. Una etiqueta «Público» no prueba pertenencia a MINSAL o ISSS.</p></aside>
+    <section class="workspace"><div class="map-tools"><button id="fit" disabled>Encuadrar ficha</button><label>Fondo <select id="base"><option value="none">Sin fondo externo</option><option value="satellite">Satélite Esri</option><option value="osm">Cartografía OSM</option></select></label><span class="muted">Overpass: naranja · Geofabrik: azul · HOT: violeta · Referencia: negro</span></div><div id="map" aria-label="Mapa de candidatos"></div><div class="candidate-heading"><h2>Geometrías candidatas <span id="candidate-count"></span></h2><button id="show-all" disabled>Mostrar todas</button><button id="hide-all" disabled>Ocultar todas</button></div><p class="muted">Mostrar una geometría no la selecciona como decisión. Se incluyen edificios omitidos del mapa filtrado y vecinos con evidencia insuficiente.</p><div id="candidates"></div></section>
+    <aside class="review"><h2 id="selected-title">Selecciona una ficha</h2><p id="point-description"></p><p id="issues" class="warning"></p><details><summary>Registros y revisiones previas del piloto (solo lectura)</summary><pre id="source-info"></pre></details>
+      <form id="review-form"><fieldset id="review-fields" disabled><legend>Decisión manual</legend>
+        <label>Identificación geográfica<select id="geo-state"></select></label>
+        <label>Existencia documental<select id="doc-state"></select></label>
+        <label>Funcionamiento operativo<select id="op-state"></select></label>
+        <p class="muted">«Coincidencia revisada» no confirma existencia ni funcionamiento.</p>
+        <label>Polígono seleccionado<select id="polygon"><option value="">Ninguno</option></select></label>
+        <label>Tipo geométrico<input id="geometry-type" readonly value="Sin seleccionar"></label>
+        <label>Función interpretada<select id="geometry-role"><option>Sin determinar</option><option>Edificio individual</option><option>Recinto o terreno</option><option>Otra</option></select></label>
+        <h3>Evidencias y fechas</h3><div id="evidence"></div><button type="button" id="add-evidence">Añadir evidencia</button>
+        <label>Observaciones<textarea id="observations" rows="4"></textarea></label>
+        <label>Responsable<input id="reviewer" required autocomplete="name"></label>
+        <label>Fecha y hora de revisión (El Salvador)<input id="review-date" type="datetime-local" required></label>
+        <button type="submit" class="primary">Registrar versión en esta sesión</button><p id="draft-status" class="muted">Formulario pendiente. Exporta las versiones registradas para conservarlas.</p>
+      </fieldset></form>
+      <h3>Versiones de revisión</h3><p class="muted">Importar conserva todas las versiones; ninguna se aplica automáticamente. Cargar una versión requiere seleccionarla.</p><div id="history"></div>
+    </aside>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/revision_core.cjs"></script><script src="js/revision_publicos.js"></script>
+</body>
+</html>

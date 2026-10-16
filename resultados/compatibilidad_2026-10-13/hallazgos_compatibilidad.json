@@ -1,0 +1,2546 @@
+{
+  "fecha": "2026-10-13",
+  "fuentes_sha256": {
+    "resultados/piloto_san_salvador_publicos/candidatos_poligonos.csv": "f294ba45cb3fbf8f2615eaecf880bde8539a94c7b9b6a73926080cc0831c1dde",
+    "resultados/piloto_san_salvador_publicos/candidatos_poligonos.geojson": "8352b75193358bcb53c603049f6b78255e5e768b059603df5e367289bc5f680c",
+    "resultados/piloto_san_salvador_publicos/establecimientos_publicos.csv": "12fdcf1cc08eaed7d0c11a7b48c4aeabd09b01e8f102f3704ce158736b82de7a",
+    "resultados/piloto_san_salvador_publicos/reporte_piloto.md": "0633cf6eff8d0a7beee24ca06734133e9b27fb50a59b5c6aa70357dd6b204762",
+    "data/geojson/minsal.geojson": "d1511e94ca99e9e38922355f677ecd782cb992eada000b2df1e73504ef0433a0",
+    "data/geojson/overpass.geojson": "d1b0a349e532243f38469511f7c37b99b657d76e45afb02d1cbba7ea985b4732",
+    "data/geojson/hot.geojson": "3f3e0bf25380db941d19c7ea0121966fd1d6af84dfa559038946b62ff42c7171",
+    "data/geojson/geofabrik.geojson": "e72ccfd35faeb1702af7e12daa1809a3c9a94643999e000704f621ec78e4dfc2",
+    "data/originales/minsal_establecimientos.csv": "9f2fdf2720f284324d6b00d336428874b1d5234cc5a6c4cacebaf4add78e6125",
+    "data/originales/overpass_salud.geojson": "d84e90a51fde9e245c896c34c61dfec6add2fe947b41d7a70c9a51ed93f9a204"
+  },
+  "originales_coinciden_huellas_piloto": {
+    "data/originales/minsal_establecimientos.csv": true,
+    "data/originales/overpass_salud.geojson": true,
+    "data/geojson/minsal.geojson": true,
+    "data/geojson/overpass.geojson": true,
+    "data/geojson/hot.geojson": true,
+    "data/geojson/geofabrik.geojson": true
+  },
+  "normalizados": {
+    "minsal": {
+      "filas": 942,
+      "columnas": [
+        "id",
+        "fuente",
+        "fuente_id",
+        "nombre",
+        "tipo",
+        "tipo_codigo",
+        "detalle",
+        "detalle_codigo",
+        "departamento",
+        "municipio",
+        "region",
+        "direccion",
+        "operador",
+        "telefono",
+        "horario",
+        "especialidad",
+        "amenity",
+        "healthcare",
+        "edificio",
+        "geometria_tipo",
+        "vertices",
+        "centroide_latitud",
+        "centroide_longitud",
+        "centroide_metodo",
+        "geometria_wkt",
+        "fuente_url",
+        "google_maps"
+      ],
+      "ids_faltantes": [],
+      "ids_repetidos": 0,
+      "wkt_secuencia_coordenadas_distinta": [],
+      "centros_cambiados_mas_1m": 0,
+      "max_cambio_m": 0.0007582307217053959,
+      "metodos": {
+        "coordenada_original": 942
+      }
+    },
+    "overpass": {
+      "filas": 402,
+      "columnas": [
+        "id",
+        "fuente",
+        "fuente_id",
+        "nombre",
+        "tipo",
+        "tipo_codigo",
+        "detalle",
+        "detalle_codigo",
+        "departamento",
+        "municipio",
+        "region",
+        "direccion",
+        "operador",
+        "telefono",
+        "horario",
+        "especialidad",
+        "amenity",
+        "healthcare",
+        "edificio",
+        "geometria_tipo",
+        "vertices",
+        "centroide_latitud",
+        "centroide_longitud",
+        "centroide_metodo",
+        "geometria_wkt",
+        "fuente_url",
+        "google_maps"
+      ],
+      "ids_faltantes": [],
+      "ids_repetidos": 0,
+      "wkt_secuencia_coordenadas_distinta": [],
+      "centros_cambiados_mas_1m": 371,
+      "max_cambio_m": 45.35504804491827,
+      "metodos": {
+        "centroide_area": 397,
+        "centroide_area_anillo": 3,
+        "centroide_linea": 2
+      }
+    },
+    "hot": {
+      "filas": 1642,
+      "columnas": [
+        "id",
+        "fuente",
+        "fuente_id",
+        "nombre",
+        "tipo",
+        "tipo_codigo",
+        "detalle",
+        "detalle_codigo",
+        "departamento",
+        "municipio",
+        "region",
+        "direccion",
+        "operador",
+        "telefono",
+        "horario",
+        "especialidad",
+        "amenity",
+        "healthcare",
+        "edificio",
+        "geometria_tipo",
+        "vertices",
+        "centroide_latitud",
+        "centroide_longitud",
+        "centroide_metodo",
+        "geometria_wkt",
+        "fuente_url",
+        "google_maps"
+      ],
+      "ids_faltantes": [],
+      "ids_repetidos": 0,
+      "wkt_secuencia_coordenadas_distinta": [],
+      "centros_cambiados_mas_1m": 808,
+      "max_cambio_m": 45.35504804491827,
+      "metodos": {
+        "centroide_area": 912,
+        "coordenada_original": 730
+      }
+    },
+    "geofabrik": {
+      "filas": 945,
+      "columnas": [
+        "id",
+        "fuente",
+        "fuente_id",
+        "nombre",
+        "tipo",
+        "tipo_codigo",
+        "detalle",
+        "detalle_codigo",
+        "departamento",
+        "municipio",
+        "region",
+        "direccion",
+        "operador",
+        "telefono",
+        "horario",
+        "especialidad",
+        "amenity",
+        "healthcare",
+        "edificio",
+        "geometria_tipo",
+        "vertices",
+        "centroide_latitud",
+        "centroide_longitud",
+        "centroide_metodo",
+        "geometria_wkt",
+        "fuente_url",
+        "google_maps"
+      ],
+      "ids_faltantes": [],
+      "ids_repetidos": 0,
+      "wkt_secuencia_coordenadas_distinta": [],
+      "centros_cambiados_mas_1m": 607,
+      "max_cambio_m": 47.55053685894471,
+      "metodos": {
+        "centroide_area": 654,
+        "coordenada_original": 291
+      }
+    }
+  },
+  "mapa": {
+    "minsal": {
+      "filas": 50,
+      "geometrias": {
+        "Point": 50
+      },
+      "geometrias_cambiadas": [],
+      "ids_no_resueltos": []
+    },
+    "overpass": {
+      "filas": 114,
+      "geometrias": {
+        "Polygon": 114
+      },
+      "geometrias_cambiadas": [],
+      "ids_no_resueltos": []
+    },
+    "hot": {
+      "filas": 192,
+      "geometrias": {
+        "Polygon": 117,
+        "Point": 75
+      },
+      "geometrias_cambiadas": [],
+      "ids_no_resueltos": []
+    },
+    "geofabrik": {
+      "filas": 202,
+      "geometrias": {
+        "Polygon": 129,
+        "Point": 73
+      },
+      "geometrias_cambiadas": [],
+      "ids_no_resueltos": []
+    }
+  },
+  "deduplicacion": {
+    "filas": 256,
+    "referencias": 558,
+    "sectores": {
+      "No determinado": 142,
+      "Público": 109,
+      "Privado sin fines de lucro": 3,
+      "Privado": 2
+    },
+    "detalles": {
+      "Polígono": 117,
+      "Edificio": 14,
+      "Punto": 75,
+      "sin_detalle": 50
+    },
+    "referencias_desconocidas": [],
+    "entradas_sin_grupo": [],
+    "referencias_repetidas": [],
+    "grupos_geometria_diferente_a_7_decimales": [],
+    "grupos_tipos_geometria_mezclados": [],
+    "conflictos": [
+      {
+        "id": "unificado-overpass-relation-8776557",
+        "nombre": "Anexo Hospital Benjamin Bloom",
+        "conflictos": {
+          "municipio": [
+            "San Salvador",
+            "Mejicanos"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-relation-8776557",
+          "fuente": "Unificado",
+          "fuente_id": "relation/8776557",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: relation/8776557; HOT: relation/8776557; Geofabrik: way/8776557",
+          "cantidad_fuentes": "3",
+          "nombre": "Anexo Hospital Benjamin Bloom",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "Boulevard de Los Héroes, San Salvador",
+          "fuente_url": "https://www.openstreetmap.org/relation/8776557",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71375862,-89.20575133"
+        }
+      },
+      {
+        "id": "unificado-hot-way-1319139717",
+        "nombre": "Centro de Atención de Emergencias - San Martín",
+        "conflictos": {
+          "sector": [
+            "Público",
+            "No determinado"
+          ],
+          "operador": [
+            "Público",
+            "Ministerio de Salud"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-1319139717",
+          "fuente": "Unificado",
+          "fuente_id": "way/1319139717",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/1319139717; Overpass: way/1319139717; Geofabrik: way/1319139717",
+          "cantidad_fuentes": "3",
+          "nombre": "Centro de Atención de Emergencias - San Martín",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Martín",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "San Martín",
+          "operador": "Público",
+          "especialidad": "Medicina general",
+          "fuente_url": "https://www.openstreetmap.org/way/1319139717",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73378961,-89.05877751"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-1303391474",
+        "nombre": "Centro de Salud Nejapa",
+        "conflictos": {
+          "sector": [
+            "Público",
+            "No determinado"
+          ],
+          "operador": [
+            "Ministerio de Salud",
+            "Público"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-1303391474",
+          "fuente": "Unificado",
+          "fuente_id": "way/1303391474",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/1303391474; HOT: way/1303391474; Geofabrik: way/1303391474",
+          "cantidad_fuentes": "3",
+          "nombre": "Centro de Salud Nejapa",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Nejapa",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Ministerio de Salud",
+          "fuente_url": "https://www.openstreetmap.org/way/1303391474",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8114748,-89.23361591"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-435993855",
+        "nombre": "Centro de Salud Tutunichapa",
+        "conflictos": {
+          "sector": [
+            "Público",
+            "No determinado"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-435993855",
+          "fuente": "Unificado",
+          "fuente_id": "way/435993855",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/435993855; HOT: way/435993855; Geofabrik: way/435993855",
+          "cantidad_fuentes": "3",
+          "nombre": "Centro de Salud Tutunichapa",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Municipal",
+          "fuente_url": "https://www.openstreetmap.org/way/435993855",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70286083,-89.20526777"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-569827650",
+        "nombre": "Cirma",
+        "conflictos": {
+          "municipio": [
+            "San Salvador",
+            "Mejicanos"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-569827650",
+          "fuente": "Unificado",
+          "fuente_id": "way/569827650",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/569827650; HOT: way/569827650; Geofabrik: way/569827650",
+          "cantidad_fuentes": "3",
+          "nombre": "Cirma",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "27 Avenida Norte, San Salvador",
+          "fuente_url": "https://www.openstreetmap.org/way/569827650",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70972914,-89.20543815"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-465545592",
+        "nombre": "Clínica Comunal ISSS",
+        "conflictos": {
+          "municipio": [
+            "Cuscatancingo",
+            "Mejicanos"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-465545592",
+          "fuente": "Unificado",
+          "fuente_id": "way/465545592",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/465545592; HOT: way/465545592; Geofabrik: way/465545592",
+          "cantidad_fuentes": "3",
+          "nombre": "Clínica Comunal ISSS",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Cuscatancingo",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "Calle Bolívar, 7, Cuscatancingo",
+          "telefono": "+503 2593 0008",
+          "horario": "07:00-16:00",
+          "fuente_url": "https://www.openstreetmap.org/way/465545592",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73182358,-89.18173219"
+        }
+      },
+      {
+        "id": "unificado-hot-way-1125737558",
+        "nombre": "Clinica Comunal ISSS Mejicanos",
+        "conflictos": {
+          "operador": [
+            "Público",
+            "Ministerio de Salud"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-1125737558",
+          "fuente": "Unificado",
+          "fuente_id": "way/1125737558",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/1125737558; Overpass: way/1125737558; Geofabrik: way/1125737558",
+          "cantidad_fuentes": "3",
+          "nombre": "Clinica Comunal ISSS Mejicanos",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Mejicanos",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Público",
+          "especialidad": "Medicina general",
+          "fuente_url": "https://www.openstreetmap.org/way/1125737558",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72818583,-89.18994943"
+        }
+      },
+      {
+        "id": "unificado-hot-way-1110612225",
+        "nombre": "Clínica Comunal ISSS Virgen del Tránsito",
+        "conflictos": {
+          "operador": [
+            "Público",
+            "Ministerio de Salud"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-1110612225",
+          "fuente": "Unificado",
+          "fuente_id": "way/1110612225",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/1110612225; Overpass: way/1110612225; Geofabrik: way/1110612225",
+          "cantidad_fuentes": "3",
+          "nombre": "Clínica Comunal ISSS Virgen del Tránsito",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Mejicanos",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Público",
+          "especialidad": "Medicina general",
+          "fuente_url": "https://www.openstreetmap.org/way/1110612225",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7220551,-89.19076894"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-398068432",
+        "nombre": "Clínica Dental Osuna",
+        "conflictos": {
+          "municipio": [
+            "San Bartolo",
+            "Ilopango"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-398068432",
+          "fuente": "Unificado",
+          "fuente_id": "way/398068432",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/398068432; HOT: way/398068432; Geofabrik: way/398068432",
+          "cantidad_fuentes": "3",
+          "nombre": "Clínica Dental Osuna",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Bartolo",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "Boulevard San Bartolo, San Bartolo",
+          "fuente_url": "https://www.openstreetmap.org/way/398068432",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70982783,-89.10458164"
+        }
+      },
+      {
+        "id": "unificado-hot-way-1564730283",
+        "nombre": "Clínica El Carmelo",
+        "conflictos": {
+          "municipio": [
+            "Delgado",
+            "SOYAPANGO"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-1564730283",
+          "fuente": "Unificado",
+          "fuente_id": "way/1564730283",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/1564730283; Overpass: way/1564730283; Geofabrik: way/1564730283",
+          "cantidad_fuentes": "3",
+          "nombre": "Clínica El Carmelo",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Delgado",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "SOYAPANGO",
+          "especialidad": "Emergencia, Análisis de sangre, Cardiología, diagnostic radiology, Endocrinología, Gastroenterología, haematology, Nefrología, Medicina interna, Urología",
+          "fuente_url": "https://www.openstreetmap.org/way/1564730283",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71418299,-89.1500137"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-398069342",
+        "nombre": "Clínica Medica Economica",
+        "conflictos": {
+          "municipio": [
+            "San Bartolo",
+            "Ilopango"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-398069342",
+          "fuente": "Unificado",
+          "fuente_id": "way/398069342",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/398069342; HOT: way/398069342; Geofabrik: way/398069342",
+          "cantidad_fuentes": "3",
+          "nombre": "Clínica Medica Economica",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Bartolo",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "Boulevard San Bartolo, San Bartolo",
+          "fuente_url": "https://www.openstreetmap.org/way/398069342",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70762648,-89.10484293"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-398061438",
+        "nombre": "Clínica San Pedro",
+        "conflictos": {
+          "municipio": [
+            "San Bartolo",
+            "Ilopango"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-398061438",
+          "fuente": "Unificado",
+          "fuente_id": "way/398061438",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/398061438; HOT: way/398061438; Geofabrik: way/398061438",
+          "cantidad_fuentes": "3",
+          "nombre": "Clínica San Pedro",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Bartolo",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "Boulevard San Bartolo, San Bartolo",
+          "fuente_url": "https://www.openstreetmap.org/way/398061438",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70782595,-89.10522372"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-398065405",
+        "nombre": "Clinico de Diagnostico",
+        "conflictos": {
+          "municipio": [
+            "San Bartolo",
+            "Ilopango"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-398065405",
+          "fuente": "Unificado",
+          "fuente_id": "way/398065405",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/398065405; HOT: way/398065405; Geofabrik: way/398065405",
+          "cantidad_fuentes": "3",
+          "nombre": "Clinico de Diagnostico",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Bartolo",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "4 Avenida Norte, San Bartolo",
+          "fuente_url": "https://www.openstreetmap.org/way/398065405",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70285401,-89.10475301"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-395638737",
+        "nombre": "Cruz Verde Salvadoreña",
+        "conflictos": {
+          "municipio": [
+            "Santa Anita",
+            "San Salvador"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-395638737",
+          "fuente": "Unificado",
+          "fuente_id": "way/395638737",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/395638737; HOT: way/395638737; Geofabrik: way/395638737",
+          "cantidad_fuentes": "3",
+          "nombre": "Cruz Verde Salvadoreña",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Santa Anita",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "17 Avenida Sur, Santa Anita",
+          "telefono": "2130 7653",
+          "fuente_url": "https://www.openstreetmap.org/way/395638737",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68677266,-89.20116497"
+        }
+      },
+      {
+        "id": "unificado-hot-way-436036743",
+        "nombre": "Hospital 1 de Mayo",
+        "conflictos": {
+          "sector": [
+            "Privado sin fines de lucro",
+            "Público",
+            "No determinado"
+          ],
+          "operador": [
+            "Privado sin fines de lucro",
+            "Instituto Salvadoreño del Seguro Social"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-436036743",
+          "fuente": "Unificado",
+          "fuente_id": "way/436036743",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/436036743; Overpass: way/436036743; Geofabrik: way/436036743",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital 1 de Mayo",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "Privado sin fines de lucro",
+          "es_privado": "Sí",
+          "direccion": "San Salvador",
+          "operador": "Privado sin fines de lucro",
+          "especialidad": "Pediatría",
+          "fuente_url": "https://www.openstreetmap.org/way/436036743",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6999488,-89.2041426"
+        }
+      },
+      {
+        "id": "unificado-overpass-relation-8776526",
+        "nombre": "Hospital Benjamín Bloom",
+        "conflictos": {
+          "municipio": [
+            "San Salvador",
+            "Mejicanos"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-relation-8776526",
+          "fuente": "Unificado",
+          "fuente_id": "relation/8776526",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: relation/8776526; HOT: relation/8776526; Geofabrik: way/8776526",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital Benjamín Bloom",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "San Salvador",
+          "fuente_url": "https://www.openstreetmap.org/relation/8776526",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71418235,-89.20395869"
+        }
+      },
+      {
+        "id": "unificado-hot-way-140084935",
+        "nombre": "Hospital El Salvador",
+        "conflictos": {
+          "sector": [
+            "Público",
+            "No determinado"
+          ],
+          "operador": [
+            "Público",
+            "Ministerio de Salud y Asistencia Social"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-140084935",
+          "fuente": "Unificado",
+          "fuente_id": "way/140084935",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/140084935; Overpass: way/140084935; Geofabrik: way/140084935",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital El Salvador",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Público",
+          "especialidad": "covid19",
+          "fuente_url": "https://www.openstreetmap.org/way/140084935",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68852214,-89.23581905"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-316324664",
+        "nombre": "Hospital Militar",
+        "conflictos": {
+          "municipio": [
+            "San Salvador",
+            "Mejicanos"
+          ],
+          "operador": [
+            "FAES",
+            "Privado"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-316324664",
+          "fuente": "Unificado",
+          "fuente_id": "way/316324664",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/316324664; HOT: way/316324664; Geofabrik: way/316324664",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital Militar",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "Avenida Bernal, San Salvador",
+          "operador": "FAES",
+          "fuente_url": "https://www.openstreetmap.org/way/316324664",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.718916,-89.21575386"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-766585972",
+        "nombre": "Hospital Nacional de San Bartolo",
+        "conflictos": {
+          "municipio": [
+            "San Bartolo",
+            "Ilopango"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-766585972",
+          "fuente": "Unificado",
+          "fuente_id": "way/766585972",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/766585972; HOT: way/766585972; Geofabrik: way/766585972",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital Nacional de San Bartolo",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Bartolo",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "Calle Francisco Meléndez, San Bartolo",
+          "operador": "Ministerio de Salud",
+          "fuente_url": "https://www.openstreetmap.org/way/766585972",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70430717,-89.10606832"
+        }
+      },
+      {
+        "id": "unificado-hot-way-1286180155",
+        "nombre": "Hospital Nacional Dr. José Antonio Saldaña",
+        "conflictos": {
+          "operador": [
+            "Público",
+            "Gobierno de El Salvador"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-1286180155",
+          "fuente": "Unificado",
+          "fuente_id": "way/1286180155",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/1286180155; Overpass: way/1286180155; Geofabrik: way/1286180155",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital Nacional Dr. José Antonio Saldaña",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "Carretera a los Planes de Renderos",
+          "operador": "Público",
+          "especialidad": "otolaryngology, pulmonology",
+          "fuente_url": "https://www.openstreetmap.org/way/1286180155",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6473174,-89.19461032"
+        }
+      },
+      {
+        "id": "unificado-hot-way-984041568",
+        "nombre": "Hospital Nacional General y de Psiquiatría Dr. José Molina Martínez",
+        "conflictos": {
+          "operador": [
+            "Público",
+            "Ministerio de Salud"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-984041568",
+          "fuente": "Unificado",
+          "fuente_id": "way/984041568",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/984041568; Overpass: way/984041568; Geofabrik: way/984041568",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital Nacional General y de Psiquiatría Dr. José Molina Martínez",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Soyapango",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Público",
+          "fuente_url": "https://www.openstreetmap.org/way/984041568",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71412492,-89.1383422"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-1562066519",
+        "nombre": "Hospital Policlinico Policial",
+        "conflictos": {
+          "tipo": [
+            "Hospital",
+            "Clínica"
+          ],
+          "municipio": [
+            "San Salvador",
+            "Mejicanos"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-1562066519",
+          "fuente": "Unificado",
+          "fuente_id": "way/1562066519",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/1562066519; HOT: way/1562066519; Geofabrik: way/1562066519",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital Policlinico Policial",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "23 Avenida Norte, 1301, San Salvador",
+          "horario": "Mo-Fr 09:00-16:00; Sa-Su 09:00-14:00",
+          "especialidad": "Medicina general",
+          "fuente_url": "https://www.openstreetmap.org/way/1562066519",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71245547,-89.20216837"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-39317434",
+        "nombre": "Hospital Rosales",
+        "conflictos": {
+          "sector": [
+            "Público",
+            "No determinado"
+          ],
+          "operador": [
+            "Ministerio de Salud",
+            "Público"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-39317434",
+          "fuente": "Unificado",
+          "fuente_id": "way/39317434",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/39317434; HOT: way/39317434; Geofabrik: way/39317434",
+          "cantidad_fuentes": "3",
+          "nombre": "Hospital Rosales",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "San Salvador",
+          "operador": "Ministerio de Salud",
+          "fuente_url": "https://www.openstreetmap.org/way/39317434",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70087104,-89.20422545"
+        }
+      },
+      {
+        "id": "unificado-hot-way-956429581",
+        "nombre": "ISSS",
+        "conflictos": {
+          "operador": [
+            "Público",
+            "Instituto Salvadoreño del Seguro Social"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-956429581",
+          "fuente": "Unificado",
+          "fuente_id": "way/956429581",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/956429581; Overpass: way/956429581; Geofabrik: way/956429581",
+          "cantidad_fuentes": "3",
+          "nombre": "ISSS",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Apopa",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Público",
+          "fuente_url": "https://www.openstreetmap.org/way/956429581",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80116078,-89.18027028"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-1087599652",
+        "nombre": "Megacentro de Vacunacion",
+        "conflictos": {
+          "sector": [
+            "Público",
+            "No determinado"
+          ],
+          "municipio": [
+            "Distrito Municipal 4",
+            "San Salvador"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-1087599652",
+          "fuente": "Unificado",
+          "fuente_id": "way/1087599652",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/1087599652; HOT: way/1087599652; Geofabrik: way/1087599652",
+          "cantidad_fuentes": "3",
+          "nombre": "Megacentro de Vacunacion",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Distrito Municipal 4",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "Alameda Presidente Doctor Manuel Enrique Araujo, Distrito Municipal 4",
+          "operador": "Ministerio de Salud",
+          "fuente_url": "https://www.openstreetmap.org/way/1087599652",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68607547,-89.23820514"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-398068433",
+        "nombre": "Multi Clínica San Bartolo",
+        "conflictos": {
+          "municipio": [
+            "San Bartolo",
+            "Ilopango"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-398068433",
+          "fuente": "Unificado",
+          "fuente_id": "way/398068433",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/398068433; HOT: way/398068433; Geofabrik: way/398068433",
+          "cantidad_fuentes": "3",
+          "nombre": "Multi Clínica San Bartolo",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "San Bartolo",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "Boulevard San Bartolo, San Bartolo",
+          "fuente_url": "https://www.openstreetmap.org/way/398068433",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70972063,-89.10458747"
+        }
+      },
+      {
+        "id": "unificado-hot-way-400049742",
+        "nombre": "Multiclinica Santa Fé",
+        "conflictos": {
+          "municipio": [
+            "Mejicanos",
+            "San Salvador"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-400049742",
+          "fuente": "Unificado",
+          "fuente_id": "way/400049742",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/400049742; Overpass: way/400049742; Geofabrik: way/400049742",
+          "cantidad_fuentes": "3",
+          "nombre": "Multiclinica Santa Fé",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Mejicanos",
+          "sector": "No determinado",
+          "es_privado": "No determinado",
+          "direccion": "San Salvador",
+          "especialidad": "otolaryngology",
+          "fuente_url": "https://www.openstreetmap.org/way/400049742",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71120108,-89.20515974"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-1125737557",
+        "nombre": "Unidad Comunitaria de Salud Familiar \"Dr. Hugo Morán Quijada\"",
+        "conflictos": {
+          "operador": [
+            "FOSALUD",
+            "Público"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-1125737557",
+          "fuente": "Unificado",
+          "fuente_id": "way/1125737557",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/1125737557; HOT: way/1125737557; Geofabrik: way/1125737557",
+          "cantidad_fuentes": "3",
+          "nombre": "Unidad Comunitaria de Salud Familiar \"Dr. Hugo Morán Quijada\"",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Mejicanos",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "FOSALUD",
+          "horario": "24/7",
+          "especialidad": "Medicina general",
+          "fuente_url": "https://www.openstreetmap.org/way/1125737557",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72843305,-89.18955668"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-742336376",
+        "nombre": "Unidad de Salud",
+        "conflictos": {
+          "municipio": [
+            "Rosario de Mora",
+            "Huizúcar"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-742336376",
+          "fuente": "Unificado",
+          "fuente_id": "way/742336376",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/742336376; HOT: way/742336376; Geofabrik: way/742336376",
+          "cantidad_fuentes": "3",
+          "nombre": "Unidad de Salud",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Rosario de Mora",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "Avenida Central Sur, Rosario de Mora",
+          "fuente_url": "https://www.openstreetmap.org/way/742336376",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.57426404,-89.20686355"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-241553325",
+        "nombre": "Unidad de Salud de Apopa",
+        "conflictos": {
+          "operador": [
+            "Ministerio de Salud",
+            "Público"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-241553325",
+          "fuente": "Unificado",
+          "fuente_id": "way/241553325",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/241553325; HOT: way/241553325; Geofabrik: way/241553325",
+          "cantidad_fuentes": "3",
+          "nombre": "Unidad de Salud de Apopa",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Apopa",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Ministerio de Salud",
+          "fuente_url": "https://www.openstreetmap.org/way/241553325",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8015534,-89.17783312"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-1107820439",
+        "nombre": "Unidad de Salud de Soyapango",
+        "conflictos": {
+          "operador": [
+            "Ministerio de Salud",
+            "Público"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-1107820439",
+          "fuente": "Unificado",
+          "fuente_id": "way/1107820439",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/1107820439; HOT: way/1107820439; Geofabrik: way/1107820439",
+          "cantidad_fuentes": "3",
+          "nombre": "Unidad de Salud de Soyapango",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Soyapango",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "Calle La Fuente, Soyapango",
+          "operador": "Ministerio de Salud",
+          "fuente_url": "https://www.openstreetmap.org/way/1107820439",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71421831,-89.14045959"
+        }
+      },
+      {
+        "id": "unificado-overpass-way-1565058763",
+        "nombre": "Unidad de Salud Intermedia - Guadalupe",
+        "conflictos": {
+          "operador": [
+            "Ministerio de Salud",
+            "Público"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-overpass-way-1565058763",
+          "fuente": "Unificado",
+          "fuente_id": "way/1565058763",
+          "fuente_conservada": "Overpass",
+          "fuentes_coincidentes": "Overpass; HOT; Geofabrik",
+          "ids_fuente": "Overpass: way/1565058763; HOT: way/1565058763; Geofabrik: way/1565058763",
+          "cantidad_fuentes": "3",
+          "nombre": "Unidad de Salud Intermedia - Guadalupe",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Soyapango",
+          "sector": "Público",
+          "es_privado": "No",
+          "operador": "Ministerio de Salud",
+          "fuente_url": "https://www.openstreetmap.org/way/1565058763",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7029703,-89.14190957"
+        }
+      },
+      {
+        "id": "unificado-hot-way-446923600",
+        "nombre": "Unidad Médica Soyapango-ISSS",
+        "conflictos": {
+          "municipio": [
+            "Delgado",
+            "Soyapango"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-way-446923600",
+          "fuente": "Unificado",
+          "fuente_id": "way/446923600",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Overpass; Geofabrik",
+          "ids_fuente": "HOT: way/446923600; Overpass: way/446923600; Geofabrik: way/446923600",
+          "cantidad_fuentes": "3",
+          "nombre": "Unidad Médica Soyapango-ISSS",
+          "tipo": "Hospital",
+          "tipo_general": "Hospital",
+          "detalle": "Polígono",
+          "departamento": "San Salvador",
+          "municipio": "Delgado",
+          "sector": "Público",
+          "es_privado": "No",
+          "direccion": "Soyapango",
+          "especialidad": "Medicina general, Estomatología",
+          "fuente_url": "https://www.openstreetmap.org/way/446923600",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71405737,-89.14673234"
+        }
+      },
+      {
+        "id": "unificado-hot-node-6760502429",
+        "nombre": "Dr. Mauricio Perdomo",
+        "conflictos": {
+          "sector": [
+            "Privado",
+            "No determinado"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-node-6760502429",
+          "fuente": "Unificado",
+          "fuente_id": "node/6760502429",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Geofabrik",
+          "ids_fuente": "HOT: node/6760502429; Geofabrik: node/6760502429",
+          "cantidad_fuentes": "2",
+          "nombre": "Dr. Mauricio Perdomo",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Punto",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "Privado",
+          "es_privado": "Sí",
+          "direccion": "San Salvador",
+          "operador": "Privado",
+          "especialidad": "aesthetic, Medicina general",
+          "fuente_url": "https://www.openstreetmap.org/node/6760502429",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7028388,-89.2454545"
+        }
+      },
+      {
+        "id": "unificado-hot-node-12122942948",
+        "nombre": "Urologo El Salvador - Dr. Herbert Ayala",
+        "conflictos": {
+          "sector": [
+            "Privado",
+            "No determinado"
+          ]
+        },
+        "seleccion": {
+          "id": "unificado-hot-node-12122942948",
+          "fuente": "Unificado",
+          "fuente_id": "node/12122942948",
+          "fuente_conservada": "HOT",
+          "fuentes_coincidentes": "HOT; Geofabrik",
+          "ids_fuente": "HOT: node/12122942948; Geofabrik: node/12122942948",
+          "cantidad_fuentes": "2",
+          "nombre": "Urologo El Salvador - Dr. Herbert Ayala",
+          "tipo": "Clínica",
+          "tipo_general": "Clínica",
+          "detalle": "Punto",
+          "departamento": "San Salvador",
+          "municipio": "San Salvador",
+          "sector": "Privado",
+          "es_privado": "Sí",
+          "direccion": "San Salvador",
+          "operador": "Privado",
+          "especialidad": "Urología, Cirugía",
+          "fuente_url": "https://www.openstreetmap.org/node/12122942948",
+          "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7057057,-89.2038713"
+        }
+      }
+    ]
+  },
+  "piloto": {
+    "fichas": 11,
+    "candidatos_prioritarios": 139,
+    "geometrias_alteradas": [],
+    "estados_manuales": {
+      "pendiente": 764
+    },
+    "candidatos_estados_manuales": {
+      "pendiente": 969
+    },
+    "limite_recortado_identico": true,
+    "efecto_centroides": [
+      {
+        "id": "osm:relation/6880781",
+        "agregados": [
+          "geofabrik:geofabrik-way-465962162"
+        ],
+        "retirados": [],
+        "contencion_cambios": []
+      },
+      {
+        "id": "osm:way/140084935",
+        "agregados": [
+          "geofabrik:geofabrik-way-544423056",
+          "geofabrik:geofabrik-way-544423057"
+        ],
+        "retirados": [],
+        "contencion_cambios": [
+          {
+            "fuente": "geofabrik",
+            "id": "way/544423052",
+            "nombre": "Sin nombre",
+            "antes": true,
+            "despues": false
+          }
+        ]
+      },
+      {
+        "id": "osm:way/175606176",
+        "agregados": [],
+        "retirados": [],
+        "contencion_cambios": []
+      },
+      {
+        "id": "osm:way/1151260239",
+        "agregados": [],
+        "retirados": [],
+        "contencion_cambios": []
+      }
+    ],
+    "evidencia_candidatos_prioritarios": {
+      "contencion_candidata": 33,
+      "solo_proximidad_evidencia_insuficiente": 76,
+      "proximidad_y_nombre_alias": 22,
+      "geometria_del_registro_fuente": 8
+    },
+    "conflictos_institucionales_prioritarios": [
+      {
+        "establecimiento": "minsal-461",
+        "fuente": "overpass",
+        "id": "way/446923600",
+        "nombre": "Unidad Médica Soyapango-ISSS"
+      },
+      {
+        "establecimiento": "minsal-461",
+        "fuente": "hot",
+        "id": "way/446923600",
+        "nombre": "Unidad Médica Soyapango-ISSS"
+      },
+      {
+        "establecimiento": "minsal-461",
+        "fuente": "geofabrik",
+        "id": "way/446923600",
+        "nombre": "Unidad Médica Soyapango-ISSS"
+      },
+      {
+        "establecimiento": "minsal-527",
+        "fuente": "overpass",
+        "id": "relation/8030854",
+        "nombre": "ISSS Zacamil"
+      },
+      {
+        "establecimiento": "minsal-527",
+        "fuente": "hot",
+        "id": "relation/8030854",
+        "nombre": "ISSS Zacamil"
+      },
+      {
+        "establecimiento": "minsal-527",
+        "fuente": "geofabrik",
+        "id": "way/8030854",
+        "nombre": "ISSS Zacamil"
+      }
+    ],
+    "retenciones_totales": 60,
+    "vertices_candidatos_fuera_departamento": [],
+    "puntos_minsal_en_unificado": [
+      {
+        "id": "minsal-365",
+        "conservado": true
+      },
+      {
+        "id": "minsal-396",
+        "conservado": true
+      },
+      {
+        "id": "minsal-398",
+        "conservado": true
+      },
+      {
+        "id": "minsal-413",
+        "conservado": true
+      },
+      {
+        "id": "minsal-461",
+        "conservado": true
+      },
+      {
+        "id": "minsal-471",
+        "conservado": true
+      },
+      {
+        "id": "minsal-527",
+        "conservado": true
+      }
+    ]
+  },
+  "minsal_112_50": {
+    "declarados": 112,
+    "geometricamente_dentro": 113,
+    "conservados": {
+      "Unidad Comunitaria Salud Familiar Intermedia (UCSFI)": 32,
+      "Centro de Atención de Emergencias (CAE)": 2,
+      "Hospital básico (II Nivel)": 1,
+      "Sistema de Emergencias Médicas (SEM)": 3,
+      "Hospital departamental (II Nivel)": 3,
+      "Unidad Comunitaria Salud Familiar Especializada (UCSFE)": 5,
+      "Clínica de Empleados": 1,
+      "Hospital Especializado (III Nivel)": 3
+    },
+    "omitidos": {
+      "Casa de Salud": 18,
+      "Unidad Comunitaria Salud Familiar Básica (UCSFB)": 29,
+      "Nivel Administrativo Superior": 2,
+      "Nivel Administrativo II (SIBASI)": 4,
+      "Nivel Administrativo I (Región)": 1,
+      "Laboratorio de Referencia Nacional": 1,
+      "Oficina Sanitaria Internacional (OSI)": 1,
+      "Centro Rural de Nutrición (CRN)": 4,
+      "Hogar de Espera Materna (HEM)": 1,
+      "Farmacia Especializada": 1
+    },
+    "declarados_fuera": [
+      {
+        "id": "minsal-565",
+        "fuente": "MINSAL",
+        "nombre": "Casa de Salud San Jeronimo",
+        "tipo": "Casa de Salud",
+        "departamento": "San Salvador",
+        "municipio": "Nejapa",
+        "region": "Region Metropolitana",
+        "minsal_id": 565,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7420621387584,-89.2696877436711",
+        "lat": 13.7420621387584,
+        "lon": -89.2696877436711
+      }
+    ],
+    "otros_dentro": [
+      {
+        "id": "minsal-188",
+        "fuente": "MINSAL",
+        "nombre": "CRN Arturo Niza",
+        "tipo": "Centro Rural de Nutrición (CRN)",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad",
+        "region": "Region Central",
+        "minsal_id": 188,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4796508345469,-89.2057645730808",
+        "lat": 13.4796508345469,
+        "lon": -89.2057645730808
+      },
+      {
+        "id": "minsal-194",
+        "fuente": "MINSAL",
+        "nombre": "CRN Melara",
+        "tipo": "Centro Rural de Nutrición (CRN)",
+        "departamento": "La Libertad",
+        "municipio": "La Libertad",
+        "region": "Region Central",
+        "minsal_id": 194,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4797646623318,-89.2065504983431",
+        "lat": 13.4797646623318,
+        "lon": -89.2065504983431
+      }
+    ]
+  },
+  "prioritarios": [
+    {
+      "establecimiento_id": "minsal-365",
+      "nombre": "Hospital Nacional San Salvador SS Neumológico \"Dr. José Antonio Saldaña\"",
+      "institucion": "MINSAL",
+      "poligonos_principales_candidatos": "way/1286180155",
+      "grupos_deduplicados": "unificado-hot-way-1286180155",
+      "fuentes_tipos": "HOT: way/1286180155; Overpass: way/1286180155; Geofabrik: way/1286180155 / Polygon / Polígono",
+      "candidatos_piloto": 11,
+      "conservados_mapa_por_fuente": 3,
+      "ausentes_mapa": 8,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 0,
+      "contencion_principales": "way/1286180155: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Punto y recinto no deben equipararse; revisar distancia y edificios omitidos.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "minsal-396",
+      "nombre": "Hospital Nacional San Salvador SS \"Rosales\"",
+      "institucion": "MINSAL",
+      "poligonos_principales_candidatos": "relation/6539661 | way/39317434",
+      "grupos_deduplicados": "unificado-hot-relation-6539661 | unificado-overpass-way-39317434",
+      "fuentes_tipos": "HOT: relation/6539661; Overpass: relation/6539661; Geofabrik: way/6539661 / Polygon / Polígono || Overpass: way/39317434; HOT: way/39317434; Geofabrik: way/39317434 / Polygon / Polígono",
+      "candidatos_piloto": 23,
+      "conservados_mapa_por_fuente": 7,
+      "ausentes_mapa": 16,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 0,
+      "contencion_principales": "relation/6539661: si | way/39317434: no",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Dos recintos llamados Rosales; old_name Hospital de Maternidad en way/39317434. No fusionar por nombre.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "minsal-398",
+      "nombre": "Hospital Nacional San Salvador SS \"Benjamin Bloom\"",
+      "institucion": "MINSAL",
+      "poligonos_principales_candidatos": "relation/8776526 | relation/8776557",
+      "grupos_deduplicados": "unificado-overpass-relation-8776557 | unificado-overpass-relation-8776526",
+      "fuentes_tipos": "Overpass: relation/8776557; HOT: relation/8776557; Geofabrik: way/8776557 / Polygon / Polígono || Overpass: relation/8776526; HOT: relation/8776526; Geofabrik: way/8776526 / Polygon / Polígono",
+      "candidatos_piloto": 10,
+      "conservados_mapa_por_fuente": 6,
+      "ausentes_mapa": 4,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 0.001,
+      "contencion_principales": "relation/8776557: no | relation/8776526: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Recinto, anexo y punto OSM distintos; municipio San Salvador/Mejicanos contradictorio.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "minsal-413",
+      "nombre": "Hospital Nacional de la Mujer San Salvador SS \"Dra. María Isabel Rodríguez\"",
+      "institucion": "MINSAL",
+      "poligonos_principales_candidatos": "way/446419890",
+      "grupos_deduplicados": "unificado-hot-way-446419890",
+      "fuentes_tipos": "HOT: way/446419890; Overpass: way/446419890; Geofabrik: way/446419890 / Polygon / Polígono",
+      "candidatos_piloto": 7,
+      "conservados_mapa_por_fuente": 3,
+      "ausentes_mapa": 4,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 0.001,
+      "contencion_principales": "way/446419890: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "No confundir con Hospital de La Mujer privado o de institución no determinada.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "minsal-461",
+      "nombre": "Hospital Nacional Soyapango SS  \"Dr. José Molina Martínez\"",
+      "institucion": "MINSAL",
+      "poligonos_principales_candidatos": "way/984041568",
+      "grupos_deduplicados": "unificado-hot-way-984041568",
+      "fuentes_tipos": "HOT: way/984041568; Overpass: way/984041568; Geofabrik: way/984041568 / Polygon / Polígono",
+      "candidatos_piloto": 18,
+      "conservados_mapa_por_fuente": 9,
+      "ausentes_mapa": 9,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 0,
+      "contencion_principales": "way/984041568: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Diferencias de nombre; edificios contenidos retirados de Geofabrik.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "minsal-471",
+      "nombre": "Hospital Nacional Ilopango SS  \"Enf. Angélica Vidal de Najarro\"",
+      "institucion": "MINSAL",
+      "poligonos_principales_candidatos": "way/766585972",
+      "grupos_deduplicados": "unificado-overpass-way-766585972",
+      "fuentes_tipos": "Overpass: way/766585972; HOT: way/766585972; Geofabrik: way/766585972 / Polygon / Polígono",
+      "candidatos_piloto": 14,
+      "conservados_mapa_por_fuente": 6,
+      "ausentes_mapa": 8,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 0,
+      "contencion_principales": "way/766585972: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Alias San Bartolo frente a Enf. Angélica Vidal de Najarro; revisar contención y municipio.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "minsal-527",
+      "nombre": "Hospital Nacional Mejicanos SS  (Zacamil) \"Dr. Juan José Fernández\"",
+      "institucion": "MINSAL",
+      "poligonos_principales_candidatos": "relation/8028286",
+      "grupos_deduplicados": "unificado-hot-relation-8028286",
+      "fuentes_tipos": "HOT: relation/8028286; Geofabrik: way/8028286 / Polygon / Polígono",
+      "candidatos_piloto": 15,
+      "conservados_mapa_por_fuente": 8,
+      "ausentes_mapa": 7,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 0.001,
+      "contencion_principales": "relation/8028286: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Overpass conserva línea, HOT relación Polygon; Geofabrik usa way/8028286 indebidamente.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "osm:relation/6880781",
+      "nombre": "Hospital General del ISSS",
+      "institucion": "ISSS",
+      "poligonos_principales_candidatos": "relation/6880781",
+      "grupos_deduplicados": "unificado-hot-relation-6880781",
+      "fuentes_tipos": "HOT: relation/6880781; Overpass: relation/6880781; Geofabrik: way/6880781 / Polygon / Polígono",
+      "candidatos_piloto": 17,
+      "conservados_mapa_por_fuente": 6,
+      "ausentes_mapa": 11,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 12.584,
+      "contencion_principales": "relation/6880781: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Geofabrik usa way para la relación; edificios internos retirados.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "osm:way/140084935",
+      "nombre": "Hospital El Salvador",
+      "institucion": "MINSAL",
+      "poligonos_principales_candidatos": "way/140084935",
+      "grupos_deduplicados": "unificado-hot-way-140084935",
+      "fuentes_tipos": "HOT: way/140084935; Overpass: way/140084935; Geofabrik: way/140084935 / Polygon / Polígono",
+      "candidatos_piloto": 10,
+      "conservados_mapa_por_fuente": 3,
+      "ausentes_mapa": 7,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 23.337,
+      "contencion_principales": "way/140084935: si",
+      "contenciones_cambiadas": 1,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Edificios internos retirados; operador institucional explícito solo en algunas fuentes.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "osm:way/175606176",
+      "nombre": "Hospital Medico Quirurgico ISSS",
+      "institucion": "ISSS",
+      "poligonos_principales_candidatos": "way/175606176",
+      "grupos_deduplicados": "unificado-hot-way-175606176",
+      "fuentes_tipos": "HOT: way/175606176; Overpass: way/175606176; Geofabrik: way/175606176 / Polygon / Polígono",
+      "candidatos_piloto": 10,
+      "conservados_mapa_por_fuente": 6,
+      "ausentes_mapa": 4,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 25.989,
+      "contencion_principales": "way/175606176: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "Evitar absorber predios/edificios ISSS vecinos; falta validación institucional independiente.",
+      "estado": "pendiente_de_revision"
+    },
+    {
+      "establecimiento_id": "osm:way/1151260239",
+      "nombre": "Hospital Amatepec ISSS",
+      "institucion": "ISSS",
+      "poligonos_principales_candidatos": "way/1151260239",
+      "grupos_deduplicados": "unificado-hot-way-1151260239",
+      "fuentes_tipos": "HOT: way/1151260239; Overpass: way/1151260239; Geofabrik: way/1151260239 / Polygon / Polígono",
+      "candidatos_piloto": 4,
+      "conservados_mapa_por_fuente": 3,
+      "ausentes_mapa": 1,
+      "punto_en_departamento": true,
+      "nuevo_centro_en_departamento": true,
+      "cambio_centro_m": 30.025,
+      "contencion_principales": "way/1151260239: si",
+      "contenciones_cambiadas": 0,
+      "evidencia": "Nombre/alias y geometría del piloto; IDs originales trazables. Contención es evidencia espacial, no validación.",
+      "problemas": "OSM compartido entre fuentes no constituye corroboración independiente.",
+      "estado": "pendiente_de_revision"
+    }
+  ],
+  "geofabrik_omitidos": {
+    "dentro": 356,
+    "por_detalle": {
+      "Predio": 2,
+      "Edificio": 144,
+      "Punto": 8
+    },
+    "edificios": [
+      {
+        "id": "way/399538879",
+        "nombre": "Centro Visión",
+        "detalle": "Predio"
+      },
+      {
+        "id": "way/1154155569",
+        "nombre": "Centro Nacional de Radioterapia",
+        "detalle": "Predio"
+      },
+      {
+        "id": "way/337971713",
+        "nombre": "Hospital El Salvador",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/399704136",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/399741855",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/399741857",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/400035147",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/400832469",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/431863120",
+        "nombre": "Oftalmología",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/431863142",
+        "nombre": "Quirófanos Edificio del Japón",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/431863160",
+        "nombre": "Resonancia Magnética",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/431863168",
+        "nombre": "Radiología Central",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/435907323",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/435907325",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/436027537",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/436035905",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/436035906",
+        "nombre": "Quirófano",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/436035907",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/436035908",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465315393",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962152",
+        "nombre": "Hospital General ISSS",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962153",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962154",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962155",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962158",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962159",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962160",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962161",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962162",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/6880784",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/465962165",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/476447118",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/476447119",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/476447120",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/476447125",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/476447126",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/476447127",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/476447128",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/476447129",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/477899807",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/544423049",
+        "nombre": "Hospital El Salvador",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/544423050",
+        "nombre": "Hospital El Salvador",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/544423051",
+        "nombre": "Hospital El Salvador",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/544423052",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/544423053",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/544423055",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/544423056",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/544423057",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/8028285",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915445",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915446",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915447",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915450",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915452",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915453",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915454",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915455",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915456",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915457",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915458",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/561915459",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/562073848",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/562073851",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/630806918",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/9130756",
+        "nombre": "Hospital de Especialidades",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/656425364",
+        "nombre": "Edificio Emergencias",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/656425365",
+        "nombre": "Laboratorio y Banco de Sangre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/656425366",
+        "nombre": "Edificio Consulta Externa",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/778696590",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/824256983",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/824256984",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/824256985",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/983366116",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041571",
+        "nombre": "Emergencias",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041572",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041573",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041574",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041575",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041576",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041586",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041587",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/984041588",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154155568",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154398142",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154398143",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154398144",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154398145",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154398146",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154398147",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154398148",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1154398149",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1155150889",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1155150890",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1155150891",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1155150892",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1155150893",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1155150894",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1155150895",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1155150896",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1158005576",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1158005577",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1158005578",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1205947828",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1205947829",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1205947830",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1205947831",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1214591513",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1215592840",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1220636343",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180156",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180157",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180158",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180159",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180160",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180161",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180162",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180163",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180164",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180165",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180166",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180167",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180168",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180169",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180170",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180171",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180172",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180173",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180174",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180175",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180176",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1286180177",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1290112748",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1290112749",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1319139718",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1319139719",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1508430383",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1525946074",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/20968297",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1529920229",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1534982705",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1540123754",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1540123756",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1540123757",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1540123759",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1553337312",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "way/1553337325",
+        "nombre": "Sin nombre",
+        "detalle": "Edificio"
+      },
+      {
+        "id": "node/4144981389",
+        "nombre": "Gastroclinica",
+        "detalle": "Punto"
+      },
+      {
+        "id": "node/5682288022",
+        "nombre": "Policlinico Medico Central",
+        "detalle": "Punto"
+      },
+      {
+        "id": "node/6286479518",
+        "nombre": "Claudia Urrutia",
+        "detalle": "Punto"
+      },
+      {
+        "id": "node/8677545817",
+        "nombre": "Olimpic plaza",
+        "detalle": "Punto"
+      },
+      {
+        "id": "node/12668917600",
+        "nombre": "Hospital de Diagóstico Escalón",
+        "detalle": "Punto"
+      },
+      {
+        "id": "node/12899917081",
+        "nombre": "Dr. Samuel Isaac Merino Barrera",
+        "detalle": "Punto"
+      },
+      {
+        "id": "node/13630348301",
+        "nombre": "Clidem",
+        "detalle": "Punto"
+      },
+      {
+        "id": "node/13980652644",
+        "nombre": "Imagine Clinic",
+        "detalle": "Punto"
+      }
+    ]
+  }
+}
