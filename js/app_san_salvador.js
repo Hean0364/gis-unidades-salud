@@ -8,8 +8,8 @@ const SOURCE_ORDER = [...FILTERED_SOURCE_IDS, "minsal", "osm", "geofabrik", "hot
 const ADMINISTRATIVE_ORDER = ["departamentos"];
 
 const SOURCE = {
-  unificado_poligonos: { color: "#0f766e", label: "Polígonos depurados", hint: "Sin privados lucrativos ni edificios internos · los centroides acompañan a cada polígono" },
-  unificado_puntos: { color: "#d97706", label: "Puntos depurados", hint: "Sin privados lucrativos ni puntos superpuestos con polígonos" },
+  unificado_poligonos: { color: "#0f766e", label: "Polígonos depurados", hint: "Con filtros sectorial y espacial aplicados · los centroides acompañan a cada polígono" },
+  unificado_puntos: { color: "#d97706", label: "Puntos depurados", hint: "Con filtros aplicados · sin puntos superpuestos con polígonos" },
   minsal: { color: "#1f8a70", label: "MINSAL", hint: "Registros vinculados con la capa principal filtrada" },
   osm: { color: "#c45c26", label: "OSM / Overpass", hint: "Registros vinculados con la capa principal filtrada" },
   geofabrik: { color: "#2458a6", label: "Geofabrik", hint: "Registros vinculados con la capa principal filtrada" },
