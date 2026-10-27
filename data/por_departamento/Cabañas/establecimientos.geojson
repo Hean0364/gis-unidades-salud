@@ -1,0 +1,753 @@
+{
+  "type": "FeatureCollection",
+  "name": "establecimientos_salud_Cabañas",
+  "meta": {
+    "departamento": "Cabañas",
+    "fuente": "data/por_departamento/Cabañas/establecimientos_salud.xlsx",
+    "count": 10,
+    "puntos": 3,
+    "poligonos": 7
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-523",
+        "fuente": "minsal",
+        "fuente_id": "523",
+        "nombre": "UCSFE Ilobasco",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Cabañas",
+        "municipio": "Ilobasco",
+        "region": "Paracentral",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.84185109",
+        "centroide_longitud": "-88.85603281",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.84185109,-88.85603281"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8560328089255,
+          13.8418510922789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-654",
+        "fuente": "minsal",
+        "fuente_id": "654",
+        "nombre": "UCSFE Sensuntepeque",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Cabañas",
+        "municipio": "Sensuntepeque",
+        "region": "Paracentral",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8742538",
+        "centroide_longitud": "-88.63157932",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8742538,-88.63157932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.6315793190475,
+          13.8742537991668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-451050436",
+        "fuente": "overpass",
+        "fuente_id": "way/451050436",
+        "nombre": "Unidad de Salud Ciudad Dolores",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Cabañas",
+        "municipio": "Dolores",
+        "region": "Paracentral",
+        "direccion": "Dolores",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "13",
+        "centroide_latitud": "13.78197013",
+        "centroide_longitud": "-88.56583067",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/451050436",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.78197013,-88.56583067"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.5659622,
+              13.7818628
+            ],
+            [
+              -88.5659071,
+              13.7818364
+            ],
+            [
+              -88.5658905,
+              13.7818691
+            ],
+            [
+              -88.5658142,
+              13.7818326
+            ],
+            [
+              -88.5657001,
+              13.7820577
+            ],
+            [
+              -88.5658312,
+              13.7821204
+            ],
+            [
+              -88.5658835,
+              13.7820174
+            ],
+            [
+              -88.5658657,
+              13.7820089
+            ],
+            [
+              -88.5658749,
+              13.7819908
+            ],
+            [
+              -88.5659134,
+              13.7820092
+            ],
+            [
+              -88.5659357,
+              13.7819653
+            ],
+            [
+              -88.5659152,
+              13.7819555
+            ],
+            [
+              -88.5659622,
+              13.7818628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-663300839",
+        "fuente": "overpass",
+        "fuente_id": "way/663300839",
+        "nombre": "Parque los Desamparados",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Cabañas",
+        "municipio": "Ilobasco",
+        "region": "Paracentral",
+        "direccion": "Ilobasco",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "9",
+        "centroide_latitud": "13.84136731",
+        "centroide_longitud": "-88.8473576",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/663300839",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.84136731,-88.8473576"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.8471398,
+              13.8411355
+            ],
+            [
+              -88.8470928,
+              13.841159
+            ],
+            [
+              -88.847015,
+              13.8414285
+            ],
+            [
+              -88.8470217,
+              13.8414559
+            ],
+            [
+              -88.8475542,
+              13.8416004
+            ],
+            [
+              -88.8476293,
+              13.8415743
+            ],
+            [
+              -88.8476896,
+              13.8413061
+            ],
+            [
+              -88.8476548,
+              13.8412579
+            ],
+            [
+              -88.8471398,
+              13.8411355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-679610279",
+        "fuente": "overpass",
+        "fuente_id": "way/679610279",
+        "nombre": "Hospital Nacional de Sensuntepeque",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Cabañas",
+        "municipio": "Sensuntepeque",
+        "region": "Paracentral",
+        "direccion": "Sensuntepeque",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "8",
+        "centroide_latitud": "13.87515878",
+        "centroide_longitud": "-88.62218473",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/679610279",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87515878,-88.62218473"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.6230379,
+              13.8756629
+            ],
+            [
+              -88.6229921,
+              13.8746968
+            ],
+            [
+              -88.6226099,
+              13.8745657
+            ],
+            [
+              -88.6213793,
+              13.8746665
+            ],
+            [
+              -88.6213381,
+              13.8756737
+            ],
+            [
+              -88.6215052,
+              13.8757201
+            ],
+            [
+              -88.6215801,
+              13.8757096
+            ],
+            [
+              -88.6230379,
+              13.8756629
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-732755311",
+        "fuente": "overpass",
+        "fuente_id": "way/732755311",
+        "nombre": "Hospital Nacional de Ilobasco",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Cabañas",
+        "municipio": "Ilobasco",
+        "region": "Paracentral",
+        "direccion": "Ilobasco",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.83920587",
+        "centroide_longitud": "-88.85876323",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/732755311",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83920587,-88.85876323"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.8593243,
+              13.8383467
+            ],
+            [
+              -88.858351,
+              13.8382711
+            ],
+            [
+              -88.8581918,
+              13.8400649
+            ],
+            [
+              -88.8591898,
+              13.8401268
+            ],
+            [
+              -88.8593243,
+              13.8383467
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-732974959",
+        "fuente": "overpass",
+        "fuente_id": "way/732974959",
+        "nombre": "Unidad de Salud de San Isidro",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Cabañas",
+        "municipio": "San Isidro",
+        "region": "Paracentral",
+        "direccion": "San Isidro",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "11",
+        "centroide_latitud": "13.83116164",
+        "centroide_longitud": "-88.72200999",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/732974959",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83116164,-88.72200999"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.7225973,
+              13.8308735
+            ],
+            [
+              -88.7216145,
+              13.8309049
+            ],
+            [
+              -88.7213695,
+              13.8311831
+            ],
+            [
+              -88.7217655,
+              13.8313626
+            ],
+            [
+              -88.7219519,
+              13.8314972
+            ],
+            [
+              -88.7220797,
+              13.831572
+            ],
+            [
+              -88.7221136,
+              13.831584
+            ],
+            [
+              -88.7221598,
+              13.8315765
+            ],
+            [
+              -88.7222137,
+              13.8315541
+            ],
+            [
+              -88.7222584,
+              13.8315077
+            ],
+            [
+              -88.7225973,
+              13.8308735
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-way-696955285",
+        "fuente": "geofabrik",
+        "fuente_id": "way/696955285",
+        "nombre": "Sin nombre",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Edificio",
+        "detalle_codigo": "edificio",
+        "departamento": "Cabañas",
+        "municipio": "Sensuntepeque",
+        "region": "Paracentral",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "9",
+        "centroide_latitud": "13.87788674",
+        "centroide_longitud": "-88.6272216",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/696955285",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87788674,-88.6272216"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.6273276,
+              13.877818
+            ],
+            [
+              -88.627321,
+              13.8778747
+            ],
+            [
+              -88.62728,
+              13.8778702
+            ],
+            [
+              -88.6272694,
+              13.8779622
+            ],
+            [
+              -88.6271259,
+              13.8779465
+            ],
+            [
+              -88.6271382,
+              13.8778402
+            ],
+            [
+              -88.6272295,
+              13.8778502
+            ],
+            [
+              -88.6272344,
+              13.8778078
+            ],
+            [
+              -88.6273276,
+              13.877818
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-way-696979532",
+        "fuente": "hot",
+        "fuente_id": "way/696979532",
+        "nombre": "Centro de Espera Materna | Sensuntepeque",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Cabañas",
+        "municipio": "Sensuntepeque",
+        "region": "Paracentral",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": "maternity",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "35",
+        "centroide_latitud": "13.87512583",
+        "centroide_longitud": "-88.62987284",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/696979532",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87512583,-88.62987284"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.6299935,
+              13.8752222
+            ],
+            [
+              -88.6296837,
+              13.8751983
+            ],
+            [
+              -88.6296892,
+              13.8751312
+            ],
+            [
+              -88.6297231,
+              13.8751338
+            ],
+            [
+              -88.6297274,
+              13.8750814
+            ],
+            [
+              -88.6297947,
+              13.8750866
+            ],
+            [
+              -88.6297932,
+              13.8751056
+            ],
+            [
+              -88.6298431,
+              13.8751094
+            ],
+            [
+              -88.629849,
+              13.8750365
+            ],
+            [
+              -88.6298875,
+              13.8750395
+            ],
+            [
+              -88.6298893,
+              13.8750179
+            ],
+            [
+              -88.6299065,
+              13.8750192
+            ],
+            [
+              -88.6299093,
+              13.8749851
+            ],
+            [
+              -88.6299475,
+              13.874988
+            ],
+            [
+              -88.6299444,
+              13.8750253
+            ],
+            [
+              -88.6300401,
+              13.8750327
+            ],
+            [
+              -88.6300388,
+              13.8750488
+            ],
+            [
+              -88.6300723,
+              13.8750514
+            ],
+            [
+              -88.6300702,
+              13.8750748
+            ],
+            [
+              -88.6300183,
+              13.8750725
+            ],
+            [
+              -88.6300172,
+              13.8750833
+            ],
+            [
+              -88.6299775,
+              13.8750908
+            ],
+            [
+              -88.6299675,
+              13.8750905
+            ],
+            [
+              -88.6299105,
+              13.8750824
+            ],
+            [
+              -88.6299097,
+              13.875091
+            ],
+            [
+              -88.6299301,
+              13.8750926
+            ],
+            [
+              -88.6299285,
+              13.8751127
+            ],
+            [
+              -88.6299429,
+              13.8751138
+            ],
+            [
+              -88.6299438,
+              13.8751028
+            ],
+            [
+              -88.6299622,
+              13.8751042
+            ],
+            [
+              -88.6299596,
+              13.875135
+            ],
+            [
+              -88.6299879,
+              13.8751371
+            ],
+            [
+              -88.6299852,
+              13.87517
+            ],
+            [
+              -88.6299977,
+              13.875171
+            ],
+            [
+              -88.6299935,
+              13.8752222
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-8810286308",
+        "fuente": "hot",
+        "fuente_id": "node/8810286308",
+        "nombre": "La Bodeguita del Cerdito",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Cabañas",
+        "municipio": "Ilobasco",
+        "region": "Paracentral",
+        "direccion": "Ilobasco",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8388081",
+        "centroide_longitud": "-88.8536543",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/8810286308",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8388081,-88.8536543"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8536543,
+          13.8388081
+        ]
+      }
+    }
+  ]
+}

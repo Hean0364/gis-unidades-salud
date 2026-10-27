@@ -4,12 +4,13 @@ const SAN_SALVADOR_BOUNDS = [
 ];
 
 const FILTERED_SOURCE_IDS = ["unificado_poligonos", "unificado_puntos"];
-const SOURCE_ORDER = [...FILTERED_SOURCE_IDS, "minsal", "osm", "geofabrik", "hot"];
+const SOURCE_ORDER = [...FILTERED_SOURCE_IDS, "privadas", "minsal", "osm", "geofabrik", "hot"];
 const ADMINISTRATIVE_ORDER = ["departamentos"];
 
 const SOURCE = {
-  unificado_poligonos: { color: "#0f766e", label: "Polígonos depurados", hint: "Sin privados lucrativos ni edificios internos · los centroides acompañan a cada polígono" },
-  unificado_puntos: { color: "#d97706", label: "Puntos depurados", hint: "Sin privados lucrativos ni puntos superpuestos con polígonos" },
+  unificado_poligonos: { color: "#0f766e", label: "Polígonos depurados", hint: "Con filtros sectorial y espacial aplicados · los centroides acompañan a cada polígono" },
+  unificado_puntos: { color: "#d97706", label: "Puntos depurados", hint: "Con filtros aplicados · sin puntos superpuestos con polígonos" },
+  privadas: { color: "#6d28d9", label: "Privadas · polígonos", hint: "Polígonos verdes de la hoja Poligonos del XLSX + polígonos del CSV · sin puntos" },
   minsal: { color: "#1f8a70", label: "MINSAL", hint: "Registros vinculados con la capa principal filtrada" },
   osm: { color: "#c45c26", label: "OSM / Overpass", hint: "Registros vinculados con la capa principal filtrada" },
   geofabrik: { color: "#2458a6", label: "Geofabrik", hint: "Registros vinculados con la capa principal filtrada" },
@@ -70,7 +71,7 @@ const collections = {};
 const typeOn = Object.fromEntries(SOURCE_ORDER.map((sourceId) => [sourceId, {}]));
 const extraOn = Object.fromEntries(SOURCE_ORDER.map((sourceId) => [sourceId, "all"]));
 const layerEnabled = Object.fromEntries(SOURCE_ORDER.map((sourceId) => (
-  [sourceId, FILTERED_SOURCE_IDS.includes(sourceId)]
+  [sourceId, FILTERED_SOURCE_IDS.includes(sourceId) || sourceId === "privadas"]
 )));
 const administrativeEnabled = { departamentos: true };
 const expanded = {
@@ -79,6 +80,7 @@ const expanded = {
   bases: true,
   unificado_poligonos: true,
   unificado_puntos: true,
+  privadas: true,
   minsal: false,
   osm: false,
   geofabrik: false,
@@ -150,6 +152,7 @@ function minsalColor(tipo) {
 
 function colorForTipo(sourceId, tipo) {
   if (sourceId === "minsal") return minsalColor(tipo);
+  if (sourceId === "privadas") return "#8b5cf6";
   const t = String(tipo || "").toLowerCase();
   if (t.includes("hospital")) return "#d64545";
   if (t.includes("clínica") || t.includes("clinica")) return "#2f80ed";
@@ -260,8 +263,9 @@ function styleFor(feature, sourceId) {
 
 function pointMarker(feature, latlng, sourceId) {
   const tipo = (feature.properties || {}).tipo || "Sin tipo";
+  const geometryType = feature.geometry && feature.geometry.type;
   return L.circleMarker(latlng, {
-    radius: isPointSource(sourceId) ? 6 : 5,
+    radius: isPointSource(sourceId) || geometryType === "Point" || geometryType === "MultiPoint" ? 6 : 5,
     color: "#fff",
     weight: 1.5,
     fillColor: colorForTipo(sourceId, tipo),
@@ -418,7 +422,7 @@ function visibleFeatures() {
 }
 
 function raiseVectors() {
-  for (const id of ["osm", "geofabrik", "hot", "minsal", "unificado_poligonos", "unificado_puntos"]) {
+  for (const id of ["osm", "geofabrik", "hot", "minsal", "unificado_poligonos", "unificado_puntos", "privadas"]) {
     const layer = vectorLayers[id];
     if (layer && map.hasLayer(layer)) layer.bringToFront();
   }
@@ -508,6 +512,7 @@ function buildVectorLayers() {
       name: `${filtered.name}_puntos`,
       features: filteredFeatures.filter((feature) => ["Point", "MultiPoint"].includes(feature.geometry && feature.geometry.type))
     } : null,
+    privadas: window.PRIVADAS_GEOJSON || null,
     minsal: window.MINSAL_GEOJSON && filterReferenceCollection(window.MINSAL_GEOJSON, "minsal", filteredFeatures),
     osm: window.OVERPASS_GEOJSON && filterReferenceCollection(window.OVERPASS_GEOJSON, "osm", filteredFeatures),
     geofabrik: window.GEOFABRIK_GEOJSON && filterReferenceCollection(window.GEOFABRIK_GEOJSON, "geofabrik", filteredFeatures),
@@ -526,25 +531,34 @@ function buildVectorLayers() {
     vectorLayers[id] = makeLayer(packs[id], id);
     syncSource(id);
   }
-  searchIndex = FILTERED_SOURCE_IDS.flatMap((sourceId) => (
-    collections[sourceId].features.map((feature) => {
-      const properties = feature.properties || {};
-      const name = properties.nombre || "Sin nombre";
-      const details = [properties.tipo, properties.representacion, properties.municipio, properties.direccion]
-        .filter(Boolean)
-        .join(" · ");
-      const searchable = [
-        name,
-        properties.nombre_original,
-        properties.tipo,
-        properties.tipo_original,
-        properties.municipio,
-        properties.direccion,
-        properties.sector,
-        properties.descripcion_breve
-      ].filter(Boolean).join(" ");
-      return { sourceId, feature, name, details, normalized: normalizeSearchText(searchable) };
-    })
+  const searchSourceOrder = ["privadas", ...FILTERED_SOURCE_IDS];
+  const indexedIds = new Set();
+  searchIndex = searchSourceOrder.flatMap((sourceId) => (
+    collections[sourceId].features
+      .filter((feature) => {
+        const id = String((feature.properties || {}).id || "");
+        if (id && indexedIds.has(id)) return false;
+        if (id) indexedIds.add(id);
+        return true;
+      })
+      .map((feature) => {
+        const properties = feature.properties || {};
+        const name = properties.nombre || "Sin nombre";
+        const details = [properties.tipo, properties.representacion, properties.municipio, properties.direccion]
+          .filter(Boolean)
+          .join(" · ");
+        const searchable = [
+          name,
+          properties.nombre_original,
+          properties.tipo,
+          properties.tipo_original,
+          properties.municipio,
+          properties.direccion,
+          properties.sector,
+          properties.descripcion_breve
+        ].filter(Boolean).join(" ");
+        return { sourceId, feature, name, details, normalized: normalizeSearchText(searchable) };
+      })
   ));
   renderLayers();
   refreshView();

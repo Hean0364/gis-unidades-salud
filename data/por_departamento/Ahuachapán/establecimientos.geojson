@@ -1,0 +1,1663 @@
+{
+  "type": "FeatureCollection",
+  "name": "establecimientos_salud_Ahuachapán",
+  "meta": {
+    "departamento": "Ahuachapán",
+    "fuente": "data/por_departamento/Ahuachapán/establecimientos_salud.xlsx",
+    "count": 29,
+    "puntos": 11,
+    "poligonos": 18
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-868",
+        "fuente": "minsal",
+        "fuente_id": "868",
+        "nombre": "UCSFE Tacuba",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Tacuba",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.89088836",
+        "centroide_longitud": "-89.92705997",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.89088836,-89.92705997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.927059973624,
+          13.8908883648191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-relation-6752457",
+        "fuente": "overpass",
+        "fuente_id": "relation/6752457",
+        "nombre": "Unidad de Salud Doctor Gustavo Magaña",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Apaneca",
+        "region": "Occidental",
+        "direccion": "3ª Calle Oriente, Apaneca",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.85993407",
+        "centroide_longitud": "-89.80213754",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/relation/6752457",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.85993407,-89.80213754"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8022489,
+              13.8600348
+            ],
+            [
+              -89.8022925,
+              13.8598619
+            ],
+            [
+              -89.8020188,
+              13.8597967
+            ],
+            [
+              -89.8020019,
+              13.8598638
+            ],
+            [
+              -89.802017,
+              13.8600263
+            ],
+            [
+              -89.8022393,
+              13.8600726
+            ],
+            [
+              -89.8022489,
+              13.8600348
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-relation-9395655",
+        "fuente": "overpass",
+        "fuente_id": "relation/9395655",
+        "nombre": "Unidad de Salud de San Lorenzo",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "San Lorenzo",
+        "region": "Occidental",
+        "direccion": "San Lorenzo",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "14.02768649",
+        "centroide_longitud": "-89.78380669",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/relation/9395655",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=14.02768649,-89.78380669"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.7837736,
+              14.0275753
+            ],
+            [
+              -89.7836111,
+              14.0275723
+            ],
+            [
+              -89.7836403,
+              14.0278153
+            ],
+            [
+              -89.7839989,
+              14.0277822
+            ],
+            [
+              -89.7839986,
+              14.0277565
+            ],
+            [
+              -89.784003,
+              14.027583
+            ],
+            [
+              -89.7837736,
+              14.0275753
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-399726951",
+        "fuente": "overpass",
+        "fuente_id": "way/399726951",
+        "nombre": "Clínica San Francisco de Asis",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Concepción de Ataco",
+        "region": "Occidental",
+        "direccion": "Avenida Central, Concepción de Ataco",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.87102165",
+        "centroide_longitud": "-89.8510847",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/399726951",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87102165,-89.8510847"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8511356,
+              13.8709864
+            ],
+            [
+              -89.8510575,
+              13.870967
+            ],
+            [
+              -89.8510338,
+              13.8710569
+            ],
+            [
+              -89.8511119,
+              13.8710763
+            ],
+            [
+              -89.8511356,
+              13.8709864
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-400299489",
+        "fuente": "overpass",
+        "fuente_id": "way/400299489",
+        "nombre": "Hospital Monte Sinaí",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": "hospital",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.91974354",
+        "centroide_longitud": "-89.84608043",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/400299489",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.91974354,-89.84608043"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.846186,
+              13.919638
+            ],
+            [
+              -89.8460522,
+              13.919599
+            ],
+            [
+              -89.8459749,
+              13.9198491
+            ],
+            [
+              -89.8461086,
+              13.9198881
+            ],
+            [
+              -89.846186,
+              13.919638
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-400307256",
+        "fuente": "overpass",
+        "fuente_id": "way/400307256",
+        "nombre": "Clínica Municipal de Achuachapan",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.91866687",
+        "centroide_longitud": "-89.84675977",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/400307256",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.91866687,-89.84675977"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8467699,
+              13.9187507
+            ],
+            [
+              -89.8468166,
+              13.9186029
+            ],
+            [
+              -89.8467497,
+              13.918583
+            ],
+            [
+              -89.8467029,
+              13.9187308
+            ],
+            [
+              -89.8467699,
+              13.9187507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-400335031",
+        "fuente": "overpass",
+        "fuente_id": "way/400335031",
+        "nombre": "Centro Médico Ahuachapán",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "9",
+        "centroide_latitud": "13.92265396",
+        "centroide_longitud": "-89.84416193",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/400335031",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.92265396,-89.84416193"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8443644,
+              13.9228652
+            ],
+            [
+              -89.8444211,
+              13.922686
+            ],
+            [
+              -89.8443937,
+              13.9226778
+            ],
+            [
+              -89.8444191,
+              13.9225975
+            ],
+            [
+              -89.8438086,
+              13.9224157
+            ],
+            [
+              -89.8437918,
+              13.9224688
+            ],
+            [
+              -89.8440055,
+              13.9225325
+            ],
+            [
+              -89.8439403,
+              13.9227389
+            ],
+            [
+              -89.8443644,
+              13.9228652
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-400335032",
+        "fuente": "overpass",
+        "fuente_id": "way/400335032",
+        "nombre": "Ceclisa",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.922389",
+        "centroide_longitud": "-89.8430724",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/400335032",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.922389,-89.8430724"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8431635,
+              13.9225176
+            ],
+            [
+              -89.8432203,
+              13.9223279
+            ],
+            [
+              -89.8429813,
+              13.9222604
+            ],
+            [
+              -89.8429245,
+              13.9224501
+            ],
+            [
+              -89.8431635,
+              13.9225176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-422749025",
+        "fuente": "overpass",
+        "fuente_id": "way/422749025",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Guaymango",
+        "region": "Occidental",
+        "direccion": "2a Avenida Sur, 24200563, Guaymango",
+        "operador": "Ministerio de Salud",
+        "telefono": "+503 2420 0563",
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.74569663",
+        "centroide_longitud": "-89.84494523",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/422749025",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.74569663,-89.84494523"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8450764,
+              13.745755
+            ],
+            [
+              -89.8450648,
+              13.7456182
+            ],
+            [
+              -89.8448141,
+              13.7456382
+            ],
+            [
+              -89.8448257,
+              13.7457751
+            ],
+            [
+              -89.8450764,
+              13.745755
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-458890656",
+        "fuente": "overpass",
+        "fuente_id": "way/458890656",
+        "nombre": "Sin nombre",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "19",
+        "centroide_latitud": "13.92406009",
+        "centroide_longitud": "-89.84294983",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/458890656",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.92406009,-89.84294983"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8429913,
+              13.9238047
+            ],
+            [
+              -89.8429364,
+              13.9238284
+            ],
+            [
+              -89.842908,
+              13.923852
+            ],
+            [
+              -89.8428978,
+              13.9238659
+            ],
+            [
+              -89.8428897,
+              13.9239073
+            ],
+            [
+              -89.8426905,
+              13.9238876
+            ],
+            [
+              -89.8426539,
+              13.9241934
+            ],
+            [
+              -89.8427799,
+              13.9242092
+            ],
+            [
+              -89.8428877,
+              13.9242407
+            ],
+            [
+              -89.8430261,
+              13.9242955
+            ],
+            [
+              -89.8430747,
+              13.9242841
+            ],
+            [
+              -89.8431397,
+              13.9242466
+            ],
+            [
+              -89.8431763,
+              13.9241993
+            ],
+            [
+              -89.8432231,
+              13.9241519
+            ],
+            [
+              -89.8432454,
+              13.9240987
+            ],
+            [
+              -89.8432271,
+              13.9240474
+            ],
+            [
+              -89.8431661,
+              13.9239231
+            ],
+            [
+              -89.8430787,
+              13.923856
+            ],
+            [
+              -89.8429913,
+              13.9238047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-955945698",
+        "fuente": "overpass",
+        "fuente_id": "way/955945698",
+        "nombre": "Unidad de Salud - Atiquizaya",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Atiquizaya",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": "Ministerio de Salud",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.97295395",
+        "centroide_longitud": "-89.76022621",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/955945698",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.97295395,-89.76022621"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.7603941,
+              13.9733014
+            ],
+            [
+              -89.7604799,
+              13.9728345
+            ],
+            [
+              -89.7604168,
+              13.9728039
+            ],
+            [
+              -89.7604443,
+              13.972631
+            ],
+            [
+              -89.7600773,
+              13.9726046
+            ],
+            [
+              -89.7599516,
+              13.9732254
+            ],
+            [
+              -89.7603941,
+              13.9733014
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-1220131815",
+        "fuente": "overpass",
+        "fuente_id": "way/1220131815",
+        "nombre": "Ecos Familiares",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Turín",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": "Mo-Sa 07:00-22:00",
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.95798",
+        "centroide_longitud": "-89.76736934",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1220131815",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.95798,-89.76736934"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.767435,
+              13.9580647
+            ],
+            [
+              -89.7674022,
+              13.957878
+            ],
+            [
+              -89.767306,
+              13.9578957
+            ],
+            [
+              -89.7673188,
+              13.957983
+            ],
+            [
+              -89.7673328,
+              13.9580785
+            ],
+            [
+              -89.767435,
+              13.9580647
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-1220131816",
+        "fuente": "overpass",
+        "fuente_id": "way/1220131816",
+        "nombre": "UCsfB El Paraíso. Turin",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Turín",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.95799349",
+        "centroide_longitud": "-89.76726737",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1220131816",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.95799349,-89.76726737"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.7673328,
+              13.9580785
+            ],
+            [
+              -89.7673188,
+              13.957983
+            ],
+            [
+              -89.767306,
+              13.9578957
+            ],
+            [
+              -89.7672053,
+              13.957905
+            ],
+            [
+              -89.7672252,
+              13.9580905
+            ],
+            [
+              -89.7673328,
+              13.9580785
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-1220540309",
+        "fuente": "overpass",
+        "fuente_id": "way/1220540309",
+        "nombre": "Vacunación COVID-19 - Unidad de Salud Turin",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Ahuachapán",
+        "municipio": "Turín",
+        "region": "Occidental",
+        "direccion": "Turín",
+        "operador": null,
+        "telefono": "25917000",
+        "horario": null,
+        "especialidad": "Vacunación",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "9",
+        "centroide_latitud": "13.96586827",
+        "centroide_longitud": "-89.76845123",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1220540309",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.96586827,-89.76845123"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.7686017,
+              13.9663044
+            ],
+            [
+              -89.7686229,
+              13.9661447
+            ],
+            [
+              -89.7686707,
+              13.9658613
+            ],
+            [
+              -89.7687344,
+              13.9654337
+            ],
+            [
+              -89.7685804,
+              13.9654389
+            ],
+            [
+              -89.7684955,
+              13.9655007
+            ],
+            [
+              -89.7682088,
+              13.9655986
+            ],
+            [
+              -89.7681982,
+              13.9662271
+            ],
+            [
+              -89.7686017,
+              13.9663044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-way-6752457",
+        "fuente": "geofabrik",
+        "fuente_id": "way/6752457",
+        "nombre": "Unidad de Salud Doctor Gustavo Magaña",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Predio",
+        "detalle_codigo": "predio",
+        "departamento": "Ahuachapán",
+        "municipio": "Apaneca",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.85993407",
+        "centroide_longitud": "-89.80213754",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/6752457",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.85993407,-89.80213754"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8022925,
+              13.8598619
+            ],
+            [
+              -89.8022489,
+              13.8600348
+            ],
+            [
+              -89.8022393,
+              13.8600726
+            ],
+            [
+              -89.802017,
+              13.8600263
+            ],
+            [
+              -89.8020019,
+              13.8598638
+            ],
+            [
+              -89.8020188,
+              13.8597967
+            ],
+            [
+              -89.8022925,
+              13.8598619
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-way-9395655",
+        "fuente": "geofabrik",
+        "fuente_id": "way/9395655",
+        "nombre": "Unidad de Salud de San Lorenzo",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Predio",
+        "detalle_codigo": "predio",
+        "departamento": "Ahuachapán",
+        "municipio": "San Lorenzo",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "14.02768649",
+        "centroide_longitud": "-89.78380669",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/9395655",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=14.02768649,-89.78380669"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.784003,
+              14.027583
+            ],
+            [
+              -89.7839986,
+              14.0277565
+            ],
+            [
+              -89.7839989,
+              14.0277822
+            ],
+            [
+              -89.7836403,
+              14.0278153
+            ],
+            [
+              -89.7836111,
+              14.0275723
+            ],
+            [
+              -89.7837736,
+              14.0275753
+            ],
+            [
+              -89.784003,
+              14.027583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-way-705220711",
+        "fuente": "hot",
+        "fuente_id": "way/705220711",
+        "nombre": "Hospital Nacional General Francisco Menéndez",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": "Medicina general, Emergencia",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "10",
+        "centroide_latitud": "13.92916902",
+        "centroide_longitud": "-89.84651741",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/705220711",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.92916902,-89.84651741"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8473049,
+              13.9300666
+            ],
+            [
+              -89.8473524,
+              13.9300256
+            ],
+            [
+              -89.8474093,
+              13.9286669
+            ],
+            [
+              -89.8473585,
+              13.9286299
+            ],
+            [
+              -89.8454743,
+              13.9284303
+            ],
+            [
+              -89.8454189,
+              13.9293566
+            ],
+            [
+              -89.846121,
+              13.9294139
+            ],
+            [
+              -89.8463515,
+              13.9294204
+            ],
+            [
+              -89.846334,
+              13.9299791
+            ],
+            [
+              -89.8473049,
+              13.9300666
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-way-1113385424",
+        "fuente": "hot",
+        "fuente_id": "way/1113385424",
+        "nombre": "Unidad de Salud Barra de Santiago",
+        "tipo": "Otro",
+        "tipo_codigo": "otro",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Ahuachapán",
+        "municipio": "Jujutla",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": "Comunitaria",
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "11",
+        "centroide_latitud": "13.69048297",
+        "centroide_longitud": "-90.00377859",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1113385424",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69048297,-90.00377859"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.0039162,
+              13.6905916
+            ],
+            [
+              -90.003915,
+              13.6905252
+            ],
+            [
+              -90.0038974,
+              13.6905255
+            ],
+            [
+              -90.0038951,
+              13.6904109
+            ],
+            [
+              -90.0038779,
+              13.6904112
+            ],
+            [
+              -90.0038768,
+              13.690358
+            ],
+            [
+              -90.0036743,
+              13.6903619
+            ],
+            [
+              -90.0036755,
+              13.6904191
+            ],
+            [
+              -90.0036506,
+              13.6904575
+            ],
+            [
+              -90.0036532,
+              13.6905963
+            ],
+            [
+              -90.0039162,
+              13.6905916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-way-955945698",
+        "fuente": "hot",
+        "fuente_id": "way/955945698",
+        "nombre": "Unidad de Salud - Atiquizaya",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Ahuachapán",
+        "municipio": "Turín",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.97295395",
+        "centroide_longitud": "-89.76022621",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/955945698",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.97295395,-89.76022621"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.7603941,
+              13.9733014
+            ],
+            [
+              -89.7604799,
+              13.9728345
+            ],
+            [
+              -89.7604168,
+              13.9728039
+            ],
+            [
+              -89.7604443,
+              13.972631
+            ],
+            [
+              -89.7600773,
+              13.9726046
+            ],
+            [
+              -89.7599516,
+              13.9732254
+            ],
+            [
+              -89.7603941,
+              13.9733014
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-1917639995",
+        "fuente": "hot",
+        "fuente_id": "node/1917639995",
+        "nombre": "Unidad de Salud",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "Concepción de Ataco",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8703412",
+        "centroide_longitud": "-89.8518391",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/1917639995",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8703412,-89.8518391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8518391,
+          13.8703412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4574049866",
+        "fuente": "hot",
+        "fuente_id": "node/4574049866",
+        "nombre": "Clínica San Francisco",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "Ahuachapán",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.9205018",
+        "centroide_longitud": "-89.8491657",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4574049866",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.9205018,-89.8491657"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8491657,
+          13.9205018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-5784268553",
+        "fuente": "hot",
+        "fuente_id": "node/5784268553",
+        "nombre": "Clínica Médica Familiar",
+        "tipo": "Consultorio",
+        "tipo_codigo": "consultorio",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "Guaymango",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7462889",
+        "centroide_longitud": "-89.8454223",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/5784268553",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7462889,-89.8454223"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8454223,
+          13.7462889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4425902060",
+        "fuente": "hot",
+        "fuente_id": "node/4425902060",
+        "nombre": "Unidad de Salud Ingeniero Javier Estrada",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "San Francisco Menéndez",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7502545",
+        "centroide_longitud": "-90.0874056",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4425902060",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7502545,-90.0874056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0874056,
+          13.7502545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-13570503108",
+        "fuente": "hot",
+        "fuente_id": "node/13570503108",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "San Francisco Menéndez",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7704909",
+        "centroide_longitud": "-90.030089",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/13570503108",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7704909,-90.030089"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.030089,
+          13.7704909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-13570491934",
+        "fuente": "hot",
+        "fuente_id": "node/13570491934",
+        "nombre": "Clínica Médica Jesus de Dios",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "San Francisco Menéndez",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7754572",
+        "centroide_longitud": "-90.0323036",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/13570491934",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7754572,-90.0323036"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0323036,
+          13.7754572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-13570454069",
+        "fuente": "hot",
+        "fuente_id": "node/13570454069",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "San Francisco Menéndez",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7779696",
+        "centroide_longitud": "-90.0332391",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/13570454069",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7779696,-90.0332391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0332391,
+          13.7779696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-9976280798",
+        "fuente": "hot",
+        "fuente_id": "node/9976280798",
+        "nombre": "ECO. Caserío Morro Grande.",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "Guaymango",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.6912682",
+        "centroide_longitud": "-89.8407212",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/9976280798",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6912682,-89.8407212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8407212,
+          13.6912682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3968893364",
+        "fuente": "hot",
+        "fuente_id": "node/3968893364",
+        "nombre": "UCSFB El Rosario",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "El Refugio",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.9681927",
+        "centroide_longitud": "-89.7050228",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3968893364",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.9681927,-89.7050228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7050228,
+          13.9681927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3968806453",
+        "fuente": "hot",
+        "fuente_id": "node/3968806453",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Ahuachapán",
+        "municipio": "El Refugio",
+        "region": "Occidental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.9759023",
+        "centroide_longitud": "-89.7055646",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3968806453",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.9759023,-89.7055646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7055646,
+          13.9759023
+        ]
+      }
+    }
+  ]
+}

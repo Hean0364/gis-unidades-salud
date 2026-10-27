@@ -1,0 +1,2325 @@
+{
+  "type": "FeatureCollection",
+  "name": "establecimientos_salud_Morazán",
+  "meta": {
+    "departamento": "Morazán",
+    "fuente": "data/por_departamento/Morazán/establecimientos_salud.xlsx",
+    "count": 48,
+    "puntos": 31,
+    "poligonos": 17
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-287",
+        "fuente": "minsal",
+        "fuente_id": "287",
+        "nombre": "UCSFE Osicala",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Osicala",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.80435881",
+        "centroide_longitud": "-88.15241102",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80435881,-88.15241102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1524110231822,
+          13.8043588063637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-294",
+        "fuente": "minsal",
+        "fuente_id": "294",
+        "nombre": "UCSFE Perquin",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Perquin",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.95800835",
+        "centroide_longitud": "-88.15813729",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.95800835,-88.15813729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.158137294435,
+          13.9580083537891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-342",
+        "fuente": "minsal",
+        "fuente_id": "342",
+        "nombre": "UCSFE Sensembra",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Sensembra",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.66515109",
+        "centroide_longitud": "-88.16992051",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.66515109,-88.16992051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1699205067965,
+          13.6651510897413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-382",
+        "fuente": "minsal",
+        "fuente_id": "382",
+        "nombre": "UCSFE Corinto",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Corinto",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.80744571",
+        "centroide_longitud": "-87.96990874",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80744571,-87.96990874"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9699087357999,
+          13.8074457105882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-410",
+        "fuente": "minsal",
+        "fuente_id": "410",
+        "nombre": "UCSFE Ciudad Mujer Morazán",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "El Divisadero",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.58757445",
+        "centroide_longitud": "-88.07672746",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.58757445,-88.07672746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0767274583369,
+          13.5875744484175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-624517579",
+        "fuente": "overpass",
+        "fuente_id": "way/624517579",
+        "nombre": "Unidad de Salud de Jocoro",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Jocoro",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "ministerio de salud",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.61346351",
+        "centroide_longitud": "-88.02525935",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/624517579",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.61346351,-88.02525935"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.0253789,
+              13.6136357
+            ],
+            [
+              -88.0253402,
+              13.6134805
+            ],
+            [
+              -88.0252911,
+              13.6132634
+            ],
+            [
+              -88.0251399,
+              13.6132965
+            ],
+            [
+              -88.0252293,
+              13.6136612
+            ],
+            [
+              -88.0253789,
+              13.6136357
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-633568354",
+        "fuente": "overpass",
+        "fuente_id": "way/633568354",
+        "nombre": "Clínica Ginecologica-Obstetrica Divino Niñp",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Corinto",
+        "region": "Oriental",
+        "direccion": "4ª Calle Poniente, Corinto",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.8104266",
+        "centroide_longitud": "-87.9709686",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/633568354",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8104266,-87.9709686"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.9710021,
+              13.8103352
+            ],
+            [
+              -87.9709341,
+              13.8103355
+            ],
+            [
+              -87.9709351,
+              13.810518
+            ],
+            [
+              -87.9710031,
+              13.8105177
+            ],
+            [
+              -87.9710021,
+              13.8103352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-778653403",
+        "fuente": "overpass",
+        "fuente_id": "way/778653403",
+        "nombre": "Unidad de salud El Divisadero",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Jocoro",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.59966635",
+        "centroide_longitud": "-88.05285456",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/778653403",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.59966635,-88.05285456"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.052985,
+              13.5996586
+            ],
+            [
+              -88.0528919,
+              13.5995918
+            ],
+            [
+              -88.0528436,
+              13.599524
+            ],
+            [
+              -88.0527241,
+              13.5996814
+            ],
+            [
+              -88.0528819,
+              13.5997945
+            ],
+            [
+              -88.052985,
+              13.5996586
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-821669400",
+        "fuente": "overpass",
+        "fuente_id": "way/821669400",
+        "nombre": "Sin nombre",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Osicala",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.80560888",
+        "centroide_longitud": "-88.15363148",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/821669400",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.80560888,-88.15363148"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.1538326,
+              13.8057108
+            ],
+            [
+              -88.1538395,
+              13.8055137
+            ],
+            [
+              -88.1534233,
+              13.8055037
+            ],
+            [
+              -88.1534371,
+              13.8057108
+            ],
+            [
+              -88.1538326,
+              13.8057108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-828523120",
+        "fuente": "overpass",
+        "fuente_id": "way/828523120",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Yamabal",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.62630871",
+        "centroide_longitud": "-88.16023222",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/828523120",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.62630871,-88.16023222"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.160378,
+              13.6263589
+            ],
+            [
+              -88.1603397,
+              13.6262154
+            ],
+            [
+              -88.1600772,
+              13.6262686
+            ],
+            [
+              -88.1601264,
+              13.6263961
+            ],
+            [
+              -88.160378,
+              13.6263589
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-831355714",
+        "fuente": "overpass",
+        "fuente_id": "way/831355714",
+        "nombre": "UCSF CORINTO",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Corinto",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.8080202",
+        "centroide_longitud": "-87.96988131",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/831355714",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8080202,-87.96988131"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.9699952,
+              13.8081521
+            ],
+            [
+              -87.9699978,
+              13.80789
+            ],
+            [
+              -87.9697642,
+              13.8078951
+            ],
+            [
+              -87.9697642,
+              13.8081445
+            ],
+            [
+              -87.9699952,
+              13.8081521
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-831356928",
+        "fuente": "overpass",
+        "fuente_id": "way/831356928",
+        "nombre": "UCSF EL ROSARIO",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "El Rosario",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.86770818",
+        "centroide_longitud": "-88.21365436",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/831356928",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.86770818,-88.21365436"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.213796,
+              13.8679401
+            ],
+            [
+              -88.213931,
+              13.8676846
+            ],
+            [
+              -88.2135127,
+              13.8674763
+            ],
+            [
+              -88.2133777,
+              13.8677317
+            ],
+            [
+              -88.213796,
+              13.8679401
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-850644412",
+        "fuente": "overpass",
+        "fuente_id": "way/850644412",
+        "nombre": "UCSF",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "San Isidro",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "MINSAL",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.85951624",
+        "centroide_longitud": "-88.23206388",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/850644412",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.85951624,-88.23206388"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.2321303,
+              13.859654
+            ],
+            [
+              -88.2321008,
+              13.8595428
+            ],
+            [
+              -88.232219,
+              13.8595184
+            ],
+            [
+              -88.2321747,
+              13.8593706
+            ],
+            [
+              -88.231916,
+              13.8594496
+            ],
+            [
+              -88.2319973,
+              13.8596791
+            ],
+            [
+              -88.2321303,
+              13.859654
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-856982610",
+        "fuente": "overpass",
+        "fuente_id": "way/856982610",
+        "nombre": "UCSF SAN CARLOS MO",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "San Carlos",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "MINSAL",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.64753736",
+        "centroide_longitud": "-88.09205616",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/856982610",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.64753736,-88.09205616"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.092155,
+              13.6476982
+            ],
+            [
+              -88.0922041,
+              13.647487
+            ],
+            [
+              -88.0919832,
+              13.6473609
+            ],
+            [
+              -88.091899,
+              13.6476028
+            ],
+            [
+              -88.092155,
+              13.6476982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-858334178",
+        "fuente": "overpass",
+        "fuente_id": "way/858334178",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Guatajiagua",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "MINSAL",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.6598788",
+        "centroide_longitud": "-88.21170127",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/858334178",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6598788,-88.21170127"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.2117507,
+              13.6600177
+            ],
+            [
+              -88.2119211,
+              13.659837
+            ],
+            [
+              -88.2117081,
+              13.6597091
+            ],
+            [
+              -88.2114835,
+              13.6599085
+            ],
+            [
+              -88.2115958,
+              13.6600101
+            ],
+            [
+              -88.2117507,
+              13.6600177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-1138279541",
+        "fuente": "overpass",
+        "fuente_id": "way/1138279541",
+        "nombre": "unidad de salud calavera",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Cacaopera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "ministerio de salud",
+        "telefono": null,
+        "horario": "Mo-Fr 08:00-17:00",
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "9",
+        "centroide_latitud": "13.81603199",
+        "centroide_longitud": "-88.01249726",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1138279541",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.81603199,-88.01249726"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.0125011,
+              13.8160545
+            ],
+            [
+              -88.0125774,
+              13.8160568
+            ],
+            [
+              -88.01258,
+              13.8159772
+            ],
+            [
+              -88.012487,
+              13.8159743
+            ],
+            [
+              -88.0124855,
+              13.81602
+            ],
+            [
+              -88.0124096,
+              13.8160176
+            ],
+            [
+              -88.0124074,
+              13.816084
+            ],
+            [
+              -88.0125,
+              13.8160869
+            ],
+            [
+              -88.0125011,
+              13.8160545
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-1146425813",
+        "fuente": "overpass",
+        "fuente_id": "way/1146425813",
+        "nombre": "Unidad de Salud de Perquín",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Morazán",
+        "municipio": "Perquín",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "21",
+        "centroide_latitud": "13.95889614",
+        "centroide_longitud": "-88.15795761",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1146425813",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.95889614,-88.15795761"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.1582176,
+              13.9587696
+            ],
+            [
+              -88.1580998,
+              13.9587643
+            ],
+            [
+              -88.1580949,
+              13.9588651
+            ],
+            [
+              -88.1578339,
+              13.9588531
+            ],
+            [
+              -88.1578365,
+              13.9587987
+            ],
+            [
+              -88.1577354,
+              13.9587941
+            ],
+            [
+              -88.1577332,
+              13.9588401
+            ],
+            [
+              -88.1576722,
+              13.9588373
+            ],
+            [
+              -88.1576703,
+              13.9588764
+            ],
+            [
+              -88.1576318,
+              13.9588747
+            ],
+            [
+              -88.1576268,
+              13.9589783
+            ],
+            [
+              -88.1578287,
+              13.9589875
+            ],
+            [
+              -88.1578314,
+              13.9589304
+            ],
+            [
+              -88.1580287,
+              13.9589394
+            ],
+            [
+              -88.1580253,
+              13.9590092
+            ],
+            [
+              -88.1581252,
+              13.9590138
+            ],
+            [
+              -88.1581284,
+              13.9589479
+            ],
+            [
+              -88.158279,
+              13.9589548
+            ],
+            [
+              -88.1582831,
+              13.9588693
+            ],
+            [
+              -88.1582129,
+              13.9588661
+            ],
+            [
+              -88.1582176,
+              13.9587696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-way-8328359",
+        "fuente": "geofabrik",
+        "fuente_id": "way/8328359",
+        "nombre": "Hospital Nacional de San Francisco Gotera",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Predio",
+        "detalle_codigo": "predio",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.6978931",
+        "centroide_longitud": "-88.10190785",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/8328359",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6978931,-88.10190785"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.1022721,
+              13.6984445
+            ],
+            [
+              -88.1015783,
+              13.6984618
+            ],
+            [
+              -88.1015533,
+              13.6975703
+            ],
+            [
+              -88.1015382,
+              13.6975709
+            ],
+            [
+              -88.101528,
+              13.6973426
+            ],
+            [
+              -88.1022433,
+              13.6973338
+            ],
+            [
+              -88.1022721,
+              13.6984445
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-way-1137560891",
+        "fuente": "geofabrik",
+        "fuente_id": "way/1137560891",
+        "nombre": "Centro de Salud Chilanga",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Edificio",
+        "detalle_codigo": "edificio",
+        "departamento": "Morazán",
+        "municipio": "Chilanga",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "9",
+        "centroide_latitud": "13.72142841",
+        "centroide_longitud": "-88.12073759",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1137560891",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72142841,-88.12073759"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.1208776,
+              13.7214627
+            ],
+            [
+              -88.1208141,
+              13.7214629
+            ],
+            [
+              -88.1208143,
+              13.7215305
+            ],
+            [
+              -88.1206547,
+              13.7215309
+            ],
+            [
+              -88.1206546,
+              13.7214674
+            ],
+            [
+              -88.1206015,
+              13.7214676
+            ],
+            [
+              -88.1206012,
+              13.7213475
+            ],
+            [
+              -88.1208773,
+              13.7213467
+            ],
+            [
+              -88.1208776,
+              13.7214627
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-node-7223662570",
+        "fuente": "geofabrik",
+        "fuente_id": "node/7223662570",
+        "nombre": "Clinica El Mozote",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Arambala",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8988504",
+        "centroide_longitud": "-88.1144685",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/7223662570",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8988504,-88.1144685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1144685,
+          13.8988504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-node-8038414002",
+        "fuente": "geofabrik",
+        "fuente_id": "node/8038414002",
+        "nombre": "Sin nombre",
+        "tipo": "Consultorio",
+        "tipo_codigo": "consultorio",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "El Divisadero",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.5769823",
+        "centroide_longitud": "-88.1278297",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/8038414002",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.5769823,-88.1278297"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1278297,
+          13.5769823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-way-401307201",
+        "fuente": "hot",
+        "fuente_id": "way/401307201",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Morazán",
+        "municipio": "San Simón",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "9",
+        "centroide_latitud": "13.83890875",
+        "centroide_longitud": "-88.26617586",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/401307201",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83890875,-88.26617586"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.2662884,
+              13.8388631
+            ],
+            [
+              -88.2662532,
+              13.8388919
+            ],
+            [
+              -88.2662939,
+              13.8389388
+            ],
+            [
+              -88.2662256,
+              13.8389946
+            ],
+            [
+              -88.266185,
+              13.8389479
+            ],
+            [
+              -88.2661018,
+              13.8390159
+            ],
+            [
+              -88.266035,
+              13.8389389
+            ],
+            [
+              -88.2662217,
+              13.8387862
+            ],
+            [
+              -88.2662884,
+              13.8388631
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-relation-8328359",
+        "fuente": "hot",
+        "fuente_id": "relation/8328359",
+        "nombre": "Hospital Nacional de San Francisco Gotera",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": "Medicina general",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.6978931",
+        "centroide_longitud": "-88.10190785",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/relation/8328359",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6978931,-88.10190785"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.1015783,
+              13.6984618
+            ],
+            [
+              -88.1022721,
+              13.6984445
+            ],
+            [
+              -88.1022433,
+              13.6973338
+            ],
+            [
+              -88.101528,
+              13.6973426
+            ],
+            [
+              -88.1015382,
+              13.6975709
+            ],
+            [
+              -88.1015533,
+              13.6975703
+            ],
+            [
+              -88.1015783,
+              13.6984618
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-way-850616743",
+        "fuente": "hot",
+        "fuente_id": "way/850616743",
+        "nombre": "sibasi",
+        "tipo": "Otro",
+        "tipo_codigo": "otro",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.69862207",
+        "centroide_longitud": "-88.10189578",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/850616743",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.69862207,-88.10189578"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.1021602,
+              13.6987283
+            ],
+            [
+              -88.102248,
+              13.6984719
+            ],
+            [
+              -88.1016197,
+              13.6984768
+            ],
+            [
+              -88.1016163,
+              13.6988229
+            ],
+            [
+              -88.1021602,
+              13.6987283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972391822",
+        "fuente": "hot",
+        "fuente_id": "node/3972391822",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Delicias de Concepción",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7874613",
+        "centroide_longitud": "-88.1379986",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972391822",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7874613,-88.1379986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1379986,
+          13.7874613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4317174888",
+        "fuente": "hot",
+        "fuente_id": "node/4317174888",
+        "nombre": "CAIPES Clinic",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Cacaopera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.795529",
+        "centroide_longitud": "-88.0424141",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4317174888",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.795529,-88.0424141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0424141,
+          13.795529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-8819299377",
+        "fuente": "hot",
+        "fuente_id": "node/8819299377",
+        "nombre": "UCSF CARRIZAL",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "San Simón",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": "Medicina general",
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.798957",
+        "centroide_longitud": "-88.244094",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/8819299377",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.798957,-88.244094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.244094,
+          13.798957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-8819299349",
+        "fuente": "hot",
+        "fuente_id": "node/8819299349",
+        "nombre": "UCSF QUEBRADAS",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "San Simón",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": "Medicina general",
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8029393",
+        "centroide_longitud": "-88.2334101",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/8819299349",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8029393,-88.2334101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2334101,
+          13.8029393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972011219",
+        "fuente": "hot",
+        "fuente_id": "node/3972011219",
+        "nombre": "UCSF",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Gualococti",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8178009",
+        "centroide_longitud": "-88.2104818",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972011219",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8178009,-88.2104818"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2104818,
+          13.8178009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3971434373",
+        "fuente": "hot",
+        "fuente_id": "node/3971434373",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "San Simón",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8324505",
+        "centroide_longitud": "-88.227521",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3971434373",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8324505,-88.227521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.227521,
+          13.8324505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3971971763",
+        "fuente": "hot",
+        "fuente_id": "node/3971971763",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Meanguera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8512283",
+        "centroide_longitud": "-88.1533126",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3971971763",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8512283,-88.1533126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1533126,
+          13.8512283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972158089",
+        "fuente": "hot",
+        "fuente_id": "node/3972158089",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Joateca",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8952454",
+        "centroide_longitud": "-88.0463754",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972158089",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8952454,-88.0463754"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0463754,
+          13.8952454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-7223662570",
+        "fuente": "hot",
+        "fuente_id": "node/7223662570",
+        "nombre": "Clinica El Mozote",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Meanguera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": "Medicina general",
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8988504",
+        "centroide_longitud": "-88.1144685",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/7223662570",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8988504,-88.1144685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1144685,
+          13.8988504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3971704870",
+        "fuente": "hot",
+        "fuente_id": "node/3971704870",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Torola",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.9134905",
+        "centroide_longitud": "-88.233072",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3971704870",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.9134905,-88.233072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.233072,
+          13.9134905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972290289",
+        "fuente": "hot",
+        "fuente_id": "node/3972290289",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Arambala",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.9218386",
+        "centroide_longitud": "-88.1322185",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972290289",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.9218386,-88.1322185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1322185,
+          13.9218386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4028228735",
+        "fuente": "hot",
+        "fuente_id": "node/4028228735",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Perquín",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.9613285",
+        "centroide_longitud": "-88.1957679",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4028228735",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.9613285,-88.1957679"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1957679,
+          13.9613285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4026961607",
+        "fuente": "hot",
+        "fuente_id": "node/4026961607",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Sensembra",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.665148",
+        "centroide_longitud": "-88.1698087",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4026961607",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.665148,-88.1698087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1698087,
+          13.665148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3971795338",
+        "fuente": "hot",
+        "fuente_id": "node/3971795338",
+        "nombre": "Cruz Roja Salvadoreña",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.6880416",
+        "centroide_longitud": "-88.0977761",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3971795338",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6880416,-88.0977761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0977761,
+          13.6880416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3971789068",
+        "fuente": "hot",
+        "fuente_id": "node/3971789068",
+        "nombre": "Sin nombre",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.6950674",
+        "centroide_longitud": "-88.102132",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3971789068",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6950674,-88.102132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.102132,
+          13.6950674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3971759964",
+        "fuente": "hot",
+        "fuente_id": "node/3971759964",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.6959013",
+        "centroide_longitud": "-88.1021642",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3971759964",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6959013,-88.1021642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1021642,
+          13.6959013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-9115322867",
+        "fuente": "hot",
+        "fuente_id": "node/9115322867",
+        "nombre": "CENTRO VACUNACION COVID-19",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.6974925",
+        "centroide_longitud": "-88.1014697",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/9115322867",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6974925,-88.1014697"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1014697,
+          13.6974925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-9115322866",
+        "fuente": "hot",
+        "fuente_id": "node/9115322866",
+        "nombre": "UCSF GOTERA/CENTRO DE VACUNACION COVID",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.6977383",
+        "centroide_longitud": "-88.1054594",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/9115322866",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6977383,-88.1054594"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1054594,
+          13.6977383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3971364159",
+        "fuente": "hot",
+        "fuente_id": "node/3971364159",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Sociedad",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7024886",
+        "centroide_longitud": "-88.0062527",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3971364159",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7024886,-88.0062527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0062527,
+          13.7024886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3971683759",
+        "fuente": "hot",
+        "fuente_id": "node/3971683759",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Chilanga",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7214664",
+        "centroide_longitud": "-88.120843",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3971683759",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7214664,-88.120843"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.120843,
+          13.7214664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-7935411967",
+        "fuente": "hot",
+        "fuente_id": "node/7935411967",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Lolotiquillo",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7245699",
+        "centroide_longitud": "-88.0905386",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/7935411967",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7245699,-88.0905386"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0905386,
+          13.7245699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4035719727",
+        "fuente": "hot",
+        "fuente_id": "node/4035719727",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Yoloaiquín",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7675416",
+        "centroide_longitud": "-88.126272",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4035719727",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7675416,-88.126272"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.126272,
+          13.7675416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-11346718336",
+        "fuente": "hot",
+        "fuente_id": "node/11346718336",
+        "nombre": "Sin nombre",
+        "tipo": "Otro",
+        "tipo_codigo": "otro",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Cacaopera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7680061",
+        "centroide_longitud": "-88.0664796",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/11346718336",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7680061,-88.0664796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0664796,
+          13.7680061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-6916841199",
+        "fuente": "hot",
+        "fuente_id": "node/6916841199",
+        "nombre": "UCSF Cacaopera",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Cacaopera",
+        "region": "Oriental",
+        "direccion": "Cacaopera",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.7749276",
+        "centroide_longitud": "-88.0823146",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/6916841199",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7749276,-88.0823146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0823146,
+          13.7749276
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2849 @@
+{
+  "type": "FeatureCollection",
+  "name": "establecimientos_salud_Usulután",
+  "meta": {
+    "departamento": "Usulután",
+    "fuente": "data/por_departamento/Usulután/establecimientos_salud.xlsx",
+    "count": 54,
+    "puntos": 27,
+    "poligonos": 27
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-595",
+        "fuente": "minsal",
+        "fuente_id": "595",
+        "nombre": "UCSFE Concepcion Batres",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Concepcion Batres",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.34128104",
+        "centroide_longitud": "-88.37411312",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34128104,-88.37411312"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3741131161772,
+          13.3412810353021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-667",
+        "fuente": "minsal",
+        "fuente_id": "667",
+        "nombre": "Hospital Nacional Jiquilisco US",
+        "tipo": "Hospital básico (II Nivel)",
+        "tipo_codigo": "hospital_basico_ii_nivel",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Jiquilisco",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.31962088",
+        "centroide_longitud": "-88.57180954",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.31962088,-88.57180954"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.571809539716,
+          13.3196208776413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-776",
+        "fuente": "minsal",
+        "fuente_id": "776",
+        "nombre": "UCSFE Unidad Renal Comunidad Monseñor Romero",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Jiquilisco",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.33095773",
+        "centroide_longitud": "-88.68709336",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.33095773,-88.68709336"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.6870933602631,
+          13.3309577329756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "minsal-942",
+        "fuente": "minsal",
+        "fuente_id": "942",
+        "nombre": "Ciudad Mujer",
+        "tipo": "Unidad Comunitaria Salud Familiar Especializada (UCSFE)",
+        "tipo_codigo": "unidad_comunitaria_salud_familiar_especializada_ucsfe",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulutan",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.340194",
+        "centroide_longitud": "-88.436614",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": null,
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.340194,-88.436614"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4366140003477,
+          13.3401939997908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-266467045",
+        "fuente": "overpass",
+        "fuente_id": "way/266467045",
+        "nombre": "Seguro Social de Puerto El Triunfo ISSS",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Puerto El Triunfo",
+        "region": "Oriental",
+        "direccion": "Puerto El Triunfo",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.27474863",
+        "centroide_longitud": "-88.54885806",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/266467045",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.27474863,-88.54885806"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.5489723,
+              13.2750027
+            ],
+            [
+              -88.5490957,
+              13.274679
+            ],
+            [
+              -88.5489347,
+              13.2746216
+            ],
+            [
+              -88.5489669,
+              13.2745381
+            ],
+            [
+              -88.5487684,
+              13.2744754
+            ],
+            [
+              -88.5486236,
+              13.2748722
+            ],
+            [
+              -88.5489723,
+              13.2750027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-266467046",
+        "fuente": "overpass",
+        "fuente_id": "way/266467046",
+        "nombre": "Unidad de Salud de Puerto El Triunfo",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Puerto El Triunfo",
+        "region": "Oriental",
+        "direccion": "Puerto El Triunfo",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.2762733",
+        "centroide_longitud": "-88.54651871",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/266467046",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.2762733,-88.54651871"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.5461989,
+              13.2759895
+            ],
+            [
+              -88.5460755,
+              13.2762923
+            ],
+            [
+              -88.5468694,
+              13.2765429
+            ],
+            [
+              -88.5469713,
+              13.2762819
+            ],
+            [
+              -88.5461989,
+              13.2759895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-367627940",
+        "fuente": "overpass",
+        "fuente_id": "way/367627940",
+        "nombre": "Hospital San Pedro Usulután",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Ministerio de Salud",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.34315144",
+        "centroide_longitud": "-88.44980729",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/367627940",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34315144,-88.44980729"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4504531,
+              13.3436621
+            ],
+            [
+              -88.4504557,
+              13.3434346
+            ],
+            [
+              -88.4502814,
+              13.3426286
+            ],
+            [
+              -88.4492032,
+              13.3426182
+            ],
+            [
+              -88.4492461,
+              13.3436516
+            ],
+            [
+              -88.4504531,
+              13.3436621
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379476384",
+        "fuente": "overpass",
+        "fuente_id": "way/379476384",
+        "nombre": "Clínica Medica",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "Calle Grimaldi, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.34419134",
+        "centroide_longitud": "-88.43825034",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379476384",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34419134,-88.43825034"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4382656,
+              13.3442477
+            ],
+            [
+              -88.4382784,
+              13.3441472
+            ],
+            [
+              -88.4382294,
+              13.3441388
+            ],
+            [
+              -88.4382272,
+              13.3442346
+            ],
+            [
+              -88.4382281,
+              13.3442399
+            ],
+            [
+              -88.4382656,
+              13.3442477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379566593",
+        "fuente": "overpass",
+        "fuente_id": "way/379566593",
+        "nombre": "Clínicas Medicas Andalucia",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "Calle Grimaldi, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.3449522",
+        "centroide_longitud": "-88.44014709",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379566593",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3449522,-88.44014709"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.440113,
+              13.3447992
+            ],
+            [
+              -88.4401131,
+              13.3450922
+            ],
+            [
+              -88.440183,
+              13.3450909
+            ],
+            [
+              -88.4401825,
+              13.3448248
+            ],
+            [
+              -88.440144,
+              13.3448239
+            ],
+            [
+              -88.440144,
+              13.3447992
+            ],
+            [
+              -88.440113,
+              13.3447992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379568010",
+        "fuente": "overpass",
+        "fuente_id": "way/379568010",
+        "nombre": "Plaza Medica San Luis",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "Calle Grimaldi, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.34488019",
+        "centroide_longitud": "-88.44122909",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379568010",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34488019,-88.44122909"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4412116,
+              13.3448079
+            ],
+            [
+              -88.4412041,
+              13.3449504
+            ],
+            [
+              -88.4412466,
+              13.3449525
+            ],
+            [
+              -88.4412487,
+              13.3449117
+            ],
+            [
+              -88.4412541,
+              13.34481
+            ],
+            [
+              -88.4412116,
+              13.3448079
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379568011",
+        "fuente": "overpass",
+        "fuente_id": "way/379568011",
+        "nombre": "Clínica Medica Dr. Galdamez",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "Calle Grimaldi, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.3446706",
+        "centroide_longitud": "-88.44133785",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379568011",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3446706,-88.44133785"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4413569,
+              13.3447172
+            ],
+            [
+              -88.4413624,
+              13.3446265
+            ],
+            [
+              -88.4413188,
+              13.344624
+            ],
+            [
+              -88.4413133,
+              13.3447147
+            ],
+            [
+              -88.4413569,
+              13.3447172
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379578977",
+        "fuente": "overpass",
+        "fuente_id": "way/379578977",
+        "nombre": "Centro de Especialidades Medicas",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "Calle Dr. Penado, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "8",
+        "centroide_latitud": "13.34492903",
+        "centroide_longitud": "-88.44231351",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379578977",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34492903,-88.44231351"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4423993,
+              13.3448349
+            ],
+            [
+              -88.442296,
+              13.3448362
+            ],
+            [
+              -88.4422705,
+              13.3448584
+            ],
+            [
+              -88.4422397,
+              13.3450346
+            ],
+            [
+              -88.4423188,
+              13.3450437
+            ],
+            [
+              -88.4423322,
+              13.3449667
+            ],
+            [
+              -88.4423671,
+              13.3449641
+            ],
+            [
+              -88.4423993,
+              13.3448349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379578981",
+        "fuente": "overpass",
+        "fuente_id": "way/379578981",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "Calle Dr. Penado, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.34488413",
+        "centroide_longitud": "-88.44272616",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379578981",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34488413,-88.44272616"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4427896,
+              13.3449354
+            ],
+            [
+              -88.4427928,
+              13.3448369
+            ],
+            [
+              -88.4426627,
+              13.3448329
+            ],
+            [
+              -88.4426595,
+              13.3449313
+            ],
+            [
+              -88.4427896,
+              13.3449354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379578983",
+        "fuente": "overpass",
+        "fuente_id": "way/379578983",
+        "nombre": "Clínica Urológica",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "Calle Dr. Penado, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.34493962",
+        "centroide_longitud": "-88.44308699",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379578983",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34493962,-88.44308699"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4431383,
+              13.3448661
+            ],
+            [
+              -88.4430419,
+              13.3448623
+            ],
+            [
+              -88.4430357,
+              13.3450132
+            ],
+            [
+              -88.4431321,
+              13.3450169
+            ],
+            [
+              -88.4431383,
+              13.3448661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379591610",
+        "fuente": "overpass",
+        "fuente_id": "way/379591610",
+        "nombre": "Clínica de Rayos X",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "1 Calle Poniente, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.34433024",
+        "centroide_longitud": "-88.44135886",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379591610",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34433024,-88.44135886"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4414055,
+              13.3443913
+            ],
+            [
+              -88.4414215,
+              13.3442973
+            ],
+            [
+              -88.4413907,
+              13.3442647
+            ],
+            [
+              -88.4413169,
+              13.3442556
+            ],
+            [
+              -88.4412955,
+              13.3443867
+            ],
+            [
+              -88.4414028,
+              13.3444024
+            ],
+            [
+              -88.4414055,
+              13.3443913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379591615",
+        "fuente": "overpass",
+        "fuente_id": "way/379591615",
+        "nombre": "Clínica Medico",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "1 Calle Poniente, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "8",
+        "centroide_latitud": "13.34426337",
+        "centroide_longitud": "-88.44077809",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379591615",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34426337,-88.44077809"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4408603,
+              13.3441792
+            ],
+            [
+              -88.4407443,
+              13.344159
+            ],
+            [
+              -88.4407288,
+              13.3442376
+            ],
+            [
+              -88.4407054,
+              13.344356
+            ],
+            [
+              -88.440806,
+              13.3443736
+            ],
+            [
+              -88.4408302,
+              13.3442366
+            ],
+            [
+              -88.4408536,
+              13.3442314
+            ],
+            [
+              -88.4408603,
+              13.3441792
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379599012",
+        "fuente": "overpass",
+        "fuente_id": "way/379599012",
+        "nombre": "Centro Médico Usuluteco",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "1 Calle Oriente, Usulután",
+        "operador": "Ministerio de Salud",
+        "telefono": "2662 0739",
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "8",
+        "centroide_latitud": "13.34355462",
+        "centroide_longitud": "-88.4376007",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379599012",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34355462,-88.4376007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4378147,
+              13.3434459
+            ],
+            [
+              -88.4375139,
+              13.3434056
+            ],
+            [
+              -88.4374421,
+              13.34372
+            ],
+            [
+              -88.4376073,
+              13.3437388
+            ],
+            [
+              -88.4376581,
+              13.3435347
+            ],
+            [
+              -88.4378038,
+              13.3435515
+            ],
+            [
+              -88.437808,
+              13.3435201
+            ],
+            [
+              -88.4378147,
+              13.3434459
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-379602132",
+        "fuente": "overpass",
+        "fuente_id": "way/379602132",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "1 Calle Oriente, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.34327448",
+        "centroide_longitud": "-88.4377199",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/379602132",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34327448,-88.4377199"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4377466,
+              13.3433346
+            ],
+            [
+              -88.4377619,
+              13.3432232
+            ],
+            [
+              -88.437693,
+              13.3432153
+            ],
+            [
+              -88.4376777,
+              13.3433246
+            ],
+            [
+              -88.4377466,
+              13.3433346
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-394223566",
+        "fuente": "overpass",
+        "fuente_id": "way/394223566",
+        "nombre": "Hospital Nacional Dr. Jorge Arturo Mena",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Santiago de María",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Ministerio de Salud",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.48487015",
+        "centroide_longitud": "-88.4685129",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/394223566",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.48487015,-88.4685129"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4689908,
+              13.484637
+            ],
+            [
+              -88.4684096,
+              13.48436
+            ],
+            [
+              -88.468035,
+              13.4851033
+            ],
+            [
+              -88.4686162,
+              13.4853803
+            ],
+            [
+              -88.4689908,
+              13.484637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-401089605",
+        "fuente": "overpass",
+        "fuente_id": "way/401089605",
+        "nombre": "Clínica Medica",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "6 Calle Poniente, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.34692903",
+        "centroide_longitud": "-88.44133454",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/401089605",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34692903,-88.44133454"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4414066,
+              13.3469917
+            ],
+            [
+              -88.4414161,
+              13.3468749
+            ],
+            [
+              -88.4412939,
+              13.3468656
+            ],
+            [
+              -88.4412556,
+              13.3468961
+            ],
+            [
+              -88.4412488,
+              13.3469797
+            ],
+            [
+              -88.4414066,
+              13.3469917
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-401110500",
+        "fuente": "overpass",
+        "fuente_id": "way/401110500",
+        "nombre": "Clínica Medica Dr. Mondragon",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "6 Calle Poniente, Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.34690083",
+        "centroide_longitud": "-88.44109134",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/401110500",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34690083,-88.44109134"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4411566,
+              13.3469378
+            ],
+            [
+              -88.4411634,
+              13.3469012
+            ],
+            [
+              -88.4411512,
+              13.3468764
+            ],
+            [
+              -88.4410306,
+              13.3468594
+            ],
+            [
+              -88.4410225,
+              13.3469274
+            ],
+            [
+              -88.4411566,
+              13.3469378
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-561069354",
+        "fuente": "overpass",
+        "fuente_id": "way/561069354",
+        "nombre": "Instituto Salvadoreño del Seguro Social",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.34744755",
+        "centroide_longitud": "-88.44325935",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/561069354",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.34744755,-88.44325935"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4435916,
+              13.3478317
+            ],
+            [
+              -88.4436369,
+              13.3471052
+            ],
+            [
+              -88.4429271,
+              13.3470634
+            ],
+            [
+              -88.4428818,
+              13.3477899
+            ],
+            [
+              -88.4435916,
+              13.3478317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-745434052",
+        "fuente": "overpass",
+        "fuente_id": "way/745434052",
+        "nombre": "Unidad de Salud Berlin",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Berlín",
+        "region": "Oriental",
+        "direccion": "Berlín",
+        "operador": "Ministerio de Salud",
+        "telefono": null,
+        "horario": "24/7",
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "15",
+        "centroide_latitud": "13.49760967",
+        "centroide_longitud": "-88.52634354",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/745434052",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.49760967,-88.52634354"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.526195,
+              13.497405
+            ],
+            [
+              -88.5261786,
+              13.4974838
+            ],
+            [
+              -88.5262944,
+              13.4975066
+            ],
+            [
+              -88.5262797,
+              13.4975773
+            ],
+            [
+              -88.5261694,
+              13.4975556
+            ],
+            [
+              -88.5261356,
+              13.4977184
+            ],
+            [
+              -88.5264893,
+              13.4977879
+            ],
+            [
+              -88.5265035,
+              13.4977196
+            ],
+            [
+              -88.5265423,
+              13.4977273
+            ],
+            [
+              -88.5265605,
+              13.4976401
+            ],
+            [
+              -88.5263166,
+              13.4975922
+            ],
+            [
+              -88.5263293,
+              13.4975311
+            ],
+            [
+              -88.5265023,
+              13.497565
+            ],
+            [
+              -88.5265222,
+              13.4974692
+            ],
+            [
+              -88.526195,
+              13.497405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-745451810",
+        "fuente": "overpass",
+        "fuente_id": "way/745451810",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "California",
+        "region": "Oriental",
+        "direccion": "California",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "23",
+        "centroide_latitud": "13.44047238",
+        "centroide_longitud": "-88.46279052",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/745451810",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.44047238,-88.46279052"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.462906,
+              13.4404208
+            ],
+            [
+              -88.4628163,
+              13.44042
+            ],
+            [
+              -88.4628164,
+              13.4404045
+            ],
+            [
+              -88.4628482,
+              13.4404048
+            ],
+            [
+              -88.4628653,
+              13.4403869
+            ],
+            [
+              -88.462836,
+              13.4403603
+            ],
+            [
+              -88.4626997,
+              13.4403635
+            ],
+            [
+              -88.4627009,
+              13.440414
+            ],
+            [
+              -88.4627233,
+              13.4404135
+            ],
+            [
+              -88.4627456,
+              13.4404129
+            ],
+            [
+              -88.4627456,
+              13.440414
+            ],
+            [
+              -88.4626645,
+              13.4404145
+            ],
+            [
+              -88.4626774,
+              13.4405169
+            ],
+            [
+              -88.462756,
+              13.4405323
+            ],
+            [
+              -88.462753,
+              13.4405517
+            ],
+            [
+              -88.462762,
+              13.4405518
+            ],
+            [
+              -88.4627619,
+              13.4405953
+            ],
+            [
+              -88.4628821,
+              13.4405959
+            ],
+            [
+              -88.4628824,
+              13.4405327
+            ],
+            [
+              -88.4628198,
+              13.4405323
+            ],
+            [
+              -88.4628199,
+              13.4405188
+            ],
+            [
+              -88.4629051,
+              13.4405195
+            ],
+            [
+              -88.462906,
+              13.4404208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-1382666149",
+        "fuente": "overpass",
+        "fuente_id": "way/1382666149",
+        "nombre": "Hospital Nacional",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Jiquilisco",
+        "region": "Oriental",
+        "direccion": "1ª Avenida Sur",
+        "operador": "Ministerio de Salud",
+        "telefono": null,
+        "horario": null,
+        "especialidad": "anaesthetics",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.3189893",
+        "centroide_longitud": "-88.57192092",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1382666149",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3189893,-88.57192092"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.5722274,
+              13.3193287
+            ],
+            [
+              -88.5723357,
+              13.3187665
+            ],
+            [
+              -88.5716136,
+              13.3186461
+            ],
+            [
+              -88.5715104,
+              13.3192183
+            ],
+            [
+              -88.5722274,
+              13.3193287
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-1382678030",
+        "fuente": "overpass",
+        "fuente_id": "way/1382678030",
+        "nombre": "Sin nombre",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Jiquilisco",
+        "region": "Oriental",
+        "direccion": "Avenida J. Pineda Norte, Jiquilisco",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "6",
+        "centroide_latitud": "13.32698245",
+        "centroide_longitud": "-88.57025443",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1382678030",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.32698245,-88.57025443"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.5702904,
+              13.3270272
+            ],
+            [
+              -88.5703155,
+              13.3269513
+            ],
+            [
+              -88.5703116,
+              13.3269506
+            ],
+            [
+              -88.5702175,
+              13.3269337
+            ],
+            [
+              -88.5701975,
+              13.3270203
+            ],
+            [
+              -88.5702904,
+              13.3270272
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "overpass-way-1510714107",
+        "fuente": "overpass",
+        "fuente_id": "way/1510714107",
+        "nombre": "UNIDAD DE SALUD SANTA ANITA MERCEDES UMAÑA",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": null,
+        "detalle_codigo": null,
+        "departamento": "Usulután",
+        "municipio": "Mercedes Umaña",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Ministerio de Salud",
+        "telefono": null,
+        "horario": "Mo-Fr 08:00-17:00",
+        "especialidad": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "11",
+        "centroide_latitud": "13.57195903",
+        "centroide_longitud": "-88.51171204",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1510714107",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.57195903,-88.51171204"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.5117396,
+              13.5718394
+            ],
+            [
+              -88.5116878,
+              13.5718434
+            ],
+            [
+              -88.5116866,
+              13.5718905
+            ],
+            [
+              -88.5116562,
+              13.5718898
+            ],
+            [
+              -88.5116593,
+              13.5720558
+            ],
+            [
+              -88.5117548,
+              13.5720578
+            ],
+            [
+              -88.5117569,
+              13.572038
+            ],
+            [
+              -88.511768,
+              13.572038
+            ],
+            [
+              -88.511765,
+              13.5718888
+            ],
+            [
+              -88.5117406,
+              13.5718888
+            ],
+            [
+              -88.5117396,
+              13.5718394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-way-394223566",
+        "fuente": "geofabrik",
+        "fuente_id": "way/394223566",
+        "nombre": "Hospital Nacional Dr. Jorge Arturo Mena",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Predio",
+        "detalle_codigo": "predio",
+        "departamento": "Usulután",
+        "municipio": "Santiago de María",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.48487015",
+        "centroide_longitud": "-88.4685129",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/394223566",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.48487015,-88.4685129"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4689908,
+              13.484637
+            ],
+            [
+              -88.4686162,
+              13.4853803
+            ],
+            [
+              -88.468035,
+              13.4851033
+            ],
+            [
+              -88.4684096,
+              13.48436
+            ],
+            [
+              -88.4689908,
+              13.484637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-way-477908225",
+        "fuente": "geofabrik",
+        "fuente_id": "way/477908225",
+        "nombre": "Centro Médico David V. King",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Edificio",
+        "detalle_codigo": "edificio",
+        "departamento": "Usulután",
+        "municipio": "Jucuapa",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "11",
+        "centroide_latitud": "13.5046",
+        "centroide_longitud": "-88.38801489",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/477908225",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.5046,-88.38801489"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.3883343,
+              13.504237
+            ],
+            [
+              -88.3881925,
+              13.5046504
+            ],
+            [
+              -88.3880077,
+              13.5046025
+            ],
+            [
+              -88.3879584,
+              13.5047942
+            ],
+            [
+              -88.3881309,
+              13.5048542
+            ],
+            [
+              -88.3881001,
+              13.504992
+            ],
+            [
+              -88.3877489,
+              13.5049021
+            ],
+            [
+              -88.3879214,
+              13.504279
+            ],
+            [
+              -88.3881802,
+              13.5043748
+            ],
+            [
+              -88.3882418,
+              13.504225
+            ],
+            [
+              -88.3883343,
+              13.504237
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "geofabrik-node-3972351040",
+        "fuente": "geofabrik",
+        "fuente_id": "node/3972351040",
+        "nombre": "Consultorio Nº 29 ISSS",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santiago de María",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.4839597",
+        "centroide_longitud": "-88.4664985",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972351040",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4839597,-88.4664985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4664985,
+          13.4839597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-way-394223566",
+        "fuente": "hot",
+        "fuente_id": "way/394223566",
+        "nombre": "Hospital Nacional Dr. Jorge Arturo Mena",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Usulután",
+        "municipio": "Alegría",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.48487015",
+        "centroide_longitud": "-88.4685129",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/394223566",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.48487015,-88.4685129"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4689908,
+              13.484637
+            ],
+            [
+              -88.4684096,
+              13.48436
+            ],
+            [
+              -88.468035,
+              13.4851033
+            ],
+            [
+              -88.4686162,
+              13.4853803
+            ],
+            [
+              -88.4689908,
+              13.484637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-way-1382600135",
+        "fuente": "hot",
+        "fuente_id": "way/1382600135",
+        "nombre": "Unidad Renal Santa Fe",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": "Usulután",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": "Nefrología",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
+        "geometria_tipo": "Polygon",
+        "vertices": "5",
+        "centroide_latitud": "13.3404231",
+        "centroide_longitud": "-88.44101944",
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.openstreetmap.org/way/1382600135",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3404231,-88.44101944"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.4411491,
+              13.340498
+            ],
+            [
+              -88.4409,
+              13.3405199
+            ],
+            [
+              -88.4408979,
+              13.3403311
+            ],
+            [
+              -88.4411471,
+              13.340343
+            ],
+            [
+              -88.4411491,
+              13.340498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4035687882",
+        "fuente": "hot",
+        "fuente_id": "node/4035687882",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Nueva Granada",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.5957022",
+        "centroide_longitud": "-88.4500554",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4035687882",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.5957022,-88.4500554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4500554,
+          13.5957022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3974922595",
+        "fuente": "hot",
+        "fuente_id": "node/3974922595",
+        "nombre": "Clínica de la Orden de Malta",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Mercedes Umaña",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.5616102",
+        "centroide_longitud": "-88.4908014",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3974922595",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.5616102,-88.4908014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4908014,
+          13.5616102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-11328539614",
+        "fuente": "hot",
+        "fuente_id": "node/11328539614",
+        "nombre": "Comandos De Salvamento Berlín",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Berlín",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.49922",
+        "centroide_longitud": "-88.5288219",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/11328539614",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.49922,-88.5288219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5288219,
+          13.49922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-12790167112",
+        "fuente": "hot",
+        "fuente_id": "node/12790167112",
+        "nombre": "Consultorio de Medicina General Dr. Diogenes Guzman",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Berlín",
+        "region": "Oriental",
+        "direccion": "Berlín",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": "Medicina general",
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.4989186",
+        "centroide_longitud": "-88.5300709",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/12790167112",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4989186,-88.5300709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5300709,
+          13.4989186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972351040",
+        "fuente": "hot",
+        "fuente_id": "node/3972351040",
+        "nombre": "Consultorio Nº 29 ISSS",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Alegría",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.4839597",
+        "centroide_longitud": "-88.4664985",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972351040",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4839597,-88.4664985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4664985,
+          13.4839597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972359343",
+        "fuente": "hot",
+        "fuente_id": "node/3972359343",
+        "nombre": "Clínica Profamilia",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santiago de María",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.4811114",
+        "centroide_longitud": "-88.4657796",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972359343",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4811114,-88.4657796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4657796,
+          13.4811114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972359344",
+        "fuente": "hot",
+        "fuente_id": "node/3972359344",
+        "nombre": "Hospital ISSS",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santiago de María",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.4807254",
+        "centroide_longitud": "-88.4654792",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972359344",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4807254,-88.4654792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4654792,
+          13.4807254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972360346",
+        "fuente": "hot",
+        "fuente_id": "node/3972360346",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santiago de María",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.4785031",
+        "centroide_longitud": "-88.4602328",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972360346",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4785031,-88.4602328"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4602328,
+          13.4785031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-6990026816",
+        "fuente": "hot",
+        "fuente_id": "node/6990026816",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "San Agustín",
+        "region": "Oriental",
+        "direccion": "San Agustín",
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.4324547",
+        "centroide_longitud": "-88.5926342",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/6990026816",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4324547,-88.5926342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5926342,
+          13.4324547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-11310855897",
+        "fuente": "hot",
+        "fuente_id": "node/11310855897",
+        "nombre": "Clinica Garay",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santa Elena",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3811544",
+        "centroide_longitud": "-88.4103286",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/11310855897",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3811544,-88.4103286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4103286,
+          13.3811544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3972074994",
+        "fuente": "hot",
+        "fuente_id": "node/3972074994",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Ozatlán",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3808478",
+        "centroide_longitud": "-88.5037526",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3972074994",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3808478,-88.5037526"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5037526,
+          13.3808478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-8765428321",
+        "fuente": "hot",
+        "fuente_id": "node/8765428321",
+        "nombre": "Unidad de salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santa Elena",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3798269",
+        "centroide_longitud": "-88.4122261",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/8765428321",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3798269,-88.4122261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4122261,
+          13.3798269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-8765443017",
+        "fuente": "hot",
+        "fuente_id": "node/8765443017",
+        "nombre": "Centro de vacuna covid Santa Elena",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santa Elena",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3797819",
+        "centroide_longitud": "-88.4124664",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/8765443017",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3797819,-88.4124664"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4124664,
+          13.3797819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-11310888657",
+        "fuente": "hot",
+        "fuente_id": "node/11310888657",
+        "nombre": "Consultorio Medico Jerusalem",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santa Elena",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3770224",
+        "centroide_longitud": "-88.4104819",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/11310888657",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3770224,-88.4104819"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4104819,
+          13.3770224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-11310863815",
+        "fuente": "hot",
+        "fuente_id": "node/11310863815",
+        "nombre": "Clinica Médica y Laboratorio Clinico",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santa Elena",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3767615",
+        "centroide_longitud": "-88.4106777",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/11310863815",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3767615,-88.4106777"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4106777,
+          13.3767615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3974850112",
+        "fuente": "hot",
+        "fuente_id": "node/3974850112",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Santa María",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3474276",
+        "centroide_longitud": "-88.417584",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3974850112",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3474276,-88.417584"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.417584,
+          13.3474276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-5787686369",
+        "fuente": "hot",
+        "fuente_id": "node/5787686369",
+        "nombre": "Hospital de Especialidades Metropol",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": "Público",
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3458258",
+        "centroide_longitud": "-88.4394691",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/5787686369",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3458258,-88.4394691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4394691,
+          13.3458258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4693010792",
+        "fuente": "hot",
+        "fuente_id": "node/4693010792",
+        "nombre": "Unidad Renal Nefromeds",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3447093",
+        "centroide_longitud": "-88.441685",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4693010792",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3447093,-88.441685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.441685,
+          13.3447093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-4693018490",
+        "fuente": "hot",
+        "fuente_id": "node/4693018490",
+        "nombre": "MEDICENTER SPORT",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3447072",
+        "centroide_longitud": "-88.4416577",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/4693018490",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3447072,-88.4416577"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4416577,
+          13.3447072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3977361473",
+        "fuente": "hot",
+        "fuente_id": "node/3977361473",
+        "nombre": "Clínica del Seguro Social",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Usulután",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3401737",
+        "centroide_longitud": "-88.4343285",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3977361473",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3401737,-88.4343285"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4343285,
+          13.3401737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-5427550724",
+        "fuente": "hot",
+        "fuente_id": "node/5427550724",
+        "nombre": "Unidad de Salud Puerto Parada",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "San Dionisio",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.2528889",
+        "centroide_longitud": "-88.438863",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/5427550724",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.2528889,-88.438863"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.438863,
+          13.2528889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hot-node-3976940147",
+        "fuente": "hot",
+        "fuente_id": "node/3976940147",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Usulután",
+        "municipio": "Ereguayquín",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.3421082",
+        "centroide_longitud": "-88.3739591",
+        "centroide_metodo": "coordenada_original",
+        "fuente_url": "https://www.openstreetmap.org/node/3976940147",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.3421082,-88.3739591"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3739591,
+          13.3421082
+        ]
+      }
+    }
+  ]
+}
