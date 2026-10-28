@@ -3,6 +3,7 @@
 Ejecutar: python "Unidades de Salud/scripts/generar_mapas_departamentales.py"
 Los GeoJSON se pueden usar en SIG; los JS permiten abrir index.html con file://.
 No modifica los Excel ni el CSV maestro.
+En La Paz se incluyen únicamente las filas marcadas en verde en el Excel.
 """
 
 from __future__ import annotations
@@ -22,6 +23,8 @@ DATA = ROOT / "data"
 DEPARTMENTS = DATA / "por_departamento"
 BOUNDARIES = DATA / "geojson" / "departamentos.geojson"
 REQUIRED = {"id", "nombre", "tipo", "departamento", "geometria_wkt", "centroide_latitud", "centroide_longitud"}
+GREEN_ONLY_DEPARTMENTS = {"La Paz"}
+GREEN_RGB = {"00B050", "92D050", "0B6E4F"}
 
 
 def coords(pair: str) -> list[float]:
@@ -45,14 +48,32 @@ def geometry(wkt: str) -> dict:
     raise ValueError(f"Geometría no admitida: {wkt[:100]}")
 
 
+def is_green_row(row) -> bool:
+    return any(
+        cell.value is not None
+        and cell.fill.fill_type == "solid"
+        and cell.fill.fgColor.type == "rgb"
+        and cell.fill.fgColor.rgb[-6:].upper() in GREEN_RGB
+        for cell in row
+    )
+
+
 def records(path: Path) -> list[dict]:
     workbook = load_workbook(path, read_only=True, data_only=True)
     try:
-        rows = workbook.active.iter_rows(values_only=True)
-        columns = next(rows)
-        if len(columns) != len(set(columns)) or not REQUIRED.issubset(columns):
+        rows = workbook.active.iter_rows()
+        # Excel puede conservar formato en columnas vacías a la derecha de la tabla.
+        columns = [(index, cell.value) for index, cell in enumerate(next(rows)) if cell.value is not None]
+        names = [name for _, name in columns]
+        if len(names) != len(set(names)) or not REQUIRED.issubset(names):
             raise ValueError(f"Columnas inesperadas en {path}")
-        return [dict(zip(columns, values)) for values in rows]
+        green_only = path.parent.name in GREEN_ONLY_DEPARTMENTS
+        return [
+            {name: row[index].value for index, name in columns}
+            for row in rows
+            if any(row[index].value is not None for index, _ in columns)
+            and (not green_only or is_green_row(row))
+        ]
     finally:
         workbook.close()
 
@@ -75,9 +96,15 @@ def collection(department: str, rows: list[dict]) -> dict:
                 raise ValueError("Punto y centroide no coinciden")
         except (TypeError, ValueError) as exc:
             raise ValueError(f"{department}: geometría inválida en {record_id}") from exc
+        properties = {key: value for key, value in row.items() if key != "geometria_wkt"}
+        # Si se corrigió el centroide, no conservar una búsqueda con la ubicación anterior.
+        if str(properties.get("google_maps") or "").startswith("https://www.google.com/maps/search/?api=1&query="):
+            properties["google_maps"] = (
+                f"https://www.google.com/maps/search/?api=1&query={row['centroide_latitud']},{row['centroide_longitud']}"
+            )
         features.append({
             "type": "Feature",
-            "properties": {key: value for key, value in row.items() if key != "geometria_wkt"},
+            "properties": properties,
             "geometry": shape,
         })
     counts = Counter(feature["geometry"]["type"] for feature in features)
@@ -145,6 +172,7 @@ def html_page(department: str) -> str:
     <span class="statusbar-right"><span id="coords">Lat —  Lon —</span><span class="crs">EPSG:4326</span></span>
   </footer>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="../../../js/mapas_base.js"></script>
   <script src="establecimientos.js"></script>
   <script src="limite_departamento.js"></script>
   <script src="../../../js/app_departamento.js"></script>

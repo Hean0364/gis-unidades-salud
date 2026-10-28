@@ -27,17 +27,13 @@
   }
 
   const bases = {
-    osm: ["Cartográfico OSM", L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    })],
+    osm: ["Cartográfico OSM", MAP_BASES.createOsm()],
     hot: ["Humanitario OSM", L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
-      maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, HOT'
+      maxZoom: 19, updateWhenZooming: false, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, HOT'
     })],
-    satellite: ["Satélite", L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
-      maxZoom: 19, attribution: "Imágenes: Esri, Maxar, Earthstar Geographics"
-    })]
+    satellite: ["Satélite", MAP_BASES.createSatellite()]
   };
-  const map = L.map("map", { zoomControl: true, maxZoom: 19, layers: [bases.osm[1]] });
+  const map = L.map("map", { zoomControl: true, maxZoom: 19, preferCanvas: true, layers: [bases[MAP_BASES.initialId][1]] });
   L.control.scale({ metric: true, imperial: false }).addTo(map);
   map.createPane("administrativePane");
   map.getPane("administrativePane").style.zIndex = 350;
@@ -51,7 +47,7 @@
   const entries = [];
   const boundariesByName = new Map();
   const layersByKey = new Map();
-  let base = "osm";
+  let base = MAP_BASES.initialId;
   let selected = `${departments[0]}:puntos`;
   let matches = [];
   let matchIndex = -1;
@@ -290,6 +286,14 @@
     return element;
   }
 
+  function setBase(id) {
+    if (id === "osm" && !MAP_BASES.osmAvailable) return;
+    map.removeLayer(bases[base][1]);
+    base = id;
+    bases[base][1].addTo(map).bringToBack();
+    render();
+  }
+
   function render() {
     const tree = document.getElementById("layers");
     const scroll = tree.scrollTop;
@@ -366,12 +370,8 @@
         radio.name = "base";
         radio.checked = base === id;
         radio.setAttribute("aria-label", label);
-        radio.addEventListener("change", () => {
-          map.removeLayer(bases[base][1]);
-          base = id;
-          bases[base][1].addTo(map).bringToBack();
-          render();
-        });
+        MAP_BASES.configureRadio(radio, id);
+        radio.addEventListener("change", () => setBase(id));
         baseRow.insertBefore(radio, baseRow.children[1]);
         nodes.push(baseRow);
       }
@@ -509,6 +509,7 @@
     document.getElementById("coords").textContent = `Lat ${event.latlng.lat.toFixed(5)}  Lon ${event.latlng.lng.toFixed(5)}`;
   });
 
+  MAP_BASES.watchOsm(map, bases.osm[1], () => setBase("satellite"));
   sync();
   render();
 })();

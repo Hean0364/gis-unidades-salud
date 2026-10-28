@@ -36,6 +36,17 @@ body {
   z-index: 1;
 }
 
+.map-notice {
+  max-width: min(360px, calc(100vw - var(--dock-width) - 24px));
+  padding: 10px 12px;
+  border: 1px solid #d6b656;
+  border-radius: 4px;
+  background: #fff8dc;
+  color: var(--ink);
+  box-shadow: 0 1px 5px #0003;
+  font: 13px/1.4 "Segoe UI", system-ui, sans-serif;
+}
+
 /* Dock */
 
 .dock {
