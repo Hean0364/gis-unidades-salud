@@ -2,6 +2,7 @@
 
 Ejecutar: python "Unidades de Salud/scripts/generar_mapa_todos_departamentos.py"
 Los datos se leen directamente de los Excel departamentales filtrados.
+La Paz utiliza solo las filas verdes, igual que su mapa individual.
 """
 
 from __future__ import annotations

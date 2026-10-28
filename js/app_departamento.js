@@ -6,20 +6,19 @@ if (!facilities || !boundaries || !window.L || boundaries.features.length !== 1)
   document.getElementById("status").textContent = "No se encontraron las capas locales o Leaflet";
 } else {
   const department = facilities.meta.departamento;
-  const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  });
+  const osm = MAP_BASES.createOsm();
   const hot = L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
     maxZoom: 19,
+    updateWhenZooming: false,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, HOT'
   });
-  const satellite = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
-    maxZoom: 19,
-    attribution: "Imágenes: Esri, Maxar, Earthstar Geographics"
-  });
-  const bases = { osm: ["Cartográfico OSM", osm], hot: ["Humanitario OSM", hot], satellite: ["Satélite", satellite] };
-  const map = L.map("map", { zoomControl: true, maxZoom: 19, layers: [osm] });
+  const satellite = MAP_BASES.createSatellite();
+  const bases = {
+    osm: ["Cartográfico OSM", osm],
+    hot: ["Humanitario OSM", hot],
+    satellite: ["Satélite", satellite]
+  };
+  const map = L.map("map", { zoomControl: true, maxZoom: 19, preferCanvas: true, layers: [bases[MAP_BASES.initialId][1]] });
   L.control.scale({ metric: true, imperial: false }).addTo(map);
   map.createPane("administrativePane");
   map.getPane("administrativePane").style.zIndex = 350;
@@ -42,7 +41,7 @@ if (!facilities || !boundaries || !window.L || boundaries.features.length !== 1)
   const expanded = { unidades: true, limites: true, bases: true, tipos: true };
   const items = [];
   const categoryOn = new Map();
-  let base = "osm";
+  let base = MAP_BASES.initialId;
   let selected = "puntos";
   let matches = [];
   let matchIndex = -1;
@@ -205,6 +204,14 @@ if (!facilities || !boundaries || !window.L || boundaries.features.length !== 1)
     return element;
   }
 
+  function setBase(id) {
+    if (id === "osm" && !MAP_BASES.osmAvailable) return;
+    map.removeLayer(bases[base][1]);
+    base = id;
+    bases[base][1].addTo(map).bringToBack();
+    render();
+  }
+
   function render() {
     const tree = document.getElementById("layers");
     const scroll = tree.scrollTop;
@@ -244,12 +251,8 @@ if (!facilities || !boundaries || !window.L || boundaries.features.length !== 1)
         radio.name = "base";
         radio.checked = base === id;
         radio.setAttribute("aria-label", label);
-        radio.addEventListener("change", () => {
-          map.removeLayer(bases[base][1]);
-          base = id;
-          bases[base][1].addTo(map).bringToBack();
-          render();
-        });
+        MAP_BASES.configureRadio(radio, id);
+        radio.addEventListener("change", () => setBase(id));
         baseRow.insertBefore(radio, baseRow.children[1]);
         nodes.push(baseRow);
       }
@@ -384,6 +387,7 @@ if (!facilities || !boundaries || !window.L || boundaries.features.length !== 1)
     document.getElementById("coords").textContent = `Lat ${event.latlng.lat.toFixed(5)}  Lon ${event.latlng.lng.toFixed(5)}`;
   });
 
+  MAP_BASES.watchOsm(map, osm, () => setBase("satellite"));
   sync();
   render();
 }

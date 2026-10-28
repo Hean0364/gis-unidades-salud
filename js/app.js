@@ -24,10 +24,7 @@ const ADMINISTRATIVE = {
 
 const DETALLE_ORDER = ["Predio", "Edificio", "Polígono", "Punto"];
 
-const osmCartographic = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-});
+const osmCartographic = MAP_BASES.createOsm();
 
 const osmHumanitarian = L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
   maxZoom: 19,
@@ -35,10 +32,7 @@ const osmHumanitarian = L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, teselas HOT por <a href="https://www.hotosm.org/">Humanitarian OpenStreetMap Team</a>'
 });
 
-const esriSatellite = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
-  maxZoom: 19,
-  attribution: "Imágenes: Esri, Maxar, Earthstar Geographics"
-});
+const esriSatellite = MAP_BASES.createSatellite();
 
 const bases = {
   satellite: { label: "Satélite", layer: esriSatellite },
@@ -51,8 +45,9 @@ const map = L.map("map", {
   zoom: 9,
   minZoom: 8,
   maxZoom: 19,
+  preferCanvas: true,
   zoomControl: true,
-  layers: [osmCartographic]
+  layers: [bases[MAP_BASES.initialId].layer]
 });
 
 map.fitBounds(SV_BOUNDS, { padding: [24, 24] });
@@ -69,7 +64,7 @@ const extraOn = { minsal: "all", osm: "all", geofabrik: "all", hot: "all" };
 const layerEnabled = { minsal: false, osm: false, geofabrik: true, hot: false };
 const administrativeEnabled = { departamentos: true };
 const expanded = { fuentes: true, limites: true, bases: true, minsal: false, osm: false, geofabrik: true, hot: false };
-let activeBase = "osm";
+let activeBase = MAP_BASES.initialId;
 let selectedLayer = "geofabrik";
 
 const ICONS = {
@@ -658,6 +653,7 @@ function buildBaseRow(id, item) {
   input.type = "radio";
   input.name = "base";
   input.checked = id === activeBase;
+  MAP_BASES.configureRadio(input, id);
   input.addEventListener("change", () => setBase(id));
   row.append(twistySpace(), input, icon("raster"), ...rowText(item.label));
   return row;
@@ -694,6 +690,7 @@ function zoomToLayer(sourceId) {
 }
 
 function setBase(id) {
+  if (id === "osm" && !MAP_BASES.osmAvailable) return;
   for (const item of Object.values(bases)) {
     if (map.hasLayer(item.layer)) map.removeLayer(item.layer);
   }
@@ -727,4 +724,5 @@ map.on("mousemove", (event) => {
   coords.textContent = `Lat ${event.latlng.lat.toFixed(5)}  Lon ${event.latlng.lng.toFixed(5)}`;
 });
 
+MAP_BASES.watchOsm(map, osmCartographic, () => setBase("satellite"));
 buildVectorLayers();
