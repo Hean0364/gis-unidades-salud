@@ -18,9 +18,9 @@
       "Sonsonate",
       "Usulután"
     ],
-    "count": 571,
-    "puntos": 218,
-    "poligonos": 353
+    "count": 557,
+    "puntos": 216,
+    "poligonos": 341
   },
   "features": [
     {
@@ -2129,7 +2129,7 @@
         "id": "geofabrik-way-696955285",
         "fuente": "geofabrik",
         "fuente_id": "way/696955285",
-        "nombre": "Sin nombre",
+        "nombre": "Unidad Medica Sensuntepeque",
         "tipo": "Hospital",
         "tipo_codigo": "hospital",
         "detalle": "Edificio",
@@ -4901,7 +4901,11 @@
         "centroide_longitud": "-89.4129324",
         "centroide_metodo": "coordenada_original",
         "fuente_url": null,
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.75513353,-89.4129324"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.75513353,-89.4129324",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -4939,7 +4943,11 @@
         "centroide_longitud": "-89.32597",
         "centroide_metodo": "coordenada_original",
         "fuente_url": null,
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.48561123,-89.32597"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.48561123,-89.32597",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -4977,7 +4985,11 @@
         "centroide_longitud": "-89.29238637",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/relation/10099673",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67261576,-89.29238637"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67261576,-89.29238637",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5047,7 +5059,11 @@
         "centroide_longitud": "-89.2782988",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/137226205",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67117702,-89.2782988"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67117702,-89.2782988",
+        "sector": "Público",
+        "criterio_sector": "Hospital Nacional San Rafael y sus instalaciones anexas: red pública MINSAL.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5133,7 +5149,11 @@
         "centroide_longitud": "-89.28081377",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/196616567",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67759927,-89.28081377"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67759927,-89.28081377",
+        "sector": "Privado",
+        "criterio_sector": "Organización humanitaria no estatal, sin fines de lucro; prestar auxilio público no la convierte en entidad estatal.",
+        "fuente_sector": "https://www.openstreetmap.org/way/196616567",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5191,7 +5211,11 @@
         "centroide_longitud": "-89.26945648",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/279281529",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83360269,-89.26945648"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83360269,-89.26945648",
+        "sector": "Público",
+        "criterio_sector": "Centro propio o clínica comunal del Instituto Salvadoreño del Seguro Social.",
+        "fuente_sector": "https://www.isss.gob.sv/centros-de-atencion/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5301,7 +5325,11 @@
         "centroide_longitud": "-89.26561297",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/299383051",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.64860465,-89.26561297"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.64860465,-89.26561297",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5359,7 +5387,11 @@
         "centroide_longitud": "-89.27114604",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/313945416",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83278537,-89.27114604"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83278537,-89.27114604",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5417,7 +5449,11 @@
         "centroide_longitud": "-89.29000841",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/378234332",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67226702,-89.29000841"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67226702,-89.29000841",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.facebook.com/p/Cl%C3%ADnica-Corrales-100083695633545/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5475,7 +5511,11 @@
         "centroide_longitud": "-89.28309963",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/378358265",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6805617,-89.28309963"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6805617,-89.28309963",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/378358265",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5533,7 +5573,11 @@
         "centroide_longitud": "-89.2444347",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/396054630",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67535697,-89.2444347"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67535697,-89.2444347",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/396054630",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5591,7 +5635,11 @@
         "centroide_longitud": "-89.2924027",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/397339422",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67546689,-89.2924027"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67546689,-89.2924027",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/397339422",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5653,7 +5701,11 @@
         "centroide_longitud": "-89.29411686",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/397372547",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67323805,-89.29411686"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67323805,-89.29411686",
+        "sector": "Privado",
+        "criterio_sector": "Entidad no estatal de carácter social, religioso, fundacional o cooperativo; no se clasifica como pública por ofrecer atención social.",
+        "fuente_sector": "https://www.openstreetmap.org/way/397372547",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5715,7 +5767,11 @@
         "centroide_longitud": "-89.28994731",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/397493073",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6751713,-89.28994731"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6751713,-89.28994731",
+        "sector": "Privado",
+        "criterio_sector": "Entidad no estatal de carácter social, religioso, fundacional o cooperativo; no se clasifica como pública por ofrecer atención social.",
+        "fuente_sector": "https://www.openstreetmap.org/way/397493073",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5780,72 +5836,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "overpass-way-398033509",
-        "fuente": "overpass",
-        "fuente_id": "way/398033509",
-        "nombre": "Hospital Centro Médico Lourdes",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": null,
-        "detalle_codigo": null,
-        "departamento": "La Libertad",
-        "municipio": "Lourdes",
-        "region": "Central",
-        "direccion": "4a Calle Oriente, Lourdes",
-        "operador": "Ministerio de Salud",
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": "clinic",
-        "healthcare": "clinic",
-        "edificio": "yes",
-        "geometria_tipo": "Polygon",
-        "vertices": "7",
-        "centroide_latitud": "13.72310283",
-        "centroide_longitud": "-89.367375",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398033509",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72310283,-89.367375"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3676073,
-              13.7229645
-            ],
-            [
-              -89.3675601,
-              13.7229431
-            ],
-            [
-              -89.367357,
-              13.7228509
-            ],
-            [
-              -89.3671541,
-              13.723261
-            ],
-            [
-              -89.3673823,
-              13.7233522
-            ],
-            [
-              -89.3675493,
-              13.7230515
-            ],
-            [
-              -89.3676073,
-              13.7229645
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "overpass-way-398043051",
         "fuente": "overpass",
         "fuente_id": "way/398043051",
@@ -5871,7 +5861,11 @@
         "centroide_longitud": "-89.36754717",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398043051",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7227177,-89.36754717"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7227177,-89.36754717",
+        "sector": "Privado",
+        "criterio_sector": "Organización humanitaria no estatal, sin fines de lucro; prestar auxilio público no la convierte en entidad estatal.",
+        "fuente_sector": "https://www.openstreetmap.org/way/398043051",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5929,7 +5923,11 @@
         "centroide_longitud": "-89.36731475",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398052521",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72585022,-89.36731475"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72585022,-89.36731475",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.facebook.com/p/Laboratorio-Cl%C3%ADnico-Clio-Med-61565687895844/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5987,7 +5985,11 @@
         "centroide_longitud": "-89.36713785",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398061681",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72551159,-89.36713785"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72551159,-89.36713785",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/398061681",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6045,7 +6047,11 @@
         "centroide_longitud": "-89.35940105",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398547190",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8753327,-89.35940105"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8753327,-89.35940105",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/398547190",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6103,7 +6109,11 @@
         "centroide_longitud": "-89.35927542",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398547191",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87567183,-89.35927542"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87567183,-89.35927542",
+        "sector": "Público",
+        "criterio_sector": "Clínica identificada como municipal, de administración local.",
+        "fuente_sector": "https://www.openstreetmap.org/way/398547191",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6161,7 +6171,11 @@
         "centroide_longitud": "-89.3587163",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398549570",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87511815,-89.3587163"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87511815,-89.3587163",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/398549570",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6219,7 +6233,11 @@
         "centroide_longitud": "-89.35909872",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398559950",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7933289,-89.35909872"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7933289,-89.35909872",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/398559950",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6277,7 +6295,11 @@
         "centroide_longitud": "-89.35931777",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398568020",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.79224815,-89.35931777"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.79224815,-89.35931777",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.labcliza.com/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6335,7 +6357,11 @@
         "centroide_longitud": "-89.35825756",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398606707",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87530643,-89.35825756"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87530643,-89.35825756",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.facebook.com/Jawetz.Laboratorio/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6393,7 +6419,11 @@
         "centroide_longitud": "-89.27195518",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/399286333",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83219948,-89.27195518"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83219948,-89.27195518",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.facebook.com/clinicamedicafamiliar1/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6451,7 +6481,11 @@
         "centroide_longitud": "-89.27144171",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/399727751",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67941197,-89.27144171"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67941197,-89.27144171",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.facebook.com/hospitalmerliot/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6513,7 +6547,11 @@
         "centroide_longitud": "-89.24153347",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/427656041",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68211502,-89.24153347"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68211502,-89.24153347",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/427656041",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6579,7 +6617,11 @@
         "centroide_longitud": "-89.25653341",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/442217631",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.66143656,-89.25653341"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.66143656,-89.25653341",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.hospitaldiagnostico.com/centro-especialidades/6",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6641,7 +6683,11 @@
         "centroide_longitud": "-89.41882645",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/504636327",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.59838915,-89.41882645"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.59838915,-89.41882645",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6699,7 +6745,11 @@
         "centroide_longitud": "-89.29042439",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/541308878",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67713471,-89.29042439"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67713471,-89.29042439",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://policlinicacasadesalud.com/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6769,7 +6819,11 @@
         "centroide_longitud": "-89.28990914",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/541310871",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67841623,-89.28990914"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67841623,-89.28990914",
+        "sector": "Público",
+        "criterio_sector": "Centro identificado del Instituto Salvadoreño de Bienestar Magisterial.",
+        "fuente_sector": "https://www.isbm.gob.sv/policlinicos/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6843,7 +6897,11 @@
         "centroide_longitud": "-89.28486678",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/588481889",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67983195,-89.28486678"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67983195,-89.28486678",
+        "sector": "Público",
+        "criterio_sector": "Centro propio o clínica comunal del Instituto Salvadoreño del Seguro Social.",
+        "fuente_sector": "https://www.isss.gob.sv/centros-de-atencion/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6905,7 +6963,11 @@
         "centroide_longitud": "-89.27959865",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/620213739",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6734256,-89.27959865"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6734256,-89.27959865",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/620213739",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6963,7 +7025,11 @@
         "centroide_longitud": "-89.29299745",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/693648153",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6705295,-89.29299745"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6705295,-89.29299745",
+        "sector": "Público",
+        "criterio_sector": "Centro propio o clínica comunal del Instituto Salvadoreño del Seguro Social.",
+        "fuente_sector": "https://www.isss.gob.sv/centros-de-atencion/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7029,7 +7095,11 @@
         "centroide_longitud": "-89.29075675",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/693779698",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67026946,-89.29075675"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67026946,-89.29075675",
+        "sector": "Privado",
+        "criterio_sector": "Entidad no estatal de carácter social, religioso, fundacional o cooperativo; no se clasifica como pública por ofrecer atención social.",
+        "fuente_sector": "https://www.ordendemaltaelsalvador.org/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7111,7 +7181,11 @@
         "centroide_longitud": "-89.30400767",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/694598139",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68415034,-89.30400767"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68415034,-89.30400767",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7185,7 +7259,11 @@
         "centroide_longitud": "-89.33864079",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/737961233",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.48603439,-89.33864079"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.48603439,-89.33864079",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7255,7 +7333,11 @@
         "centroide_longitud": "-89.28901657",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/738648899",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.58866051,-89.28901657"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.58866051,-89.28901657",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7321,7 +7403,11 @@
         "centroide_longitud": "-89.2399522",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/825175527",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68265299,-89.2399522"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68265299,-89.2399522",
+        "sector": "Público",
+        "criterio_sector": "Centro propio o clínica comunal del Instituto Salvadoreño del Seguro Social.",
+        "fuente_sector": "https://www.isss.gob.sv/centros-de-atencion/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7407,7 +7493,11 @@
         "centroide_longitud": "-89.47068853",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/832737997",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73015769,-89.47068853"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73015769,-89.47068853",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/832737997",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7469,7 +7559,11 @@
         "centroide_longitud": "-89.46120448",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/981455280",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70291878,-89.46120448"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.70291878,-89.46120448",
+        "sector": "Privado",
+        "criterio_sector": "Organización humanitaria no estatal, sin fines de lucro; prestar auxilio público no la convierte en entidad estatal.",
+        "fuente_sector": "https://www.openstreetmap.org/way/981455280",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7535,7 +7629,11 @@
         "centroide_longitud": "-89.25209042",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1105088827",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67544754,-89.25209042"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67544754,-89.25209042",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/1105088827",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7637,7 +7735,11 @@
         "centroide_longitud": "-89.27095046",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1110828563",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83003909,-89.27095046"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83003909,-89.27095046",
+        "sector": "Privado",
+        "criterio_sector": "Entidad no estatal de carácter social, religioso, fundacional o cooperativo; no se clasifica como pública por ofrecer atención social.",
+        "fuente_sector": "https://www.fundesoelsalvador.org/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7699,7 +7801,11 @@
         "centroide_longitud": "-89.35700383",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1200045596",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.78425811,-89.35700383"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.78425811,-89.35700383",
+        "sector": "Privado",
+        "criterio_sector": "Entidad no estatal de carácter social, religioso, fundacional o cooperativo; no se clasifica como pública por ofrecer atención social.",
+        "fuente_sector": "https://www.facebook.com/p/clinica-asistencial-medica-cooperativa-Chanmico-61585440324158/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7757,7 +7863,11 @@
         "centroide_longitud": "-89.42484071",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1204325674",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.74088388,-89.42484071"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.74088388,-89.42484071",
+        "sector": "Público",
+        "criterio_sector": "Centro propio o clínica comunal del Instituto Salvadoreño del Seguro Social.",
+        "fuente_sector": "https://www.isss.gob.sv/centros-de-atencion/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7815,7 +7925,11 @@
         "centroide_longitud": "-89.3518317",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1215703654",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87455192,-89.3518317"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87455192,-89.3518317",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7885,7 +7999,11 @@
         "centroide_longitud": "-89.35940928",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1215703670",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87678114,-89.35940928"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.87678114,-89.35940928",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.facebook.com/Biogenesis.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7951,7 +8069,11 @@
         "centroide_longitud": "-89.24210287",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1282194342",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6735233,-89.24210287"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6735233,-89.24210287",
+        "sector": "Público",
+        "criterio_sector": "Centro propio o clínica comunal del Instituto Salvadoreño del Seguro Social.",
+        "fuente_sector": "https://www.isss.gob.sv/centros-de-atencion/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8009,7 +8131,11 @@
         "centroide_longitud": "-89.51842074",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1317800415",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.59160708,-89.51842074"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.59160708,-89.51842074",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8099,7 +8225,11 @@
         "centroide_longitud": "-89.34885605",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1320205287",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.88399487,-89.34885605"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.88399487,-89.34885605",
+        "sector": "Privado",
+        "criterio_sector": "Entidad no estatal de carácter social, religioso, fundacional o cooperativo; no se clasifica como pública por ofrecer atención social.",
+        "fuente_sector": "https://ecas.edu.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8157,7 +8287,11 @@
         "centroide_longitud": "-89.35614201",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1532042651",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71145906,-89.35614201"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.71145906,-89.35614201",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/1532042651",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8182,506 +8316,6 @@
             [
               -89.3561693,
               13.7115067
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-way-398033509",
-        "fuente": "geofabrik",
-        "fuente_id": "way/398033509",
-        "nombre": "Hospital Centro Médico Lourdes",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Libertad",
-        "municipio": "Colón",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "7",
-        "centroide_latitud": "13.72310283",
-        "centroide_longitud": "-89.367375",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398033509",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72310283,-89.367375"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3676073,
-              13.7229645
-            ],
-            [
-              -89.3675493,
-              13.7230515
-            ],
-            [
-              -89.3673823,
-              13.7233522
-            ],
-            [
-              -89.3671541,
-              13.723261
-            ],
-            [
-              -89.367357,
-              13.7228509
-            ],
-            [
-              -89.3675601,
-              13.7229431
-            ],
-            [
-              -89.3676073,
-              13.7229645
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-way-398052521",
-        "fuente": "geofabrik",
-        "fuente_id": "way/398052521",
-        "nombre": "Clínicas Medicas Integradas y Laboratorio Clio-Med",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Libertad",
-        "municipio": "Colón",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.72585022",
-        "centroide_longitud": "-89.36731475",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398052521",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72585022,-89.36731475"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3673787,
-              13.7258278
-            ],
-            [
-              -89.3673343,
-              13.7259135
-            ],
-            [
-              -89.3672508,
-              13.7258727
-            ],
-            [
-              -89.3672952,
-              13.7257869
-            ],
-            [
-              -89.3673787,
-              13.7258278
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-way-398061681",
-        "fuente": "geofabrik",
-        "fuente_id": "way/398061681",
-        "nombre": "Clínica Medica",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Libertad",
-        "municipio": "Colón",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.72551159",
-        "centroide_longitud": "-89.36713785",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398061681",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72551159,-89.36713785"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3672138,
-              13.7255025
-            ],
-            [
-              -89.3671723,
-              13.7255745
-            ],
-            [
-              -89.3670611,
-              13.7255175
-            ],
-            [
-              -89.3671024,
-              13.7254504
-            ],
-            [
-              -89.3672138,
-              13.7255025
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-way-398559950",
-        "fuente": "geofabrik",
-        "fuente_id": "way/398559950",
-        "nombre": "Clínica Medica",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Libertad",
-        "municipio": "San Juan Opico",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.7933289",
-        "centroide_longitud": "-89.35909872",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398559950",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7933289,-89.35909872"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3591359,
-              13.7933392
-            ],
-            [
-              -89.3590746,
-              13.7933582
-            ],
-            [
-              -89.3590615,
-              13.7933186
-            ],
-            [
-              -89.3591229,
-              13.7932996
-            ],
-            [
-              -89.3591359,
-              13.7933392
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-way-398568020",
-        "fuente": "geofabrik",
-        "fuente_id": "way/398568020",
-        "nombre": "Centro Medico Labcliza Laboratorio Clinico",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Libertad",
-        "municipio": "San Juan Opico",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.79224815",
-        "centroide_longitud": "-89.35931777",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398568020",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.79224815,-89.35931777"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3593569,
-              13.7922619
-            ],
-            [
-              -89.3592922,
-              13.79228
-            ],
-            [
-              -89.3592786,
-              13.7922344
-            ],
-            [
-              -89.3593434,
-              13.7922163
-            ],
-            [
-              -89.3593569,
-              13.7922619
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-way-10099673",
-        "fuente": "geofabrik",
-        "fuente_id": "way/10099673",
-        "nombre": "Unidad de Salud Doctor Carlos Díaz del Pinal",
-        "tipo": "Hospital",
-        "tipo_codigo": "hospital",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Libertad",
-        "municipio": "Santa Tecla",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "8",
-        "centroide_latitud": "13.67261576",
-        "centroide_longitud": "-89.29238637",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/10099673",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67261576,-89.29238637"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.2925838,
-              13.6723551
-            ],
-            [
-              -89.2925714,
-              13.6729134
-            ],
-            [
-              -89.2921857,
-              13.6729012
-            ],
-            [
-              -89.2921926,
-              13.6727308
-            ],
-            [
-              -89.2921948,
-              13.6726293
-            ],
-            [
-              -89.2922042,
-              13.672316
-            ],
-            [
-              -89.2925599,
-              13.6723276
-            ],
-            [
-              -89.2925838,
-              13.6723551
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-way-832737997",
-        "fuente": "geofabrik",
-        "fuente_id": "way/832737997",
-        "nombre": "Clinica Buena Vista",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Libertad",
-        "municipio": "Sacacoyo",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "6",
-        "centroide_latitud": "13.73015769",
-        "centroide_longitud": "-89.47068853",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/832737997",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.73015769,-89.47068853"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.4708738,
-              13.7299089
-            ],
-            [
-              -89.4707624,
-              13.7304737
-            ],
-            [
-              -89.4707283,
-              13.7304598
-            ],
-            [
-              -89.4704905,
-              13.7303856
-            ],
-            [
-              -89.4706303,
-              13.7298425
-            ],
-            [
-              -89.4708738,
-              13.7299089
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-way-373848988",
-        "fuente": "geofabrik",
-        "fuente_id": "way/373848988",
-        "nombre": "Centro Especializado Integral de Atencion Ambulatoria La Ceiba",
-        "tipo": "Hospital",
-        "tipo_codigo": "hospital",
-        "detalle": "Edificio",
-        "detalle_codigo": "edificio",
-        "departamento": "La Libertad",
-        "municipio": "Antiguo Cuscatlán",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "8",
-        "centroide_latitud": "13.68252004",
-        "centroide_longitud": "-89.23998851",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/373848988",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.68252004,-89.23998851"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.2403643,
-              13.6827537
-            ],
-            [
-              -89.2397992,
-              13.6828678
-            ],
-            [
-              -89.2397172,
-              13.6824849
-            ],
-            [
-              -89.2395579,
-              13.6825194
-            ],
-            [
-              -89.2395178,
-              13.6823478
-            ],
-            [
-              -89.2396788,
-              13.6823054
-            ],
-            [
-              -89.240244,
-              13.6821912
-            ],
-            [
-              -89.2403643,
-              13.6827537
             ]
           ]
         ]
@@ -8715,7 +8349,11 @@
         "centroide_longitud": "-89.24260102",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1152815588",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67056896,-89.24260102"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67056896,-89.24260102",
+        "sector": "Privado",
+        "criterio_sector": "Entidad no estatal de carácter social, religioso, fundacional o cooperativo; no se clasifica como pública por ofrecer atención social.",
+        "fuente_sector": "https://www.fundesoelsalvador.org/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8833,51 +8471,17 @@
         "centroide_longitud": "-89.4458648",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/5368595423",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8423474,-89.4458648"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8423474,-89.4458648",
+        "sector": "Privado",
+        "criterio_sector": "Organización humanitaria no estatal, sin fines de lucro; prestar auxilio público no la convierte en entidad estatal.",
+        "fuente_sector": "https://www.openstreetmap.org/node/5368595423",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -89.4458648,
           13.8423474
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-node-11292477250",
-        "fuente": "geofabrik",
-        "fuente_id": "node/11292477250",
-        "nombre": "Sin nombre",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Punto",
-        "detalle_codigo": "punto",
-        "departamento": "La Libertad",
-        "municipio": "San Juan Opico",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Point",
-        "vertices": "1",
-        "centroide_latitud": "13.7937085",
-        "centroide_longitud": "-89.3596767",
-        "centroide_metodo": "coordenada_original",
-        "fuente_url": "https://www.openstreetmap.org/node/11292477250",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7937085,-89.3596767"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.3596767,
-          13.7937085
         ]
       }
     },
@@ -8909,7 +8513,11 @@
         "centroide_longitud": "-89.20686355",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/742336376",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.57426404,-89.20686355"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.57426404,-89.20686355",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8966,238 +8574,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "hot-way-398559950",
-        "fuente": "hot",
-        "fuente_id": "way/398559950",
-        "nombre": "Clínica Medica",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Polígono",
-        "detalle_codigo": "poligono",
-        "departamento": "La Libertad",
-        "municipio": "Ciudad Arce",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.7933289",
-        "centroide_longitud": "-89.35909872",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398559950",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7933289,-89.35909872"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3591359,
-              13.7933392
-            ],
-            [
-              -89.3591229,
-              13.7932996
-            ],
-            [
-              -89.3590615,
-              13.7933186
-            ],
-            [
-              -89.3590746,
-              13.7933582
-            ],
-            [
-              -89.3591359,
-              13.7933392
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "hot-way-398568020",
-        "fuente": "hot",
-        "fuente_id": "way/398568020",
-        "nombre": "Centro Medico Labcliza Laboratorio Clinico",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Polígono",
-        "detalle_codigo": "poligono",
-        "departamento": "La Libertad",
-        "municipio": "Ciudad Arce",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.79224815",
-        "centroide_longitud": "-89.35931777",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398568020",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.79224815,-89.35931777"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3592922,
-              13.79228
-            ],
-            [
-              -89.3592786,
-              13.7922344
-            ],
-            [
-              -89.3593434,
-              13.7922163
-            ],
-            [
-              -89.3593569,
-              13.7922619
-            ],
-            [
-              -89.3592922,
-              13.79228
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "hot-way-398052521",
-        "fuente": "hot",
-        "fuente_id": "way/398052521",
-        "nombre": "Clínicas Medicas Integradas y Laboratorio Clio-Med",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Polígono",
-        "detalle_codigo": "poligono",
-        "departamento": "La Libertad",
-        "municipio": "Colón",
-        "region": "Central",
-        "direccion": "Lourdes",
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.72585022",
-        "centroide_longitud": "-89.36731475",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398052521",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72585022,-89.36731475"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3672508,
-              13.7258727
-            ],
-            [
-              -89.3672952,
-              13.7257869
-            ],
-            [
-              -89.3673787,
-              13.7258278
-            ],
-            [
-              -89.3673343,
-              13.7259135
-            ],
-            [
-              -89.3672508,
-              13.7258727
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "hot-way-398061681",
-        "fuente": "hot",
-        "fuente_id": "way/398061681",
-        "nombre": "Clínica Medica",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Polígono",
-        "detalle_codigo": "poligono",
-        "departamento": "La Libertad",
-        "municipio": "Colón",
-        "region": "Central",
-        "direccion": "Lourdes",
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.72551159",
-        "centroide_longitud": "-89.36713785",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/398061681",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72551159,-89.36713785"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.3671723,
-              13.7255745
-            ],
-            [
-              -89.3672138,
-              13.7255025
-            ],
-            [
-              -89.3671024,
-              13.7254504
-            ],
-            [
-              -89.3670611,
-              13.7255175
-            ],
-            [
-              -89.3671723,
-              13.7255745
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "hot-way-398033509",
         "fuente": "hot",
         "fuente_id": "way/398033509",
@@ -9210,20 +8586,24 @@
         "municipio": "Colón",
         "region": "Central",
         "direccion": "Lourdes",
-        "operador": "Público",
+        "operador": "Privado",
         "telefono": null,
         "horario": null,
         "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "edificio": "yes",
         "geometria_tipo": "Polygon",
         "vertices": "7",
         "centroide_latitud": "13.72310283",
         "centroide_longitud": "-89.367375",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398033509",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72310283,-89.367375"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.72310283,-89.367375",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://hlourdes.com/",
+        "operador_original": "Público"
       },
       "geometry": {
         "type": "Polygon",
@@ -9289,7 +8669,11 @@
         "centroide_longitud": "-89.28345652",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/398011497",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67873765,-89.28345652"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67873765,-89.28345652",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/way/398011497",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -9355,7 +8739,11 @@
         "centroide_longitud": "-89.29235536",
         "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/way/1382672260",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67142657,-89.29235536"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.67142657,-89.29235536",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.hospitalclimosal.com/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Polygon",
@@ -9425,7 +8813,11 @@
         "centroide_longitud": "-89.4399552",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/12996570558",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4988038,-89.4399552"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4988038,-89.4399552",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/node/12996570558",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9463,7 +8855,11 @@
         "centroide_longitud": "-89.3227597",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/5217631522",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4873879,-89.3227597"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.4873879,-89.3227597",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/node/5217631522",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9501,7 +8897,11 @@
         "centroide_longitud": "-89.3558678",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/4238749389",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8755588,-89.3558678"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8755588,-89.3558678",
+        "sector": "Público",
+        "criterio_sector": "Centro identificado del Instituto Salvadoreño de Bienestar Magisterial.",
+        "fuente_sector": "https://www.isbm.gob.sv/policlinicos/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9539,7 +8939,11 @@
         "centroide_longitud": "-89.2729952",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/4231071906",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8339597,-89.2729952"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8339597,-89.2729952",
+        "sector": "Público",
+        "criterio_sector": "Centro identificado del Instituto Salvadoreño de Bienestar Magisterial.",
+        "fuente_sector": "https://www.isbm.gob.sv/policlinicos/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9577,7 +8981,11 @@
         "centroide_longitud": "-89.4489941",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/9972679079",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8316656,-89.4489941"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8316656,-89.4489941",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/node/9972679079",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9615,7 +9023,11 @@
         "centroide_longitud": "-89.3596767",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/11292477250",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7937085,-89.3596767"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7937085,-89.3596767",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/node/11292477250",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9653,7 +9065,11 @@
         "centroide_longitud": "-89.356968",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/12079413979",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7893,-89.356968"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7893,-89.356968",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/node/12079413979",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9691,7 +9107,11 @@
         "centroide_longitud": "-89.3724734",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/4084402565",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7871422,-89.3724734"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7871422,-89.3724734",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9729,7 +9149,11 @@
         "centroide_longitud": "-89.3610515",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/4231085594",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7297414,-89.3610515"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7297414,-89.3610515",
+        "sector": "Público",
+        "criterio_sector": "Centro identificado del Instituto Salvadoreño de Bienestar Magisterial.",
+        "fuente_sector": "https://www.isbm.gob.sv/policlinicos/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9748,32 +9172,56 @@
         "nombre": "Hospital San Mateo",
         "tipo": "Hospital",
         "tipo_codigo": "hospital",
-        "detalle": "Punto",
-        "detalle_codigo": "punto",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
         "departamento": "La Libertad",
         "municipio": "Colón",
         "region": "Central",
         "direccion": null,
-        "operador": "Público",
+        "operador": "Privado",
         "telefono": null,
         "horario": null,
         "especialidad": "Medicina general",
         "amenity": null,
         "healthcare": null,
         "edificio": null,
-        "geometria_tipo": "Point",
-        "vertices": "1",
-        "centroide_latitud": "13.7246396",
-        "centroide_longitud": "-89.3685931",
-        "centroide_metodo": "coordenada_original",
+        "geometria_tipo": "Polygon",
+        "vertices": 5,
+        "centroide_latitud": 13.7246574927,
+        "centroide_longitud": -89.3684177507,
+        "centroide_metodo": "centroide_area",
         "fuente_url": "https://www.openstreetmap.org/node/661971230",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7246396,-89.3685931"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7246574927,-89.3684177507",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://hsanmateo.com/",
+        "operador_original": "Público"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -89.3685931,
-          13.7246396
+          [
+            [
+              -89.36839387839004,
+              13.72482961806833
+            ],
+            [
+              -89.36854456317657,
+              13.72453659473763
+            ],
+            [
+              -89.36844586330508,
+              13.72448125127536
+            ],
+            [
+              -89.36828879937505,
+              13.72478057309364
+            ],
+            [
+              -89.36839387839004,
+              13.72482961806833
+            ]
+          ]
         ]
       }
     },
@@ -9805,7 +9253,11 @@
         "centroide_longitud": "-89.4556529",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/12083993345",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7051178,-89.4556529"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.7051178,-89.4556529",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9843,7 +9295,11 @@
         "centroide_longitud": "-89.2357572",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/3988366987",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6769675,-89.2357572"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6769675,-89.2357572",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/node/3988366987",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9881,7 +9337,11 @@
         "centroide_longitud": "-89.2971538",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/5489138921",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6736253,-89.2971538"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6736253,-89.2971538",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/node/5489138921",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9919,7 +9379,11 @@
         "centroide_longitud": "-89.2920273",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/8849627194",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6730868,-89.2920273"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6730868,-89.2920273",
+        "sector": "No determinado",
+        "criterio_sector": "La información disponible no permite identificar con certeza la titularidad. No se supone que sea privado por llamarse clínica u hospital, ni por carecer de operador.",
+        "fuente_sector": "https://www.openstreetmap.org/node/8849627194",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9957,7 +9421,11 @@
         "centroide_longitud": "-89.2871292",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/4003452952",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6727,-89.2871292"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6727,-89.2871292",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.facebook.com/TratamientosdelPieCAIP/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -9995,7 +9463,11 @@
         "centroide_longitud": "-89.2890323",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/4001465053",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6722415,-89.2890323"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6722415,-89.2890323",
+        "sector": "Privado",
+        "criterio_sector": "Prestador médico o laboratorio no estatal identificado por nombre y ubicación en su publicación institucional.",
+        "fuente_sector": "https://www.facebook.com/clinicksusalud/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -10033,7 +9505,11 @@
         "centroide_longitud": "-89.2780711",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/1941944318",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6701638,-89.2780711"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6701638,-89.2780711",
+        "sector": "Público",
+        "criterio_sector": "Hospital Nacional San Rafael y sus instalaciones anexas: red pública MINSAL.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -10071,7 +9547,11 @@
         "centroide_longitud": "-89.2664948",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/2984643444",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6477906,-89.2664948"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6477906,-89.2664948",
+        "sector": "Público",
+        "criterio_sector": "Clínica identificada como municipal, de administración local.",
+        "fuente_sector": "https://www.openstreetmap.org/node/2984643444",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",
@@ -10109,7 +9589,11 @@
         "centroide_longitud": "-89.3793289",
         "centroide_metodo": "coordenada_original",
         "fuente_url": "https://www.openstreetmap.org/node/2117357673",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6378306,-89.3793289"
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6378306,-89.3793289",
+        "sector": "Público",
+        "criterio_sector": "Establecimiento identificado de la red pública MINSAL/UCSF.",
+        "fuente_sector": "https://www.salud.gob.sv/",
+        "operador_original": null
       },
       "geometry": {
         "type": "Point",

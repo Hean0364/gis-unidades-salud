@@ -67,6 +67,12 @@ Los registros con `fuente = manual` conservan la geometría dibujada por el usua
 no se les asigna un identificador OSM ni se inventan etiquetas OSM de origen.
 `fuente_url` puede indicar la publicación consultada para completar sus datos.
 
+El Excel departamental de La Libertad incluye además los campos opcionales
+`sector` (`Público`, `Privado` o `No determinado`), `criterio_sector` y
+`fuente_sector`. No sustituyen el nombre de la institución operadora.
+Cuando se corrige un operador contradictorio, `operador_original` conserva el
+valor anterior. Estos campos se exportan también en las capas departamentales.
+
 ## Centro de masa de las geometrías
 
 El algoritmo anterior promediaba los vértices. Ese promedio depende de cuántos nodos tenga cada borde y no representa el centro de masa del área.
