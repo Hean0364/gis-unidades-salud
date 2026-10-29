@@ -18,9 +18,9 @@
       "Sonsonate",
       "Usulután"
     ],
-    "count": 570,
+    "count": 571,
     "puntos": 218,
-    "poligonos": 352
+    "poligonos": 353
   },
   "features": [
     {
@@ -10134,7 +10134,7 @@
         "municipio": "Zacatecoluca",
         "region": "Paracentral",
         "direccion": "Zacatecoluca",
-        "operador": null,
+        "operador": "Privado",
         "telefono": null,
         "horario": null,
         "especialidad": null,
@@ -10394,6 +10394,64 @@
             [
               -88.8682382,
               13.2824726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "manual-la-paz-oncosavi-zacatecoluca",
+        "fuente": "manual",
+        "fuente_id": "la-paz-oncosavi-zacatecoluca",
+        "nombre": "Centro Médico Quirúrgico y de Especialidades ONCOSAVI Zacatecoluca",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Polígono",
+        "detalle_codigo": "poligono",
+        "departamento": "La Paz",
+        "municipio": "Zacatecoluca",
+        "region": "Paracentral",
+        "direccion": "Barrio Los Remedios, 7.ª Calle Oriente, casa n.º 2, Zacatecoluca, La Paz Este",
+        "operador": "Privado",
+        "telefono": "+503 2639 4902",
+        "horario": "24/7",
+        "especialidad": "Oncología; Cirugía",
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": 5,
+        "centroide_latitud": 13.5047948662,
+        "centroide_longitud": -88.8703867217,
+        "centroide_metodo": "centroide_area",
+        "fuente_url": "https://www.facebook.com/oncosavizacatecoluca/",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.5047948662,-88.8703867217"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.8704393790295,
+              13.50489023330057
+            ],
+            [
+              -88.87045543527431,
+              13.50471605614038
+            ],
+            [
+              -88.87033523341329,
+              13.50469623332773
+            ],
+            [
+              -88.87031835838125,
+              13.50487705025321
+            ],
+            [
+              -88.8704393790295,
+              13.50489023330057
             ]
           ]
         ]

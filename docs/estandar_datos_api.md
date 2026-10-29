@@ -34,8 +34,8 @@ python scripts/normalizar_csv.py
 | Campo | Tipo API | Obligatorio | Descripción |
 |---|---|---:|---|
 | `id` | string | sí | ID global estable: `{fuente}-{fuente_id_normalizado}`. |
-| `fuente` | enum | sí | `minsal`, `overpass`, `geofabrik` o `hot`. |
-| `fuente_id` | string | sí | ID nativo sin alterar (`1`, `way/123`, `relation/456`). |
+| `fuente` | enum | sí | `minsal`, `overpass`, `geofabrik`, `hot` o `manual` para incorporaciones manuales en los Excel departamentales. |
+| `fuente_id` | string | sí | ID nativo sin alterar (`1`, `way/123`, `relation/456`); en registros manuales, una clave local estable. |
 | `nombre` | string | sí | Nombre reportado por la fuente; puede ser `Sin nombre`. |
 | `tipo` | string | sí | Clasificación legible de la fuente. |
 | `tipo_codigo` | string | sí | Versión estable, sin tildes y en `snake_case`, para filtros. |
@@ -62,6 +62,10 @@ python scripts/normalizar_csv.py
 | `google_maps` | string | sí | Enlace construido con el centroide recalculado. |
 
 `tipo` no se debe usar como un catálogo único: MINSAL tiene categorías administrativas y niveles de atención más detallados que OSM. `tipo_codigo` estabiliza la escritura, pero no cambia el significado de la fuente.
+
+Los registros con `fuente = manual` conservan la geometría dibujada por el usuario;
+no se les asigna un identificador OSM ni se inventan etiquetas OSM de origen.
+`fuente_url` puede indicar la publicación consultada para completar sus datos.
 
 ## Centro de masa de las geometrías
 
