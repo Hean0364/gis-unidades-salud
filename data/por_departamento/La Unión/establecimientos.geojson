@@ -4,9 +4,9 @@
   "meta": {
     "departamento": "La Unión",
     "fuente": "data/por_departamento/La Unión/establecimientos_salud.xlsx",
-    "count": 35,
+    "count": 31,
     "puntos": 24,
-    "poligonos": 11
+    "poligonos": 7
   },
   "features": [
     {
@@ -154,76 +154,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "overpass-way-286834891",
-        "fuente": "overpass",
-        "fuente_id": "way/286834891",
-        "nombre": "Hospital Nacional de La Unión",
-        "tipo": "Hospital",
-        "tipo_codigo": "hospital",
-        "detalle": null,
-        "detalle_codigo": null,
-        "departamento": "La Unión",
-        "municipio": "La Unión",
-        "region": "Oriental",
-        "direccion": "La Unión",
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": "hospital",
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "8",
-        "centroide_latitud": "13.347031",
-        "centroide_longitud": "-87.87606047",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/286834891",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.347031,-87.87606047"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -87.8772038,
-              13.3465709
-            ],
-            [
-              -87.8753272,
-              13.3460769
-            ],
-            [
-              -87.8752685,
-              13.3464042
-            ],
-            [
-              -87.8750045,
-              13.3475581
-            ],
-            [
-              -87.8766924,
-              13.34797
-            ],
-            [
-              -87.876914,
-              13.3473636
-            ],
-            [
-              -87.8770837,
-              13.3468996
-            ],
-            [
-              -87.8772038,
-              13.3465709
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "overpass-way-393900408",
         "fuente": "overpass",
         "fuente_id": "way/393900408",
@@ -363,7 +293,7 @@
         "operador": null,
         "telefono": null,
         "horario": null,
-        "especialidad": null,
+        "especialidad": "Medicina general",
         "amenity": "clinic",
         "healthcare": "clinic",
         "edificio": "yes",
@@ -480,76 +410,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "geofabrik-way-286834891",
-        "fuente": "geofabrik",
-        "fuente_id": "way/286834891",
-        "nombre": "Hospital Nacional de La Unión",
-        "tipo": "Hospital",
-        "tipo_codigo": "hospital",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Unión",
-        "municipio": "Conchagua",
-        "region": "Oriental",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "8",
-        "centroide_latitud": "13.347031",
-        "centroide_longitud": "-87.87606047",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/286834891",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.347031,-87.87606047"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -87.8772038,
-              13.3465709
-            ],
-            [
-              -87.8770837,
-              13.3468996
-            ],
-            [
-              -87.876914,
-              13.3473636
-            ],
-            [
-              -87.8766924,
-              13.34797
-            ],
-            [
-              -87.8750045,
-              13.3475581
-            ],
-            [
-              -87.8752685,
-              13.3464042
-            ],
-            [
-              -87.8753272,
-              13.3460769
-            ],
-            [
-              -87.8772038,
-              13.3465709
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "geofabrik-way-8864711",
         "fuente": "geofabrik",
         "fuente_id": "way/8864711",
@@ -616,122 +476,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "geofabrik-way-1121128779",
-        "fuente": "geofabrik",
-        "fuente_id": "way/1121128779",
-        "nombre": "Unidad De Salud De Cantón Higueras",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "La Unión",
-        "municipio": "Lislique",
-        "region": "Oriental",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.78220737",
-        "centroide_longitud": "-87.92205387",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/1121128779",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.78220737,-87.92205387"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -87.9221484,
-              13.7821645
-            ],
-            [
-              -87.922049,
-              13.7823086
-            ],
-            [
-              -87.9219593,
-              13.7822503
-            ],
-            [
-              -87.9220588,
-              13.7821061
-            ],
-            [
-              -87.9221484,
-              13.7821645
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "hot-way-1121128779",
-        "fuente": "hot",
-        "fuente_id": "way/1121128779",
-        "nombre": "Unidad De Salud De Cantón Higueras",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Polígono",
-        "detalle_codigo": "poligono",
-        "departamento": "La Unión",
-        "municipio": "Lislique",
-        "region": "Oriental",
-        "direccion": "cantón Higueras",
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": "Medicina general",
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "5",
-        "centroide_latitud": "13.78220737",
-        "centroide_longitud": "-87.92205387",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/1121128779",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.78220737,-87.92205387"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -87.9220588,
-              13.7821061
-            ],
-            [
-              -87.9221484,
-              13.7821645
-            ],
-            [
-              -87.922049,
-              13.7823086
-            ],
-            [
-              -87.9219593,
-              13.7822503
-            ],
-            [
-              -87.9220588,
-              13.7821061
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "hot-way-286834891",
         "fuente": "hot",
         "fuente_id": "way/286834891",
@@ -748,7 +492,7 @@
         "telefono": null,
         "horario": null,
         "especialidad": null,
-        "amenity": null,
+        "amenity": "hospital",
         "healthcare": null,
         "edificio": null,
         "geometria_tipo": "Polygon",

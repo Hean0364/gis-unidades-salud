@@ -1,0 +1,73 @@
+{
+  "departamento": "Morazán",
+  "registros_eliminados": [
+    {
+      "id_conservado": "hot-relation-8328359",
+      "fila_original": 19,
+      "motivo": "Mismo nombre específico y misma geometría exacta",
+      "registro_eliminado": {
+        "id": "geofabrik-way-8328359",
+        "fuente": "geofabrik",
+        "fuente_id": "way/8328359",
+        "nombre": "Hospital Nacional de San Francisco Gotera",
+        "tipo": "Hospital",
+        "tipo_codigo": "hospital",
+        "detalle": "Predio",
+        "detalle_codigo": "predio",
+        "departamento": "Morazán",
+        "municipio": "San Francisco Gotera",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "7",
+        "centroide_latitud": "13.6978931",
+        "centroide_longitud": "-88.10190785",
+        "centroide_metodo": "centroide_area",
+        "geometria_wkt": "POLYGON ((-88.1022721 13.6984445, -88.1015783 13.6984618, -88.1015533 13.6975703, -88.1015382 13.6975709, -88.101528 13.6973426, -88.1022433 13.6973338, -88.1022721 13.6984445))",
+        "fuente_url": "https://www.openstreetmap.org/way/8328359",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.6978931,-88.10190785"
+      }
+    },
+    {
+      "id_conservado": "hot-node-7223662570",
+      "fila_original": 21,
+      "motivo": "Mismo objeto OSM",
+      "registro_eliminado": {
+        "id": "geofabrik-node-7223662570",
+        "fuente": "geofabrik",
+        "fuente_id": "node/7223662570",
+        "nombre": "Clinica El Mozote",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Punto",
+        "detalle_codigo": "punto",
+        "departamento": "Morazán",
+        "municipio": "Arambala",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Point",
+        "vertices": "1",
+        "centroide_latitud": "13.8988504",
+        "centroide_longitud": "-88.1144685",
+        "centroide_metodo": "coordenada_original",
+        "geometria_wkt": "POINT (-88.1144685 13.8988504)",
+        "fuente_url": "https://www.openstreetmap.org/node/7223662570",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.8988504,-88.1144685"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "departamento": "San Miguel",
+  "registros_eliminados": [
+    {
+      "id_conservado": "overpass-way-401307201",
+      "fila_original": 31,
+      "motivo": "Mismo objeto OSM",
+      "registro_eliminado": {
+        "id": "geofabrik-way-401307201",
+        "fuente": "geofabrik",
+        "fuente_id": "way/401307201",
+        "nombre": "Unidad de Salud",
+        "tipo": "Clínica",
+        "tipo_codigo": "clinica",
+        "detalle": "Predio",
+        "detalle_codigo": "predio",
+        "departamento": "San Miguel",
+        "municipio": "San Antonio Del Mosco",
+        "region": "Oriental",
+        "direccion": null,
+        "operador": null,
+        "telefono": null,
+        "horario": null,
+        "especialidad": null,
+        "amenity": null,
+        "healthcare": null,
+        "edificio": null,
+        "geometria_tipo": "Polygon",
+        "vertices": "9",
+        "centroide_latitud": "13.83890875",
+        "centroide_longitud": "-88.26617586",
+        "centroide_metodo": "centroide_area",
+        "geometria_wkt": "POLYGON ((-88.2662939 13.8389388, -88.2662256 13.8389946, -88.266185 13.8389479, -88.2661018 13.8390159, -88.266035 13.8389389, -88.2662217 13.8387862, -88.2662884 13.8388631, -88.2662532 13.8388919, -88.2662939 13.8389388))",
+        "fuente_url": "https://www.openstreetmap.org/way/401307201",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.83890875,-88.26617586"
+      }
+    }
+  ]
+}
