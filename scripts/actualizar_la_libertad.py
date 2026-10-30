@@ -49,6 +49,8 @@ def normalize(value):
 def classify(record):
     name = normalize(record.get("nombre"))
     source_id = record.get("fuente_id")
+    if record.get("fuente") == "manual" and record.get("sector") in {"Público", "Privado"} and record.get("fuente_sector"):
+        return record["sector"], record.get("criterio_sector") or "Clasificación manual documentada.", record["fuente_sector"]
     if record.get("fuente") == "minsal" or "unidad de salud" in name or "unidad de salut" in name or "unidad comunitaria salud familiar" in name:
         return "Público", "Establecimiento identificado de la red pública MINSAL/UCSF.", "https://www.salud.gob.sv/"
     if "hospital nacional san rafael" in name or "anexo hospital san rafael" in name:

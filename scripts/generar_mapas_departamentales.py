@@ -3,7 +3,7 @@
 Ejecutar: python "Unidades de Salud/scripts/generar_mapas_departamentales.py"
 Los GeoJSON se pueden usar en SIG; los JS permiten abrir index.html con file://.
 No modifica los Excel ni el CSV maestro.
-En La Paz se incluyen únicamente las filas marcadas en verde en el Excel.
+En La Paz y La Libertad se incluyen únicamente las filas verdes del Excel.
 """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ DATA = ROOT / "data"
 DEPARTMENTS = DATA / "por_departamento"
 BOUNDARIES = DATA / "geojson" / "departamentos.geojson"
 REQUIRED = {"id", "nombre", "tipo", "departamento", "geometria_wkt", "centroide_latitud", "centroide_longitud"}
-GREEN_ONLY_DEPARTMENTS = {"La Paz"}
+GREEN_ONLY_DEPARTMENTS = {"La Paz", "La Libertad"}
 GREEN_RGB = {"00B050", "92D050", "0B6E4F"}
 
 

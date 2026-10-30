@@ -2,15 +2,42 @@
 
 Ejecutar: python "Unidades de Salud/scripts/generar_mapa_todos_departamentos.py"
 Los datos se leen directamente de los Excel departamentales filtrados.
-La Paz utiliza solo las filas verdes, igual que su mapa individual.
+La Paz y La Libertad utilizan solo las filas verdes de sus mapas individuales.
+
+Para actualizar solo un departamento sin regenerar los demás:
+python scripts/generar_mapa_todos_departamentos.py --departamento "La Libertad"
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 from collections import Counter
 
 from generar_mapas_departamentales import BOUNDARIES, DEPARTMENTS, collection, records, write_layer
+
+
+def update_department(department: str) -> None:
+    """Actualiza el mapa individual y reemplaza solo ese departamento en el general."""
+    general = json.loads((DEPARTMENTS / "establecimientos_todos.geojson").read_text(encoding="utf-8"))
+    departments = general["meta"]["departamentos"]
+    if department not in departments:
+        raise ValueError(f"Departamento desconocido: {department}")
+    folder = DEPARTMENTS / department
+    data = collection(department, records(folder / "establecimientos_salud.xlsx"))
+    features = []
+    for name in departments:
+        features.extend(data["features"] if name == department else [
+            feature for feature in general["features"]
+            if feature["properties"]["departamento"] == name
+        ])
+    counts = Counter(feature["geometry"]["type"] for feature in features)
+    general["features"] = features
+    general["meta"].update(count=len(features), puntos=counts["Point"], poligonos=counts["Polygon"])
+    write_layer(folder / "establecimientos", "ESTABLECIMIENTOS_DEPARTAMENTO_GEOJSON", data)
+    write_layer(DEPARTMENTS / "establecimientos_todos", "ESTABLECIMIENTOS_TODOS_GEOJSON", general)
+    print(f"{department}: {data['meta']['count']} registros; {data['meta']['puntos']} puntos; {data['meta']['poligonos']} polígonos")
+    print(f"Mapa general: {general['meta']['count']} registros. Otros departamentos sin cambios.")
 
 
 def main() -> None:
@@ -60,4 +87,10 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--departamento", help="Actualizar únicamente el departamento indicado")
+    args = parser.parse_args()
+    if args.departamento:
+        update_department(args.departamento)
+    else:
+        main()
