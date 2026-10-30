@@ -38,7 +38,7 @@
     "id": { "type": "string", "minLength": 1 },
     "fuente": {
       "type": "string",
-      "enum": ["minsal", "overpass", "geofabrik", "hot"]
+      "enum": ["minsal", "overpass", "geofabrik", "hot", "manual"]
     },
     "fuente_id": { "type": "string", "minLength": 1 },
     "nombre": { "type": "string", "minLength": 1 },
@@ -51,6 +51,10 @@
     "region": { "type": ["string", "null"] },
     "direccion": { "type": ["string", "null"] },
     "operador": { "type": ["string", "null"] },
+    "operador_original": { "type": ["string", "null"] },
+    "sector": { "type": "string", "enum": ["Público", "Privado", "No determinado"] },
+    "criterio_sector": { "type": ["string", "null"] },
+    "fuente_sector": { "type": ["string", "null"] },
     "telefono": { "type": ["string", "null"] },
     "horario": { "type": ["string", "null"] },
     "especialidad": { "type": ["string", "null"] },

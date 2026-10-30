@@ -1,0 +1,56 @@
+{
+  "departamentos_excluidos": [
+    "Ahuachapán",
+    "Cabañas",
+    "La Libertad",
+    "La Paz",
+    "Sonsonate",
+    "Usulután"
+  ],
+  "departamentos_actualizados": [
+    {
+      "departamento": "Chalatenango",
+      "antes": 27,
+      "eliminados": 3,
+      "despues": 24
+    },
+    {
+      "departamento": "Cuscatlán",
+      "antes": 32,
+      "eliminados": 8,
+      "despues": 24
+    },
+    {
+      "departamento": "La Unión",
+      "antes": 35,
+      "eliminados": 4,
+      "despues": 31
+    },
+    {
+      "departamento": "Morazán",
+      "antes": 48,
+      "eliminados": 2,
+      "despues": 46
+    },
+    {
+      "departamento": "San Miguel",
+      "antes": 58,
+      "eliminados": 1,
+      "despues": 57
+    },
+    {
+      "departamento": "San Vicente",
+      "antes": 35,
+      "eliminados": 16,
+      "despues": 19
+    },
+    {
+      "departamento": "Santa Ana",
+      "antes": 71,
+      "eliminados": 3,
+      "despues": 68
+    }
+  ],
+  "duplicados_eliminados": 37,
+  "registros_mapa_general": 557
+}

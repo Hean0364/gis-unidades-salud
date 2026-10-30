@@ -83,6 +83,7 @@ if (!facilities || !boundaries || !window.L || boundaries.features.length !== 1)
     const fields = [
       ["Fuente", p.fuente], ["Tipo", p.tipo], ["Detalle", p.detalle],
       ["Departamento", p.departamento], ["Municipio", p.municipio], ["Región", p.region],
+      ["Sector", p.sector], ["Criterio del sector", p.criterio_sector],
       ["Especialidad", p.especialidad], ["Operador", p.operador], ["Dirección", p.direccion],
       ["Teléfono", p.telefono], ["Horario", p.horario], ["ID", p.id]
     ].filter(([, value]) => value !== null && value !== undefined && value !== "");

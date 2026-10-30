@@ -4,9 +4,9 @@
   "meta": {
     "departamento": "Chalatenango",
     "fuente": "data/por_departamento/Chalatenango/establecimientos_salud.xlsx",
-    "count": 27,
-    "puntos": 16,
-    "poligonos": 11
+    "count": 24,
+    "puntos": 15,
+    "poligonos": 9
   },
   "features": [
     {
@@ -692,110 +692,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "geofabrik-way-576913014",
-        "fuente": "geofabrik",
-        "fuente_id": "way/576913014",
-        "nombre": "Unidad de Salud",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Predio",
-        "detalle_codigo": "predio",
-        "departamento": "Chalatenango",
-        "municipio": "Tejutla",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "7",
-        "centroide_latitud": "14.1694194",
-        "centroide_longitud": "-89.10106828",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/576913014",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=14.1694194,-89.10106828"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.1012013,
-              14.1693071
-            ],
-            [
-              -89.1011872,
-              14.1694974
-            ],
-            [
-              -89.1011119,
-              14.1694922
-            ],
-            [
-              -89.1011068,
-              14.1695618
-            ],
-            [
-              -89.1009489,
-              14.1695508
-            ],
-            [
-              -89.1009681,
-              14.1692908
-            ],
-            [
-              -89.1012013,
-              14.1693071
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "geofabrik-node-5879973979",
-        "fuente": "geofabrik",
-        "fuente_id": "node/5879973979",
-        "nombre": "Unidad de Salúd",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Punto",
-        "detalle_codigo": "punto",
-        "departamento": "Chalatenango",
-        "municipio": "San Francisco Lempa",
-        "region": "Central",
-        "direccion": null,
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Point",
-        "vertices": "1",
-        "centroide_latitud": "13.973302",
-        "centroide_longitud": "-88.9990673",
-        "centroide_metodo": "coordenada_original",
-        "fuente_url": "https://www.openstreetmap.org/node/5879973979",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=13.973302,-88.9990673"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.9990673,
-          13.973302
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "hot-way-765705663",
         "fuente": "hot",
         "fuente_id": "way/765705663",
@@ -908,72 +804,6 @@
             [
               -88.9637121,
               14.0843626
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "hot-way-576913014",
-        "fuente": "hot",
-        "fuente_id": "way/576913014",
-        "nombre": "Unidad de Salud",
-        "tipo": "Clínica",
-        "tipo_codigo": "clinica",
-        "detalle": "Polígono",
-        "detalle_codigo": "poligono",
-        "departamento": "Chalatenango",
-        "municipio": "Tejutla",
-        "region": "Central",
-        "direccion": "Santo Tomas Tejutla",
-        "operador": null,
-        "telefono": null,
-        "horario": null,
-        "especialidad": null,
-        "amenity": null,
-        "healthcare": null,
-        "edificio": null,
-        "geometria_tipo": "Polygon",
-        "vertices": "7",
-        "centroide_latitud": "14.1694194",
-        "centroide_longitud": "-89.10106828",
-        "centroide_metodo": "centroide_area",
-        "fuente_url": "https://www.openstreetmap.org/way/576913014",
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=14.1694194,-89.10106828"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -89.1009681,
-              14.1692908
-            ],
-            [
-              -89.1009489,
-              14.1695508
-            ],
-            [
-              -89.1011068,
-              14.1695618
-            ],
-            [
-              -89.1011119,
-              14.1694922
-            ],
-            [
-              -89.1011872,
-              14.1694974
-            ],
-            [
-              -89.1012013,
-              14.1693071
-            ],
-            [
-              -89.1009681,
-              14.1692908
             ]
           ]
         ]

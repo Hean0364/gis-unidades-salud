@@ -42,12 +42,19 @@ Al acercarse al nivel 19, Leaflet amplía esas imágenes en vez de pedir las que
 existen. Los puntos y polígonos mantienen su ubicación y se pueden seguir ampliando;
 la foto puede verse más pixelada, pero ese acercamiento no añade resolución real.
 
-## Registros de La Paz
+## Registros verdes de La Paz y La Libertad
 
-El mapa individual de La Paz y el mapa general de departamentos muestran únicamente
-las filas marcadas con relleno verde en `data/por_departamento/La Paz/establecimientos_salud.xlsx`.
-Las filas rojas o sin marcar no se incluyen. El filtro se aplica al generar las capas;
-los demás departamentos conservan todos sus registros.
+Los mapas individuales de La Paz y La Libertad, y sus capas en el mapa general,
+muestran únicamente las filas marcadas con relleno verde en sus respectivos
+`establecimientos_salud.xlsx`. Las filas rojas o sin marcar permanecen en el
+Excel, pero no se incluyen en el mapa. Los demás departamentos no cambian.
+
+Para regenerar ambos mapas después de editar La Libertad, sin alterar las capas
+de los otros departamentos:
+
+```powershell
+python scripts/generar_mapa_todos_departamentos.py --departamento "La Libertad"
+```
 
 La opción Satélite Sentinel-2 · 2025 se retiró de ambos visores departamentales.
 
